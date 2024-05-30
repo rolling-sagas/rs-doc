@@ -136,13 +136,13 @@ Once the above has been resolved and the enemy is still alive, then it would be 
 ## Appendices
 
 ### Perks:
-![Check the Images Here](../rs-doc/Images/pulp_cthulhu_talent1.png)
+![Check the Images Here](../battle_system/Images/pulp_cthulhu_talent1.png)
 
-![Check the Images Here](../rs-doc/Images/pulp_cthulhu_talent2.png)
+![Check the Images Here](../battle_system/Images/pulp_cthulhu_talent2.png)
 
-![Check the Images Here](../rs-doc/Images/pulp_cthulhu_talent3.png)
+![Check the Images Here](../battle_system/Images/pulp_cthulhu_talent3.png)
 
-![Check the Images Here](../rs-doc/Images/pulp_cthulhu_talent4.png)
+![Check the Images Here](../battle_system/Images/pulp_cthulhu_talent4.png)
 
 
 ### Table 1-1: Level of success determination chart with a D100
