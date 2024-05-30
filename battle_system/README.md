@@ -10,7 +10,7 @@ Do try to understand the basic rules of CoC before going through this document; 
 
 When combat is initiated in the story, it would bring the player to a different screen (think of Pokémon). In this space, combat will follow very specific rules based on the CoC rule book along with some minor adjustments that would best fit our purpose.
 
-[Check Graph Here](rs_battle_flow2.mdrs_battle_flow2.md)
+[Check Graph Here](../battle_system/rs_battle_flow2.md)
 
 When COMBAT begins, the player's DEX is compared to the enemy's DEX to determine who has the initiative! Certain characters will have unique perks that may modify their initial DEX value.
 
@@ -45,7 +45,7 @@ I will go through each of these choices and the gameplay loop for the combat sys
 
 ### Fight:
 
-[Check Diagram Here](rs_battle_fight_flow_sequence_diagram2.md)
+[Check Diagram Here](../battle_system/rs_battle_fight_flow_sequence_diagram2.md)
 
 We can start on this diagram from two distinct points depending on, you guessed it, which actor has the higher DEX. But for our purposes, we will start from point 1 or 2 as opposed to 8.
 
@@ -99,7 +99,7 @@ Once the above has been resolved and the enemy is still alive, then it would be 
 
 Players can use items on their character to heal themselves or maybe give them a boost to even out the odds during battle. Player’s character will receive some of these items at the beginning of their journey (or find them while they explore the world).
 
-[Check Diagram Here](rs_battle_item_flow_sequence_diagram.md)
+[Check Diagram Here](../battle_system/rs_battle_item_flow_sequence_diagram.md)
 
 As you can see, it shares many similarities with the fight loop. When the player selects items, they can select and use a desired item from their inventory.
 
@@ -116,7 +116,7 @@ Once the above has been resolved and the enemy is still alive, then it would be 
 
 Sometimes the wisest decision is to retreat. One can’t fight another day if they are dead, after all.
 
-[Check Diagram Here](rs_battle_flee_flow_sequence_diagram.md)
+[Check Diagram Here](../battle_system/rs_battle_flee_flow_sequence_diagram.md)
 
 When the player decides to flee at [Point 1], all actors must make a constitution roll:
 
