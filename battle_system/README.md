@@ -12,6 +12,8 @@ When combat is initiated in the story, it would bring the player to a different 
 
 [Check Graph Here](../battle_system/rs_battle_flow2.md)
 
+### Establish Order of Attack:
+
 When COMBAT begins, the player's DEX is compared to the enemy's DEX to determine who has the initiative! Certain characters will have unique perks that may modify their initial DEX value.
 
 - IF: Player has the higher DEX, then they go first!
@@ -45,14 +47,21 @@ I will go through each of these choices and the gameplay loop for the combat sys
 
 ### Fight:
 
-[Check Diagram Here](../battle_system/rs_battle_fight_flow_sequence_diagram2.md)
+[Check Fight Diagram Here](../battle_system/rs_battle_fight_flow_sequence_diagram2.md)
 
-We can start on this diagram from two distinct points depending on, you guessed it, which actor has the higher DEX. But for our purposes, we will start from point 1 or 2 as opposed to 8.
+We can start on this diagram from two distinct points depending on, you guessed it, which actor has the higher DEX. But for our purposes, we will start from the player.
 
-- If the player character has no weapon equipped, then they would automatically initiate a brawl attack against the target [point 1].
-- If the player character has a weapon(s) equipped, then a “small window” should open to allow the player to choose their preferred method of approach [Point 3, 4, 5] (note that the small window is just an example).
+- If the player character has no weapon equipped, then they would initiate a brawl attack against the target if they tap "Fight".
+- If the player character has a weapon(s) equipped, then a “small window” should open to allow the player to choose their preferred method of approach (note that the small window is just an example).
 
 Apply bonus or penalty die depending on the target size, target movement speed, and number of shots fired if using ranged weapons.
+
+[Check Range Diagram Here](../battle_system/rs_battle_fight_range_sequence_diagram.md)
+
+#### Using a firearm:
+
+- Select a specific firearms skill.
+- Roll a 1D100 for attack success ( Difficulty of success is based on ?)
 
 #### Fast-Moving Targets:
 
@@ -69,7 +78,7 @@ Firing 2 or 3 shots in 1 round requires the shooter to roll 1 penalty die for ea
 
 Furthermore, if the player’s character has any relevant perk that would modify the attack probability, apply it here (e.g., “Beady Eye”).
 
-Enemies will always fight back [Point 6, 7] thus:
+Enemies will always fight back, thus:
 
 #### Player Initiates an Attack:
 
@@ -91,15 +100,38 @@ Simply compare the attacker’s chosen fighting skill against the target/defende
 
 Apply any perk modifiers to the player’s attack if the enemy fails to fight back. If the perk is passive, apply automatically. If the perk is active, give the player the decision if they would like to activate the perk (e.g., Rapid Attack).
 
-Depending on the amount of damage and the initial health bar of either character, this could result in death of either character which would promptly end the battle or result in game over [Point 13, 14, 15, 16].
+Depending on the amount of damage and the initial health bar of either character, this could result in death of either character which would promptly end the battle or result in game over.
 
-Once the above has been resolved and the enemy is still alive, then it would be their turn to attack [Point 8], which the player can choose to either dodge or fight back [Point 9, 10, 11, 12].
+Once the above has been resolved and the enemy is still alive, then it would be their turn to attack, which the player can choose to either dodge or fight back.
+
+#### Player Dodges:
+
+Simply compare the attacker’s chosen fighting skill against the target/defender’s dodge skill.
+- If attacker has a higher level of success → Attacker deals damage
+- If target/defender has a higher level of success → target/defender avoids damage
+- If the level of success is a draw, the target/defender avoids damage.
+- If both fail their roll, neither of them deals damage.
+
+#### Player Fights Back:
+
+Simply compare the attacker’s chosen fighting skill against the target/defender’s chosen fighting skill.
+- If attacker has a higher level of success → Attacker deals damage
+- If target/defender has a higher level of success → target/defender deals damage
+- If the level of success is a draw, the attacker deals damage.
+- If both fail their roll, neither of them deals damage.
+
+Note: that some enemies can attack multiple times, if so, just go back to and initiate the attack until they are finished.
+
+Again depending on the damage, it may result in either character's death, exiting the battle or game over. 
+
+If both actors are alive, then the loop starts again at until one of them is dead.
+
 
 ### Items:
 
 Players can use items on their character to heal themselves or maybe give them a boost to even out the odds during battle. Player’s character will receive some of these items at the beginning of their journey (or find them while they explore the world).
 
-[Check Diagram Here](../battle_system/rs_battle_item_flow_sequence_diagram.md)
+[Check Items Diagram Here](../battle_system/rs_battle_item_flow_sequence_diagram.md)
 
 As you can see, it shares many similarities with the fight loop. When the player selects items, they can select and use a desired item from their inventory.
 
@@ -108,17 +140,17 @@ As you can see, it shares many similarities with the fight loop. When the player
 - First Aid: +1 HP
 - Medicine: +1D3 HP
 
-At [Point 1, 2], if the player decides to use an item, depending on the item being used, they may need to roll for its effects. Once that is complete, it would be the enemy’s turn.
+If the player decides to use an item, depending on the item being used, they may need to roll for its effects. Once that is complete, it would be the enemy’s turn.
 
-Once the above has been resolved and the enemy is still alive, then it would be their turn to attack [Point 3], which the player can choose to either dodge or fight back [Point 4, 5, 6, 7].
+Once the above has been resolved and the enemy is still alive, then it would be their turn to attack. which the player can choose to either dodge or fight back.
 
 ### Flee:
 
 Sometimes the wisest decision is to retreat. One can’t fight another day if they are dead, after all.
 
-[Check Diagram Here](../battle_system/rs_battle_flee_flow_sequence_diagram.md)
+[Check Flee Diagram Here](../battle_system/rs_battle_flee_flow_sequence_diagram.md)
 
-When the player decides to flee at [Point 1], all actors must make a constitution roll:
+When the player decides to flee, all actors must make a constitution roll:
 
 #### Flee:
 
@@ -131,7 +163,7 @@ If the player’s MOV stat is ≥ enemy MOV stat, then they have successfully es
 If the player’s MOV stat is < enemy MOV stat, then they have failed to escape.
 When the player fails to escape, it would automatically be the enemy’s turn.
 
-Once the above has been resolved and the enemy is still alive, then it would be their turn to attack [Point 4], which the player can choose to either dodge or fight back [Point 5, 6, 7, 8].
+Once the above has been resolved and the enemy is still alive, then it would be their turn to attack, which the player can choose to either dodge or fight back.
 
 ## Appendices
 
