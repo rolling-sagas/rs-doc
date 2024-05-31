@@ -29,9 +29,10 @@ You might also see 1D6+1, for instance. This means that the number following the
 ### Difficulty Levels
 Your Keeper will tell you when you should attempt a skill roll and how difficult the task is.
 
-A regular task requires a roll of equal to or less than your skill value on 1D100 (a Regular success).
-A difficult task requires a roll result equal to or less than half your skill value (a Hard success).
-A task approaching the limits of human capability requires a roll equal to or less than one-fifth of your skill value (an Extreme success).
+- A regular task requires a roll of equal to or less than your skill value on 1D100 (a **Regular success**).
+- A difficult task requires a roll result equal to or less than half your skill value (a **Hard success**).
+- A task approaching the limits of human capability requires a roll equal to or less than one-fifth of your skill value (an **Extreme success**).
+
 If you can justify it through your investigator’s actions, you can “push” a failed skill roll. Pushing a roll allows you to roll the dice a second time; however, the stakes are raised. If you fail a second time, the Keeper gets to inflict a dire consequence upon your character. Before a pushed roll is made, the Keeper has the option of foreshadowing what might happen if the pushed roll is failed; the player can then decide whether it’s worth the risk to take the second roll or not.
 
 > Example: your investigator is trying to lever open the heavy stone door of a crypt. The Keeper decides this is very difficult and asks for a STR roll, specifying that a “Hard success” is required. Your investigator’s STR is 60, so a Hard success requires a roll of 30 or below. You roll the dice but the result is 43—you have failed, as you rolled above half your investigator’s STR. You ask if you can push the roll, stating that your character is picking up and using a spade to help lever the door. The Keeper permits a second roll, but warns you that if you fail this roll, not only will the door still be closed but “something” may hear you and could be coming for your blood!

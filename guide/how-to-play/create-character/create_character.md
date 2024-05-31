@@ -15,14 +15,22 @@ Done!
 <a id="customizecharacter"></a>
 
 ### Customize Your Own Character
+
 Steps:
 1. Decide your occupation
-1. Adjust points
+1. Adjust characteristics and skill points
 1. ...
 
 Never played a *Call of Cthulhu* game before?
-Check the rules [here](investigator.md#investigator).
+Quick tip: in Call of Cthulhu, a character's information is composed of the following information:
 
+- [1. General Information](general-information.md#general-information)
+- [2. Characteristics](characteristics.md#characteristics)
+- [3. Secondary Attributes](second-attributes.md#secondary-attributes)
+- [4. Occupations and Skills](occupations-skills.md#occupations-and-skills)
+- [5. Backstory and Equipment](backstory.md#backstory-and-Equipment)
+
+Click the link to know about different parts of your character.
 
 
 
