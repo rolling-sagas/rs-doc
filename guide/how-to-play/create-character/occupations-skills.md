@@ -1,71 +1,13 @@
-<a id="investigator"></a>
-# Call of Cthulhu Investigator
-
-In Call of Cthulhu, each player is called an 'investigator'. Full investigator's information is composed of:
-- [General Information](#general-information)
-- [Characteristics](#characteristics)
-- [Secondary Attributes](#secondary-attributes)
-- [Occupations and Skills](#occupations-and-skills)
-- [Backstory](#backstory)
-- [Gear and Possessions](#gear-and-possessions)
-
-## General Information 
-Your investigator’s name, age, gender, and occupation, as well as their birthplace and current residence. In *Call of Cthulhu*, an investigator’s occupation determines the skills they are most proffcient with.
-
-## Characteristics
- In *Call of Cthulhu*, each character has 8 characteristics:
-
-**Strength (STR)**: the raw physical power your investigator can bring to bear.
-**Constitution (CON)**: the health and hardiness of your investigator.
-**Size (SIZ)**: an abstracted value of your investigator’s height and weight.
-**Dexterity (DEX)**: physical agility and speed.
-**Appearance (APP)**: the physical appeal or how “good looking” your investigator is.
-**Education (EDU)**: a measure of the knowledge that your investigator has accumulated through formal education or the venerated “school of hard knocks” (i.e. street smarts). 
-**Intelligence (INT)**: a measure of your investigator’s cunning, problem solving, and ability to make leaps of logic and intuition. 
-**Power (POW)**: a combination of force of will, spirit, and mental stability. 
-
-Allocate the following values where you like among these eight characteristics: 40, 50, 50, 50, 60, 60, 70, 80. Each of these values is a percentage number, so deciding to put 70 into your investigator’s Strength means they have “STR 70%,” an above average score, meaning they are quite strong.
-
-Half and Fifth Characteristic Values will be calculated automatically.
-
-## Secondary Attributes 
-There are a number of attributes that are determined after you have worked out the investigator’s characteristics. These are Damage Bonus and Build, Hit Points, Move Rate, Sanity, and Magic Points. Additionally, you will need to determine a Luck value. 
-
-**Damage Bonus and Build**: Damage Bonus is how much extra damage your investigator inflicts when making a successful close combat (melee) attack. Build is a scale of combined size and strength used when making a “Fighting Maneuver”. Add your Regular STR and SIZ characteristics together and consult the Damage Bonus and Build Table. You’ll find boxes on the investigator sheet to write in the Build and Damage Bonus values.
-
-**Damage Bonus and Build Table**
->Example: Brian set his STR to 60 and his SIZ to 70, totaling 130. When he makes a successful physical attack, he deals an extra 1D4 points of damage (Damage Bonus). His Build is 1.
-
-| STR + SIZ | Damage Bonus | Build |
-| :-----| ----: | :----: |
-| 2-64 | -2 | -2 |
-| 65-84 | -1 | -1 |
-| 85-124 | None | 0 |
-| 125-164 | +1D4 | 1 |
-| 165-204 | +1D6 | 2 |
-
-**Hit Points (HP)**
-Hit Points are figured by adding SIZ and CON together, then dividing the total by ten and rounding down to the nearest whole number. As your investigator takes damage from combat or other events, your hit points will drop.
-
-> Example: SIZ 50 and CON 50 totals 100; divided by ten, this gives 10 hit points. The investigator can suffer up to 10 points of damage before they fall unconscious and, possibly, die.
-
-**Move Rate (MOV)**
-All human characters have a Move Rate of 8.
-
-**Sanity (SAN)**: measures your investigator’s ability to deal with the shock and corruption from exposure to alien and mind-bending horrors of the Cthulhu Mythos. Sometimes, when such things overcome your investigator, they lose Sanity points, reflecting the lingering effect of such trauma—see **Sanity**. Note that “Starting” SAN begins equal to POW, but may later rise or fall through play, and the “Insane” box is used to write in one-fifth of the “Starting” SAN value.
-
-**Magic Points (MP)**: used to cast a spell or some other magical effect. Magic function not available for Rolling Sagas for now.
-
-**Luck**: used to determine whether external circumstances are with or against your investigator (whether your investigator can find a lantern in a dark barn, and so on)
-
-
 ## Occupations and Skills
 
-At this point you should form an idea of what your investigator does for a living. Remember, the term “investigator” does not restrict you to just being a cop or a private eye. This choice of occupation will influence the selection of skills available to your investigator. To begin with, choose an occupation. Anything you think would be interesting to play is valid, but you should agree this with your Keeper. Some favorite occupations in Call of Cthulhu are Professor, Journalist, Occultist, and Archeologist—the choice of occupation is only limited by your imagination.
+ Occupation is what your your character lives for. Remember, the term “investigator” does not restrict you to just being a cop or a private eye. This choice of occupation will influence the selection of skills available to your investigator. 
+ 
+ To begin with, choose an occupation. Anything you think would be interesting to play is valid~~but you should agree this with your Keeper~~. Some favorite occupations in *Call of Cthulhu* are Professor, Journalist, Occultist, and Archeologist—the choice of occupation is only limited by your imagination.
 
-Either pick an occupation from the list following and use the specified list of skills provided, or tailor one to your requirements. To do this, decide upon an occupation and then look at the list of skills on the investigator sheet. Then, choose eight skills that are appropriate for your investigator’s chosen occupation, e.g. what skills would a person doing this occupation require? These are your investigator’s “occupation skills.” Use some scratch paper to note down your investigator’s occupation skills.
+~~Either pick an occupation from the list following and use the specified list of skills provided, or tailor one to your requirements. To do this, decide upon an occupation and then look at the list of skills on the investigator sheet.~~ 
+Then, choose eight skills that are appropriate for your investigator’s chosen occupation, e.g. what skills would a person doing this occupation require? These are your investigator’s “occupation skills.” ~~Use some scratch paper to note down your investigator’s occupation skills.~~
 
-> Note: a brief description of the differing skills can be found here.
+> ~~Note: a brief description of the differing skills can be found here.~~
 
 You now assign points to the skills on the investigator sheet. No player can add points to the Cthulhu Mythos skill during character creation, as it is assumed that all beginning characters are ignorant of the threat of the Mythos. Allocate the following values among the eight occupation skills and also the Credit Rating skill: one at 70%, two at 60%, three at 50% and three at 40% (set the skills directly to these values and ignore the skill base values written next to each skill on the investigator sheet).
 
@@ -73,41 +15,31 @@ You now assign points to the skills on the investigator sheet. No player can add
 
 After assigning points to the occupation skills, select your investigator’s “personal interest skills.” These are skills that your character has acquired outside of work. Pick four nonoccupation skills and boost them by 20% (adding 20 to the skill base values listed next to the skills on the investigator sheet).
 
-We recommend that you write your skill values down in the same format as your Characteristics—Regular/Half/ Fifth values—as you’ll need to refer to these during the game (see the Quick Reference Chart). Of course, if you prefer, you can just write the full value of each skill and do the math in your head during the course of the game.
+Regular/Half/Fifth values will be calculated automatically.
+
+~~We recommend that you write your skill values down in the same format as your Characteristics—Regular/Half/ Fifth values—as you’ll need to refer to these during the game (see the Quick Reference Chart). Of course, if you prefer, you can just write the full value of each skill and do the math in your head during the course of the game.~~
 
 > Another Example: Brian chooses Soldier as an occupation. As this occupation is not in the list in this book, he chooses eight skills that seem most appropriate: Climb, Dodge, Fighting (Brawl), Firearms (Rifle/Shotgun), First Aid, Other Language, Stealth, and Survival. Brian sets these occupation skill values as follows: Climb 60%, Credit Rating 40%, Dodge 60%, Fighting (Brawl) 70%, Firearms (Rifle/Shotgun) 50%, First Aid 40%, Other Language 50% (picking Spanish as a second language), Stealth 50%, Survival 40%.
-
 Brian then picks four personal interest skills, raising each one by 20% (adding 20 to the skill’s base value written on the sheet); Drive Auto 40%, Jump 40%, Mechanical Repair 30%, and Spot Hidden 45%. Each skill value is then written on the sheet next to the skill as the Regular, Half, and Fifth values, such as “Spot Hidden 45 (22/9).”
 
-### Sample Investigator Occupations
-#### Antiquarian
-Appraise, Art/Craft (Any), History, Library Use, Other Language, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Spot Hidden, any one other skill.
+### Sample Investigator Occupations and Skills
 
-#### Author
-Art (Literature), History, Library Use, Natural World or Occult, Other Language, Own Language, Psychology, any one other skill.
+| Profession           | Skills                                                                                                                                     |
+|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **Antiquarian**      | Appraise, Art/Craft (Any), History, Library Use, Other Language, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Spot Hidden, any one other skill. |
+| **Author**           | Art (Literature), History, Library Use, Natural World or Occult, Other Language, Own Language, Psychology, any one other skill.               |
+| **Dilettante**       | Art/Craft (Any), Firearms, Other Language, Ride, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), any three other skills. |
+| **Doctor of Medicine** | First Aid, Other Language (Latin), Medicine, Psychology, Science (Biology), Science (Pharmacy), any two other skills as academic or personal specialties (e.g. a psychiatrist might take Psychoanalysis). |
+| **Journalist**       | Art/Craft (Photography), History, Library Use, Own Language, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, any two other skills. |
+| **Police Detective** | Art/Craft (Acting) or Disguise, Firearms, Law, Listen, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Spot Hidden, any one other skill. |
+| **Private Investigator** | Art/Craft (Photography), Disguise, Law, Library Use, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Spot Hidden, and any one other skill (e.g. Locksmith, Firearms). |
+| **Professor**        | Library Use, Other Language, Own Language, Psychology, any four other skills as academic or personal specialties.                            |
 
-#### Dilettante
-Art/Craft (Any), Firearms, Other Language, Ride, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), any three other skills.
-
-#### Doctor of Medicine
-First Aid, Other Language (Latin), Medicine, Psychology, Science (Biology), Science (Pharmacy), any two other skills as academic or personal specialties (e.g. a psychiatrist might take Psychoanalysis).
-
-#### Journalist
-Art/Craft (Photography), History, Library Use, Own Language, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, any two other skills.
-
-#### Police Detective
-Art/Craft (Acting) or Disguise, Firearms, Law, Listen, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Spot Hidden, any one other skill.
-
-#### Private Investgator
-Art/Craft (Photography), Disguise, Law, Library Use, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Spot Hidden, and any one other skill (e.g. Locksmith, Firearms).
-
-#### Professor
-Library Use, Other Language, Own Language, Psychology, any four other skills as academic or personal specialties.
 
 ### Skill Descriptions
 Most skills are exactly what their name suggests—such as Drive Auto, which determines how well a character can drive an automobile (or car), or Climb, which concerns how well an investigator can scale up or down a wall. However, some skill names are less obvious, so here is a brief summary of the skills listed on the investigator sheet.
 
-Note: on the investigator sheet, each skill has a percentile number in brackets next to it. This number is the basic chance for anyone using that skill untrained. Thus, anyone could attempt to use a handgun (basic 20% chance of success), even if they’ve never handled one before.
+>Note: on the investigator sheet, each skill has a percentile number in brackets next to it. This number is the basic chance for anyone using that skill untrained. Thus, anyone could attempt to use a handgun (basic 20% chance of success), even if they’ve never handled one before.
 
 #### Accounting
 The Understanding of accountancy procedures; reveals the financial functioning of a business or person.
@@ -253,18 +185,3 @@ Hit a target with an object. A palm-sized object can be hurled a distance up to 
 
 #### Track
 Follow a person, vehicle, or animal over earth, and through plants. Factors such as time passed since the tracks were made, rain, and the type of ground covered may affect the difficulty level of the roll.
-
-## Equipment
-Weapons: notes any weapons possessed by your investigator. 
-Each weapon has an entry for its Regular, Hard, and 
-Extreme skill values, the damage it can infict (usually a die roll), and the number of attacks (per round) it can be used; and, for firearms, its range, ammunition, and its malfunction number—see **Combat**.
-
-## Backstory
-Take a look at the skills, characteristics, and the values you allocated to each. With a dash of imagination, you begin to get an idea of who this new character is. You might want to add notes on your investigator’s background and personality as you decide them. Who are they really? Where did they grow up? What is their family like? The more time you spend thinking about your character, the more developed their personality becomes, and the more fun you will have when playing Call of Cthulhu.
-
-Each backstory entry (on the reverse of the investigator sheet) should be a short, pithy statement. Think about how your character appears to others and write a brief entry in Personal Description. What does your investigator believe or what is their outlook on life? Write a sentence to sum it up under Ideology/Beliefs. What mannerisms do they have? Write down annoying habits and the like under Traits. Don’t worry about filling every entry on the back of the investigator sheet—just two or three entries will be enough to get you going.
-
-> Example: Susan writes “Born and raised in New York,” under Meaningful Locations, “Never without my trusty pistol,” for Treasured Possessions, and “Science can explain everything,” for her journalist’s Ideology/Beliefs.
-
-## Gear and Possessions
- Gear and Possessions record important items, equipment, and weapons carried on your investigator’s person. As a rule of thumb, an investigator would be carrying the items they would use day-to-day in their occupation, so there’s no need to write every single thing down—only the important and relevant stuf. 

@@ -7,8 +7,8 @@
 ## About Rolling Sagas
 
 Rolling Sagas is a TRPG game platform empowered by AI. On Rolling Sagas, you can:
-1. Start a game whenever you want to. >>> Check out ['How to Play'](guide.md#how-to-play) Section.
-2. Create your own story in 10 minutes. >>> Check out ['How to Write'](guide.md#how-to-write) Section.
+1. Start a game whenever you want to. 
+2. Create your own story in 10 minutes. 
 
 <a id="aboutcoc"></a>
 
