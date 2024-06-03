@@ -1,14 +1,19 @@
 # Bouts of Madness Tags
 
 ## Overview:
-Below are a list of tags that we can use to **whisper** to chatgpt so that it could modify the text output to compliment the player character's state of mind (Sanity).
+When the player's character gains a **bout of madness**, that we can use to **whisper** to chatgpt so that it could modify the text output to compliment the player character's state of mind (Sanity).
 
+Types of Madness:
 1. Physical Hysterics
 2. Violence
 3. Flee in Panic
 4. Paranoia
 5. Phobia
 6. Mania
+
+Each type of madness will have a **Primary Tag** and a **Secondary Tag** ( Some will just have PRIMARY ).
+
+    [Primary][Secondary]
 
 ## Physical Hysterics
 **PRIMARY TAG:** Hysterical
