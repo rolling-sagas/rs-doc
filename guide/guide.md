@@ -1,5 +1,5 @@
 # Rolling Sagas Guide
-## [Introduction](introduction.md#introduction)
+## [Introduction](introduction/introduction.md#introduction)
 ### [About Rolling Sagas](introduction.md#rs)
 ### [About Call of Cthulhu](introduction.md#aboutcoc)
 
@@ -8,10 +8,10 @@
 #### [Quick Start with Ready-made Characters](create_character.md#quickstart)
 #### [Customize Your Own Character](create_character.md#customizecharacter)
 
-### 2. [Game System](gamesystem.md#gamesystem)
-#### [Skills Rolls and Difficulty Levels](gamesystem.md#skillrolls)
-#### [Opposed Rolls](gamesystem.md#opposedrolls)
-#### [Luck Rolls](gamesystem.md#luckrolls)
+### 2. [Game System](how-to-play/gamesystem.md#gamesystem)
+#### [Skills Rolls and Difficulty Levels](how-to-play/gamesystem.md#skillrolls)
+#### [Opposed Rolls](how-to-play/gamesystem.md#opposedrolls)
+#### [Luck Rolls](how-to-play/gamesystem.md#luckrolls)
 #### Sanity
 #### Combat
 #### Hit Points, Wounds and Healing

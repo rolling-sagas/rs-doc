@@ -1,10 +1,13 @@
-## 4. Occupations and Skills
+## 1. Occupations and Skills
 
-At this point you should form an idea of what your investigator does for a living. Remember, the term “investigator” does not restrict you to just being a cop or a private eye. This choice of occupation will influence the selection of skills available to your investigator. To begin with, choose an occupation. Anything you think would be interesting to play is valid, but you should agree this with your Keeper. Some favorite occupations in Call of Cthulhu are Professor, Journalist, Occultist, and Archeologist—the choice of occupation is only limited by your imagination.
+ Occupation is what your your character lives for. Remember, the term “investigator” does not restrict you to just being a cop or a private eye. This choice of occupation will influence the selection of skills available to your investigator. 
+ 
+ To begin with, choose an occupation. Anything you think would be interesting to play is valid~~but you should agree this with your Keeper~~. Some favorite occupations in *Call of Cthulhu* are Professor, Journalist, Occultist, and Archeologist—the choice of occupation is only limited by your imagination.
 
-Either pick an occupation from the list following and use the specified list of skills provided, or tailor one to your requirements. To do this, decide upon an occupation and then look at the list of skills on the investigator sheet. Then, choose eight skills that are appropriate for your investigator’s chosen occupation, e.g. what skills would a person doing this occupation require? These are your investigator’s “occupation skills.” Use some scratch paper to note down your investigator’s occupation skills.
+~~Either pick an occupation from the list following and use the specified list of skills provided, or tailor one to your requirements. To do this, decide upon an occupation and then look at the list of skills on the investigator sheet.~~ 
+Then, choose eight skills that are appropriate for your investigator’s chosen occupation, e.g. what skills would a person doing this occupation require? These are your investigator’s “occupation skills.” ~~Use some scratch paper to note down your investigator’s occupation skills.~~
 
-> Note: a brief description of the differing skills can be found here.
+> ~~Note: a brief description of the differing skills can be found here.~~
 
 You now assign points to the skills on the investigator sheet. No player can add points to the Cthulhu Mythos skill during character creation, as it is assumed that all beginning characters are ignorant of the threat of the Mythos. Allocate the following values among the eight occupation skills and also the Credit Rating skill: one at 70%, two at 60%, three at 50% and three at 40% (set the skills directly to these values and ignore the skill base values written next to each skill on the investigator sheet).
 
@@ -12,41 +15,31 @@ You now assign points to the skills on the investigator sheet. No player can add
 
 After assigning points to the occupation skills, select your investigator’s “personal interest skills.” These are skills that your character has acquired outside of work. Pick four nonoccupation skills and boost them by 20% (adding 20 to the skill base values listed next to the skills on the investigator sheet).
 
-We recommend that you write your skill values down in the same format as your Characteristics—Regular/Half/ Fifth values—as you’ll need to refer to these during the game (see the Quick Reference Chart). Of course, if you prefer, you can just write the full value of each skill and do the math in your head during the course of the game.
+Regular/Half/Fifth values will be calculated automatically.
+
+~~We recommend that you write your skill values down in the same format as your Characteristics—Regular/Half/ Fifth values—as you’ll need to refer to these during the game (see the Quick Reference Chart). Of course, if you prefer, you can just write the full value of each skill and do the math in your head during the course of the game.~~
 
 > Another Example: Brian chooses Soldier as an occupation. As this occupation is not in the list in this book, he chooses eight skills that seem most appropriate: Climb, Dodge, Fighting (Brawl), Firearms (Rifle/Shotgun), First Aid, Other Language, Stealth, and Survival. Brian sets these occupation skill values as follows: Climb 60%, Credit Rating 40%, Dodge 60%, Fighting (Brawl) 70%, Firearms (Rifle/Shotgun) 50%, First Aid 40%, Other Language 50% (picking Spanish as a second language), Stealth 50%, Survival 40%.
-
 Brian then picks four personal interest skills, raising each one by 20% (adding 20 to the skill’s base value written on the sheet); Drive Auto 40%, Jump 40%, Mechanical Repair 30%, and Spot Hidden 45%. Each skill value is then written on the sheet next to the skill as the Regular, Half, and Fifth values, such as “Spot Hidden 45 (22/9).”
 
-### Sample Investigator Occupations
-#### Antiquarian
-Appraise, Art/Craft (Any), History, Library Use, Other Language, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Spot Hidden, any one other skill.
+### Sample Investigator Occupations and Skills
 
-#### Author
-Art (Literature), History, Library Use, Natural World or Occult, Other Language, Own Language, Psychology, any one other skill.
+| Profession           | Skills                                                                                                                                     |
+|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **Antiquarian**      | Appraise, Art/Craft (Any), History, Library Use, Other Language, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Spot Hidden, any one other skill. |
+| **Author**           | Art (Literature), History, Library Use, Natural World or Occult, Other Language, Own Language, Psychology, any one other skill.               |
+| **Dilettante**       | Art/Craft (Any), Firearms, Other Language, Ride, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), any three other skills. |
+| **Doctor of Medicine** | First Aid, Other Language (Latin), Medicine, Psychology, Science (Biology), Science (Pharmacy), any two other skills as academic or personal specialties (e.g. a psychiatrist might take Psychoanalysis). |
+| **Journalist**       | Art/Craft (Photography), History, Library Use, Own Language, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, any two other skills. |
+| **Police Detective** | Art/Craft (Acting) or Disguise, Firearms, Law, Listen, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Spot Hidden, any one other skill. |
+| **Private Investigator** | Art/Craft (Photography), Disguise, Law, Library Use, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Spot Hidden, and any one other skill (e.g. Locksmith, Firearms). |
+| **Professor**        | Library Use, Other Language, Own Language, Psychology, any four other skills as academic or personal specialties.                            |
 
-#### Dilettante
-Art/Craft (Any), Firearms, Other Language, Ride, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), any three other skills.
-
-#### Doctor of Medicine
-First Aid, Other Language (Latin), Medicine, Psychology, Science (Biology), Science (Pharmacy), any two other skills as academic or personal specialties (e.g. a psychiatrist might take Psychoanalysis).
-
-#### Journalist
-Art/Craft (Photography), History, Library Use, Own Language, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, any two other skills.
-
-#### Police Detective
-Art/Craft (Acting) or Disguise, Firearms, Law, Listen, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Spot Hidden, any one other skill.
-
-#### Private Investgator
-Art/Craft (Photography), Disguise, Law, Library Use, one interpersonal skill (Charm, Fast Talk, Intimidate, or Persuade), Psychology, Spot Hidden, and any one other skill (e.g. Locksmith, Firearms).
-
-#### Professor
-Library Use, Other Language, Own Language, Psychology, any four other skills as academic or personal specialties.
 
 ### Skill Descriptions
 Most skills are exactly what their name suggests—such as Drive Auto, which determines how well a character can drive an automobile (or car), or Climb, which concerns how well an investigator can scale up or down a wall. However, some skill names are less obvious, so here is a brief summary of the skills listed on the investigator sheet.
 
-Note: on the investigator sheet, each skill has a percentile number in brackets next to it. This number is the basic chance for anyone using that skill untrained. Thus, anyone could attempt to use a handgun (basic 20% chance of success), even if they’ve never handled one before.
+>Note: on the investigator sheet, each skill has a percentile number in brackets next to it. This number is the basic chance for anyone using that skill untrained. Thus, anyone could attempt to use a handgun (basic 20% chance of success), even if they’ve never handled one before.
 
 #### Accounting
 The Understanding of accountancy procedures; reveals the financial functioning of a business or person.

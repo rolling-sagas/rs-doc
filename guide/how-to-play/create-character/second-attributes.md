@@ -1,10 +1,12 @@
-## 3. Secondary Attributes 
-There are a number of attributes that are determined after you have worked out the investigator’s characteristics. These are Damage Bonus and Build, Hit Points, Move Rate, Sanity, and Magic Points. Additionally, you will need to determine a Luck value. 
+## Secondary Attributes 
+There are a number of attributes that are determined after you have worked out the investigator’s characteristics. These are Damage Bonus and Build, Hit Points, Move Rate, Sanity, and Magic Points. 
 
-- **Damage Bonus and Build**: Damage Bonus is how much extra damage your investigator inflicts when making a successful close combat (melee) attack. Build is a scale of combined size and strength used when making a “Fighting Maneuver”. Add your Regular STR and SIZ characteristics together and consult the Damage Bonus and Build Table. You’ll find boxes on the investigator sheet to write in the Build and Damage Bonus values.
+On Rolling Sagas, these numbers above will be calculated automatically after your characteristics are decided. You only need to determine a Luck value by rolling a dice. 
 
-- **Damage Bonus and Build Table**
+- **Damage Bonus and Build**: Damage Bonus is how much extra damage your investigator inflicts when making a successful close combat (melee) attack. Build is a scale of combined size and strength used when making a “Fighting Maneuver”. ~~Add your Regular STR and SIZ characteristics together and consult the Damage Bonus and Build Table. You’ll find boxes on the investigator sheet to write in the Build and Damage Bonus values.~~
+
 >Example: Brian set his STR to 60 and his SIZ to 70, totaling 130. When he makes a successful physical attack, he deals an extra 1D4 points of damage (Damage Bonus). His Build is 1.
+- **Damage Bonus and Build Table**
 
 | STR + SIZ | Damage Bonus | Build |
 | :-----| ----: | :----: |
