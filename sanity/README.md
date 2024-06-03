@@ -221,6 +221,7 @@ id7[Mania]
 id7a[Mania Tags]
 id7b[Dermatillomania]
 id8[Hallucination Tag]
+id9[Compulsive Tag]
 
 id1-- Make a -->id1a
 id1a-->id2
@@ -242,7 +243,7 @@ id6a-- e.g. --> id6b
 id7 -- Roll for random -->id7a
 id7a-- e.g. --> id7b
 id6a-. secretly gain a.->id8
-id7a-. secretly gain a.->id8
+id7a-. secretly gain a.->id9
 ```
 
 
