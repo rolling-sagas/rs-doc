@@ -1,4 +1,4 @@
-## 1. Occupations and Skills
+## Occupations and Skills
 
  Occupation is what your your character lives for. Remember, the term “investigator” does not restrict you to just being a cop or a private eye. This choice of occupation will influence the selection of skills available to your investigator. 
  

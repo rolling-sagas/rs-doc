@@ -1,4 +1,4 @@
-## 2. Characteristics
+## Characteristics
  In *Call of Cthulhu*, each character has 8 characteristics:
 
 - **Strength (STR)**: the raw physical power your investigator can bring to bear.
