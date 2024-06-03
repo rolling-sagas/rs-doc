@@ -20,7 +20,7 @@ sanity check->> sanity roll: make
 end
 
 alt if sanity points loss > 5 or = 5
-sanity roll->> bouts of madness: Inherit
+sanity roll->> bouts of madness: gain
 bouts of madness->> player: Decrease Sanity points rolled & gain 1 random bout of madness
 else if sanity points loss < 5
 sanity roll->> player: Decrease Sanity points rolled
