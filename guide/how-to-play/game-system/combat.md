@@ -8,7 +8,7 @@ When you are confronted with the horrors of the *Cthulhu Mythos*, it is generall
 A COMBAT normally will go through the following steps:
 
 - [Establish Order of Attack](#establish-order-of-attack). 
-- Attacker moves first. Defender reacts to Attacker's move.
+- Attacker moves first. Defender reacts to Attacker's move. Check out
 - Roll and compare levels of success, and decide damage points.
 Check out the different situations here:
 [If Player Moves First...](#if-player-moves-first)
