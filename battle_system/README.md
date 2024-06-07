@@ -60,7 +60,7 @@ Apply bonus or penalty die depending on the target size, target movement speed, 
 
 #### Using a firearm:
 
-- Select a specific firearms skill.
+- Select a specific firearm skill.
 - Roll a 1D100 for attack success ( Difficulty of success is based on ?)
 
 #### Fast-Moving Targets:
