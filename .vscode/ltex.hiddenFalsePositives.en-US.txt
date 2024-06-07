@@ -1,0 +1,2 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q*A Hard MECH.REPAIR skill\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QA Hard MECH.REPAIR skill or Hard SPOT HIDDEN skill would allow the player to identify the cut brake wire.\\E$"}
