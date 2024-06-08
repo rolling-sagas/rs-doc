@@ -25,6 +25,99 @@ As you can see, there are many **stats** that go into an enemy, similar to chara
 
 - Some enemies can use weapons (swords, staves, etc.)
 
-- 
+- When **creators** make edits or develop their own monster, a new **ID** may need to be created ( Programmer please solve this, thank you. )
 
-## User 
+## Creation Flow
+
+```mermaid
+    flowchart LR
+
+    id0[Rolling Sagas Web Page]
+    id1[Create New Story]
+    id2[Intro]
+    id3[Chapters]
+    id3.5[Enemies]
+    id4[Add]
+
+    id4a[Monster Library]
+    id4b[Beasts Library]
+    id4c[Alien Gods Library]
+    id4d[Create Your Own]
+
+    id4aa[Monster Name]
+    id4ba[Beast Name]
+    id4ca[Alien God Name]
+
+
+    id5[Added]
+    id6[Edit Selected Enemy]
+    id7[Add Condition*]
+
+    id8[Enemy Drop Items?]
+    id9[No]
+    id10[Yes]
+    id11[Items Library]
+    id12[Complete]
+
+    id0-->id1
+    id1-->id2
+    id2-- Fill in story name, description, and upload a cover image -->id3
+    id3-->id3.5
+    id3.5-->id4
+
+    id4-->id4a
+    id4-->id4b
+    id4-->id4c
+    id4-->id4d
+
+    id4a-->id4aa
+    id4aa-->id5
+    id4b-->id4ba
+    id4ba-->id5
+    id4c-->id4ca
+    id4ca-->id5
+    id4d-->id5
+
+    id5-->id6
+    id5-->id7
+    id6-->id7
+    id7-->id8
+
+    id8-->id9
+    id8-->id10
+    id10-->id11
+    id11-->id12
+    id9-->id12
+```
+
+### Add Condition*
+
+It is important to note that when the **creator** adds an **enemy** to the chapter, another box called "Add Condition" should appear below the created enemy. In this box, the creator can add a so-called "rule" for the enemy to give it parameters for its appearance. 
+
+- e.g. Zombie will appear when the players arrive at the cemetery.
+
+A reason for this design is the separate enemy rules from other chapter rules for clarity and better user experience. Especially when they need to make changes or edits.
+
+
+### Items
+
+There are also times when enemies can drop **items** for the player. Although this does not always need to be the case. Depending on the **item**, the **creator** can choose the **probability** and **amount** of items dropped (Can't let the creator accidentally overpower the player.)
+
+- **Creators** will also need to determine whether the enemy would drop an **item**. If the enemy **does** drop an item, then they can select from the items list.
+
+*I will go deeper about the items/equipments in another document.*
+
+
+
+## Gameplay Appearance
+
+Once the condition is set, when the player experiences a story, they may or may not trigger the condition. If the condition is triggered, then the system will pull from the **Chapter, Enemy** list to summon the respective **Enemy**.
+
+
+## Inventory
+
+Items acquired in combat should also go into the player's inventory. So this must also be designed. But shouldn't be a problem since it's a shared system.
+
+## Player Messages
+
+There also needs to be some form of messaging system / text base system that tells the player they have acquired an **item** (Similar to Pokémon).
