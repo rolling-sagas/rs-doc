@@ -165,6 +165,41 @@ When the player fails to escape, it would automatically be the enemy’s turn.
 
 Once the above has been resolved and the enemy is still alive, then it would be their turn to attack, which the player can choose to either dodge or fight back.
 
+## Taking Damage / Receiving Hits
+
+I have modified the way player characters take/receive damage so it better fits the single-player experience and story line (Character is harder to kill).
+
+```mermaid
+    flowchart TD
+    id1[Character takes Damage]
+    id2[Damage < 1/2 Max HP]
+    id2a[Regular Damage]
+    id3[Damage ⩾ 1/2 Max HP]
+    id3a[Dying]
+    id3b[Roll CON]
+    id4[Damage ⩾ Max HP]
+    id4a[Death]
+    id5[First Aid: Recover 4 HP]
+    id6[Medicine: Recover 1D10 HP]
+
+
+
+    id1-->id2
+    id2-->id2a
+    id1-->id3
+    id3-->id3a
+    id3a-->id3b
+    id3b-->id5
+    id3b-->id6
+    id1-->id4
+    id4-->id4a
+
+
+
+
+
+
+```
 ## Appendices
 
 ### Perks:
