@@ -6,7 +6,7 @@ Overview: There will be a wide variety of enemies in the game of Call of Cthulhu
 
 ## Enemy Library
 
-We will need a library to store these enemies, along with their **STATS**, **ID**, **DESCRIPTION**, and **NAME**. When needed, the **Creators** can select whichever enemy they want to appear in their story. 
+We will need a library to store these enemies, along with their **STATS**, **ID**, **DESCRIPTION**, and **NAME**. When needed, the **Creators** can select whichever enemy they want to **appear** in their story. 
 
 Each Enemy will have the below information:
 
@@ -14,7 +14,7 @@ Each Enemy will have the below information:
 
 | ID: | Name: | Description: | STR: | CON: | SIZE: | DEX: | POW: | HP: | DMG BONUS: | BUILD: | MP: | MOV: | ATK / RND: | ATK | ARMOR | SAN LOSS: |
 :-- | :-: | :-: |:-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |--:
-001 | Zombie | Walking Dead | 80 | 80 | 65 | 35 | 05 | 14 | 1D4 | 1 | 1 | 6 | 1 | 30%, 1D3 + DMG Bonus | - | 0 / 1D8
+001 | Zombie | Walking Dead that can bite, claw, and loves to eat human flesh | 80 | 80 | 65 | 35 | 05 | 14 | 1D4 | 1 | 1 | 6 | 1 | 30%, 1D3 + DMG Bonus | - | 0 / 1D8
 
 
 As you can see, there are many **stats** that go into an enemy, similar to characters, but they are necessary since they are taken into account during **combat**. 
@@ -85,7 +85,7 @@ As you can see, there are many **stats** that go into an enemy, similar to chara
 
     id8-->id9
     id8-->id10
-    id10-->id11
+    id10-- select an item from -->id11
     id11-->id12
     id9-->id12
 ```
@@ -107,6 +107,18 @@ There are also times when enemies can drop **items** for the player. Although th
 
 *I will go deeper about the items/equipments in another document.*
 
+### User Created Enemies
+
+Creators are more than welcome to create their own unique imaginary enemy for their story. Just like the preset enemies, they will need to fill out an information sheet for their imaginary enemy. 
+
+- Since enemies can have a wide variety of stats (Great Old Ones having ridiculous stats), we will not limit the player's imagination in this regard. **However**, to help better guide player into making a game with a better experience, we will include an **option** to use our **preset** enemies as **template**.
+
+- Creators can also select the type of die they would like the use for the enemy's attack and sanity loss.
+
+- Creators will need to select the **attack** proficiency.
+
+Final Remarks: I believe we should have information icons beside each section when creators build their own enemy, that way it can answer any potential questions they may have for each category. We can also give them a bit of context and recommendation too. 
+
 
 
 ## Gameplay Appearance
@@ -120,4 +132,10 @@ Items acquired in combat should also go into the player's inventory. So this mus
 
 ## Player Messages
 
-There also needs to be some form of messaging system / text base system that tells the player they have acquired an **item** (Similar to Pokémon).
+1. There also needs to be some form of messaging system / text base system that tells the player they have acquired an **item** (Similar to Pokémon).
+
+2. A message to inform the player they have successfully defeated the enemy, which ends the battle. 
+
+3. A message to inform the player that they are killed by the enemy, which ends the battle & displays "YOU DIED".
+
+4. A message at the start of battle to set the mood.
