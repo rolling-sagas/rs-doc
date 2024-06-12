@@ -8,6 +8,11 @@ Similar to *enemies*, we need a library for items. And due to the near infinite 
 
 This will include ID, NAME, DESCRIPTION, and STATS (including its corresponding roll). When needed, Creators can select whichever item they want to appear in their story.
 
+```
+(REVIEW)
+Different items with different 'rules' should seperated into different table.
+```
+
 ### Examples:
 
 | ID: | Name: | Description: | Stat: | Type: | Weight:
