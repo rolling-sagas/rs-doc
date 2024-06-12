@@ -7,11 +7,11 @@ Keep in mind that a person's mind can only take so much before succumbing to the
 
 ## Basic Rules
 
-During chracter creation, your sanity points should also be calculated based on the **"POW"** characteristics. If the sanity points drop to **1/5** of its maximum, then they would inherit a **BOUT OF MADNESS**.
+During character creation, your sanity points should also be calculated based on the **"POW"** characteristics. If the sanity points drop to **1/5** of its maximum, then they would inherit a **BOUT OF MADNESS**.
 
 ## Cause of Insanity
 
-When the player character experiences events, horrors, or an encounter with other worldly beings, it would challenge their state of mind, whether or not they can hold it together, or fail and go insane. 
+When the player character experiences events, horrors, or an encounter with other worldly beings, it would challenge their state of mind, whether they can hold it together, or fail and go insane. 
 
 Luckily, during game play, there may be instances where your mind becomes clearer, or more grounded to reality, these are all opportunities for your sanity points to increase (*but never above your maximum*).
 
@@ -20,7 +20,7 @@ Luckily, during game play, there may be instances where your mind becomes cleare
 - Alien Creatures
 - Grotesque Scenes
 - Paranormal / Supernatural
-- Monsterous Creatures
+- Monstrous Creatures
 - Great Old Ones
 - Other Worldly Horrors
 - Undergo Torture
@@ -44,7 +44,7 @@ Sanity Losses are described something like this:
 
 - 1 / 1D4 + 1
 
-The slash seperates the initial **SANITY CHECK** your character has made. **LEFT** side of the slash is the sanity loss when the character made a **successful** sanity check. Where as the **RIGHT** side of the slash represents the sanity loss when the character **failed** their sanity check.
+The slash separates the initial **SANITY CHECK** your character has made. **LEFT** side of the slash is the sanity loss when the character made a **successful** sanity check. Whereas the **RIGHT** side of the slash represents the sanity loss when the character **failed** their sanity check.
 
 *As you can see, there are moments where despite the fact that you made a successful sanity check, you will still nonetheless lose sanity points.*
 
@@ -54,7 +54,7 @@ Thus:
     
 - If you roll under, you will lose less sanity or none at all.
 
-If your characters sanity points **drop** to **1/5** of your maximum, then the character will inherit a **BOUT OF MADNESS**.
+If your characters' sanity points **drop** to **1/5** of your maximum, then the character will inherit a **BOUT OF MADNESS**.
 
 Alternatively...
 
@@ -64,7 +64,7 @@ If your character loses **5 or more** sanity points from one roll (as in, an eve
 
 [For more sanity points loss examples, click here](../sanity/images/sanity_point_cost_example.png)
 
-### Cthulhu Mythos Sanity Loss
+### Cthulhu Mythos Sanity Loss (For Future Updates)
 
 Not all sanity loss are equal. When player character experiences a sanity loss due to **Cthulhu Mythos** induced trauma ( *e.g. seeing Mythos monsters, reading Mythos tome, etc.* ), they would also learn about the Mythos, allowing them to gain **Cthulhu Mythos Skill**.
 
@@ -75,15 +75,19 @@ Note that the **maximum Sanity points** decrease in respective to the amount of 
 
 *e.g. If a character has 5 points in Cthulhu Mythos, then their maximum sanity points will be 94 (99 - 5).*
 
+[Sanity Loss Sequence Diagram](#sanity-sequence-diagram)
+
+*note: if the character's **Sanity** drops to 1/5 of their **starting Sanity**, they would automatically gain a Bouts of Madness.*
+
 ## Bouts of Madness
 
 When the character has gone insane, they would behave in certain way, this is what bouts of madness essentially is. During gameplay, when the player's character succumbs to insanity, they **roll** a **1D10** to determine a random bouts of madness exhibited by the character. 
 
-![bouts of madness](../sanity/images/bouts_of_madness_realtime.png)
+[Bouts of madness](../sanity/images/bouts_of_madness_realtime.png)
 
 But for our purposes, we won't use all the contents on this table, we will instead concoct some of our own madness.
 
-Here is a compiled list of our bouts of madness:
+Here is a compiled list of **our** bouts of madness:
 
 1. **Physical Hysterics or Emotional Outbursts:** Laughing, crying, screaming, while speaking strangely.
 
@@ -91,7 +95,7 @@ Here is a compiled list of our bouts of madness:
 
 3. **Flee in Panic:** During combat, the character will always flee. They cannot use items or fight. 
 
-4. **Hallucinations:** Character would injure themselves during their hallucinations.
+4. ~~**Hallucinations:** Character would injure themselves during their hallucinations.~~
 
 5. **Paranoia:** Character suffers from paranoia, think they are spied on, tricked, and nothing can be trusted.
 
@@ -100,6 +104,10 @@ Here is a compiled list of our bouts of madness:
 7. **Mania:** Character gains a mania and acts on it? Maybe even imagine it?
 
 *Note that the list above is subject to change depending on its ability to integrate into our gameplay*
+
+[Bouts of Madness Flowchart](#bouts-of-madness-flowchart)
+
+When the character loses more than or equal to 5 Sanity points, then the character will **roll a 1D6** to gain a random bout of madness. Depending on the madness type, the **effect** may be immediately applied, **or** the character will have to roll again to determine the specifics (e.g. For phobia, there would be another roll to determine the specific phobia the character is experiencing).
 
 ## Reality Check
 
@@ -112,11 +120,11 @@ Simply make a **Sanity roll** to determine the result:
 - **Failure:** Lose **1** Sanity point and immediately induce a bout of madness.
 - **Success:** The character sees through the delusion
 
-## Treatment and Recovery from Insanity
+## Treatment and Recovery from Insanity (For Future Updates)
 
 Thanks to "modern medicine" ( *depending on the era your character is in* ), there is still hope to keep your mind intact.
 
-*Note that these are 1920's prices*
+*Note that these are 1920s prices*
 
 ### Private Care
 
@@ -133,7 +141,7 @@ Roll a **1D100** to determine the treatment success after **1** month.
 
 ### Institutionalization
 
-Cheap or even free, but the quality of care is most defintiely not the best...
+Cheap or even free, but the quality of care is most definitely not the best...
 
 - Free
 - Weekly: $5 - $10
@@ -149,12 +157,94 @@ Roll a **1D100** to determine the treatment success after **1** month.
 
 ## Increasing Current Sanity Points
 
-There are also other opportunities to increase a character's current Sanity points:
+There are other opportunities to increase a character's current Sanity points:
 
 1. Campaign Completion Award: After completing a campaign, the character can recover **1D6** Sanity point.
 
 2. Increasing a skill to **90%**: Character is awarded **2D6** Sanity points when one of their skill reaches such proficiency. 
 
-3. Psychotherapy: Make a **1D100** against a doctor's **Psychoanalysis skill** once a month.
-    - If successful: Gain **1D3** Sanity points.
-    - If failed: Lose **1D6** Sanity points.
+3. ~~Psychotherapy: Make a **1D100** against a doctor's **Psychoanalysis skill** once a month.~~
+    - ~~If successful: Gain **1D3** Sanity points.~~
+    - ~~If failed: Lose **1D6** Sanity points.~~
+
+
+---
+Sanity Sequence Diagram
+---
+```mermaid
+    sequenceDiagram
+    actor player
+    participant horrifying event
+    participant sanity check
+    participant sanity roll
+    participant cthulhu mythos event
+    participant bouts of madness
+
+player->> horrifying event: Experiences
+horrifying event->> sanity check: Triggers
+alt if roll success
+sanity check->> player: decrease minimum or zero sanity points 
+else if roll fail
+sanity check->> sanity roll: make
+end
+
+alt if sanity points loss > 5 or = 5
+sanity roll->> bouts of madness: gain
+bouts of madness->> player: Decrease Sanity points rolled & gain 1 random bout of madness
+else if sanity points loss < 5
+sanity roll->> player: Decrease Sanity points rolled
+end
+```
+
+---
+Bouts of Madness Flowchart
+---
+```mermaid
+    flowchart LR
+    
+id1(((Bouts of maddness)))
+id1a[1D6 Roll for a random madness]
+id2[Physical Hysterics]
+id2a[Hysteric Tag]
+id2b[Laughing Wildly]
+id2c[Crying Randomly]
+id3[Violence] 
+id3a[Will Only Fight in Combat]
+id4[Flee in Panic]
+id4a[Will Only Run in Combat]
+id5[Paranoia]
+id5a[Paranoid Tag + Believe there are people spying on them]
+id6[Phobia]
+id6a[Phobia Tags]
+id6b[Arachnophobia]
+id7[Mania]
+id7a[Mania Tags]
+id7b[Dermatillomania]
+id8[Hallucination Tag]
+id9[Compulsive Tag]
+
+id1-- Make a -->id1a
+id1a-->id2
+id1a-->id3
+id1a-->id4
+id1a-->id5
+id1a-->id6
+id1a-->id7
+
+id2-- roll for a random -->id2a
+id2a-- e.g. -->id2b
+id2a-- e.g. -->id2c
+
+id3-->id3a
+id4-->id4a
+id5-- gains a-->id5a
+id6-- Roll for random-->id6a
+id6a-- e.g. --> id6b
+id7 -- Roll for random -->id7a
+id7a-- e.g. --> id7b
+id6a-. secretly gain a.->id8
+id7a-. secretly gain a.->id9
+```
+
+
+
