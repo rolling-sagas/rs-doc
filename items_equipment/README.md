@@ -44,6 +44,7 @@ As you can see, there are also different item types, each with a specific purpos
 - Equipment/Armor: Gives the player character armor for better survival
 
 ```
+REVIEW:
 Maybe the equipment should seperate into "armor" and "weapon".
 ```
 
@@ -51,10 +52,19 @@ Maybe the equipment should seperate into "armor" and "weapon".
 
 Consumable items disappear from the player character's inventory after it's used. It is also important to note that consumable items can **alter** player stats **DURING** and **OUTSIDE** of battle. Meaning, a first aid kit can be used during combat, or after combat when they are relatively safer.
 
+```
+REVIEW:
+Cosumable items need amount 'limitation'.(or how much the items can stack?)
+```
 
 ### Tool:
 
 Tools can only be used outside of battle, or, during **exploration**. As they are mainly designed to be used on the environment to invoke changes (e.g. light up a dark room with a flashlight).
+
+```
+REVIEW:
+Can tools be stackable?
+```
 
 ### Key Items:
 
@@ -72,6 +82,11 @@ There are various types of equipments player's character can equip themselves wi
 Each of these equipments will affect the player's stats in one form or another. Equipping a specific type of weapon, for example, a melee weapon (sword) will give the player the **option** to **use** melee during combat. The same goes for firearms. Each weapon and armor will have their own attack stats etc.
 
 *Note that the player can still choose to brawl if they wish to do so.*
+
+```
+REVIEW:
+Armor and weapon has different rules, eg: weapon add extra damage, and armor increase some stats of player.
+```
 
 
 ## Create your own Items
