@@ -7,11 +7,11 @@ Keep in mind that a person's mind can only take so much before succumbing to the
 
 ## Basic Rules
 
-During chracter creation, your sanity points should also be calculated based on the **"POW"** characteristics. If the sanity points drop to **1/5** of its maximum, then they would inherit a **BOUT OF MADNESS**.
+During character creation, your sanity points should also be calculated based on the **"POW"** characteristics. If the sanity points drop to **1/5** of its maximum, then they would inherit a **BOUT OF MADNESS**.
 
 ## Cause of Insanity
 
-When the player character experiences events, horrors, or an encounter with other worldly beings, it would challenge their state of mind, whether or not they can hold it together, or fail and go insane. 
+When the player character experiences events, horrors, or an encounter with other worldly beings, it would challenge their state of mind, whether they can hold it together, or fail and go insane. 
 
 Luckily, during game play, there may be instances where your mind becomes clearer, or more grounded to reality, these are all opportunities for your sanity points to increase (*but never above your maximum*).
 
@@ -20,7 +20,7 @@ Luckily, during game play, there may be instances where your mind becomes cleare
 - Alien Creatures
 - Grotesque Scenes
 - Paranormal / Supernatural
-- Monsterous Creatures
+- Monstrous Creatures
 - Great Old Ones
 - Other Worldly Horrors
 - Undergo Torture
@@ -44,7 +44,7 @@ Sanity Losses are described something like this:
 
 - 1 / 1D4 + 1
 
-The slash seperates the initial **SANITY CHECK** your character has made. **LEFT** side of the slash is the sanity loss when the character made a **successful** sanity check. Where as the **RIGHT** side of the slash represents the sanity loss when the character **failed** their sanity check.
+The slash separates the initial **SANITY CHECK** your character has made. **LEFT** side of the slash is the sanity loss when the character made a **successful** sanity check. Whereas the **RIGHT** side of the slash represents the sanity loss when the character **failed** their sanity check.
 
 *As you can see, there are moments where despite the fact that you made a successful sanity check, you will still nonetheless lose sanity points.*
 
@@ -54,7 +54,7 @@ Thus:
     
 - If you roll under, you will lose less sanity or none at all.
 
-If your characters sanity points **drop** to **1/5** of your maximum, then the character will inherit a **BOUT OF MADNESS**.
+If your characters' sanity points **drop** to **1/5** of your maximum, then the character will inherit a **BOUT OF MADNESS**.
 
 Alternatively...
 
@@ -124,7 +124,7 @@ Simply make a **Sanity roll** to determine the result:
 
 Thanks to "modern medicine" ( *depending on the era your character is in* ), there is still hope to keep your mind intact.
 
-*Note that these are 1920's prices*
+*Note that these are 1920s prices*
 
 ### Private Care
 
@@ -141,7 +141,7 @@ Roll a **1D100** to determine the treatment success after **1** month.
 
 ### Institutionalization
 
-Cheap or even free, but the quality of care is most defintiely not the best...
+Cheap or even free, but the quality of care is most definitely not the best...
 
 - Free
 - Weekly: $5 - $10
@@ -157,7 +157,7 @@ Roll a **1D100** to determine the treatment success after **1** month.
 
 ## Increasing Current Sanity Points
 
-There are also other opportunities to increase a character's current Sanity points:
+There are other opportunities to increase a character's current Sanity points:
 
 1. Campaign Completion Award: After completing a campaign, the character can recover **1D6** Sanity point.
 
