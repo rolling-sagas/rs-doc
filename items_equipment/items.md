@@ -61,3 +61,15 @@ There are various types of equipments player's character can equip themselves wi
 Each of these equipments will affect the player's stats in one form or another. Equipping a specific type of weapon, for example, a melee weapon (sword) will give the player the **option** to **use** melee during combat. The same goes for firearms. Each weapon and armor will have their own attack stats etc.
 
 *Note that the player can still choose to brawl if they wish to do so.*
+
+
+## Create your own Items
+
+As always, we need to give the tools to the players to build their own items and equipment if they wish to do so. In that case, they will have to fill out the corresponding details of the item/equipment they wish to create.
+
+
+## Enemies
+
+*This section is related to the **enemies.md** file under **battle_system**.*
+
+Keep in mind that enemies drop items, and these items will **ALL** be coming from the **item library**.
