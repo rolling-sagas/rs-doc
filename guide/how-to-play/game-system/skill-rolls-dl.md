@@ -18,7 +18,6 @@ The letter “D” stands for “dice.” The number after the D is the range of
 
 In a written adventure, the text might say a monster delivers 1D8 damage, meaning that a 8-sided die is rolled once to determine how much damage is actually caused.
 
-
 #### Reading D100 (Percentage Dice)
 Percentage dice usually consist of two 10-sided dice, which are rolled at the same time. One die (units) is numbered 1 to 0, the other (tens) being numbered 10 to 00. Both dice are rolled and should be read together (e.g. “30” on the tens die and “05” on the units die is read as 35%). A roll of “00” (tens die) combined with a “0” (units die) indicates a result of 100%. A roll of “00” on the tens die combined with any other roll on the units die indicates a roll of under 10%; for example, a roll of 00 on the tens die and 3 on the units die is read as 3%.
 
