@@ -43,6 +43,10 @@ As you can see, there are also different item types, each with a specific purpos
 - Equipment/Firearms: Gives the player character a firearm to use against enemy
 - Equipment/Armor: Gives the player character armor for better survival
 
+```
+Maybe the equipment should seperate into "armor" and "weapon".
+```
+
 ### Consumable:
 
 Consumable items disappear from the player character's inventory after it's used. It is also important to note that consumable items can **alter** player stats **DURING** and **OUTSIDE** of battle. Meaning, a first aid kit can be used during combat, or after combat when they are relatively safer.
