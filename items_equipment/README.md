@@ -119,9 +119,6 @@ Creators will first select the type of item to determine what its overall functi
 ### Stat References
 
 
-
-
-
 ## Enemies
 
 *This section is related to the **enemies.md** file under **battle_system** folder.*
