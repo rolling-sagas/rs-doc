@@ -13,7 +13,7 @@ This will include ID, NAME, DESCRIPTION, and STATS (including its corresponding 
 | ID: | Name: | Description: | Stat: | Type: | Weight:
 :-- | :-: | :-: | :-: | :-: | --: |
 001 | First Aid Kit | Great for attending all wounds, even the dying. | FIRST AID SKILL: CF: +0 HP, F: +1 HP, RS: +3 HP, HS: +4 HP, CS: +6 HP | Consumable | 0.5kg
-002 | Flashlight | Lights up in the dark. | - | Tool | 0.3kg
+002 | Flashlight | Lights up the dark. | - | Tool | 0.3kg
 003 | Golden Chalice | A golden chalice adorned with beautiful jewels | - | Key Item | 0.6kg
 004 | Sword | A well forged blade | 1D10 + DB | Equipment: Melee | 5kg
 005 | Thick Leather Jacket | A well crafted leather jacket | 1 Armor Point | Equipment: Armor | 0.7kg
@@ -33,7 +33,9 @@ As you can see, there are also different item types, each with a specific purpos
 - Consumable: Are items that disappears after using. (Affects character stats and equipments)
 - Tool: Items that can be used multiple time. (**can be used on the environment**)
 - Key Item: Specifically for story purposes.
-- Equipment/Weapon: Gives the player character a weapon to use against enemy
+- Equipment/Brawl: Gives the player character a brawl weapon to use against enemy
+- Equipment/Melee: Gives the player character a melee weapon to use against enemy
+- Equipment/Firearms: Gives the player character a firearm to use against enemy
 - Equipment/Armor: Gives the player character armor for better survival
 
 ### Consumable:
@@ -66,6 +68,32 @@ Each of these equipments will affect the player's stats in one form or another. 
 ## Create your own Items
 
 As always, we need to give the tools to the players to build their own items and equipment if they wish to do so. In that case, they will have to fill out the corresponding details of the item/equipment they wish to create.
+
+
+
+```mermaid
+    flowchart LR
+
+    id1[Select Item Type]
+    id2[Name the Item]
+    id3[Give it a Description]
+    id4[Add Stats if Appropriate]
+    id5[Fill the weight of the object]
+
+    id1 --> id2
+    id2-->id3
+    id3-->id4
+    id4-->id5
+    id3-- if the item is a 'tool' or 'key item' -->id5
+
+```
+
+### Creation Flow
+
+Creators will first select the type of item to determine what its overall function is, then name it, describe it and apply appropriate stats depending on the item (e.g. dice rolled for weapons, or armor point for armor). Lastly, just fill in the weight for the object.
+
+### Stat References
+
 
 
 
