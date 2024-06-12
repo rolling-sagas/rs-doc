@@ -4,24 +4,52 @@ Overview: There are always unique items and equipment in stories, like the Excal
 
 ## Items Library
 
-Similar to *enemies*, we need a library for items. And due to the near infinite possibilities of the effect of each item, we will need to provide a large library for our players in which they can create new stories with.
+Similar to *enemies*, we need a library for items. And due to the near infinite possibilities of the effect of each item, we will need to provide **multiple** large library for our players in which they can create new stories with.
 
 This will include ID, NAME, DESCRIPTION, and STATS (including its corresponding roll). When needed, Creators can select whichever item they want to appear in their story.
 
-```
-(REVIEW)
-Different items with different 'rules' should seperated into different table.
-```
+*Note that each item **type** will have their own separate library as they follow their own unique **rule**.*
 
-### Examples:
 
-| ID: | Name: | Description: | Stat: | Type: | Weight:
-:-- | :-: | :-: | :-: | :-: | --: |
-001 | First Aid Kit | Great for attending all wounds, even the dying. | FIRST AID SKILL: CF: +0 HP, F: +1 HP, RS: +3 HP, HS: +4 HP, CS: +6 HP | Consumable | 0.5kg
-002 | Flashlight | Lights up the dark. | - | Tool | 0.3kg
-003 | Golden Chalice | A golden chalice adorned with beautiful jewels | - | Key Item | 0.6kg
-004 | Sword | A well forged blade | 1D10 + DB | Equipment: Melee | 5kg
-005 | Thick Leather Jacket | A well crafted leather jacket | 1 Armor Point | Equipment: Armor | 0.7kg
+### Weapon (Melee) Library Example
+
+| ID: | Name: | Description: | Stat: |
+:-- | :-: | :-: | --:
+| 089 | Sword | A well forged blade. | 1D6+ 1 + DB
+| 090 | Lead Pipe | A solid pipe used in construction. | 1D8 + DB
+
+### Weapon (Firearms) Library Example
+
+| ID: | Name: | Description: | Stat: | Mag:
+:-- | :-: | :-: | :-: | --:
+| 072 | .38 Revolver | A reliable weapon for any man and woman. | 1D10 | 6
+| 073 | Flintlock | A rare weapon from bygone times. | 1D6 + 1 | 1
+
+### Armor Library Example
+
+| ID: | Name: | Description: | Armor Point: |
+:-- | :-: | :-: | --:
+| 013 | Leather Jacket | A warm and thick leather jacket | 1
+| 014 | Breastplate | A Light and durable breastplate made of steel. | 3
+
+### Tools Library Example
+
+| ID: | Name: | Description: |
+:-- | :-: | --:
+| 001 | Flashlight | Great for illuminating the darkest of places. |
+| 002 | Rope | Durable and new for multiple purpose |
+
+### Key Items Library Example
+
+| ID: | Name: | Description: |
+:-- | :-: | --:
+| 001 | Golden Chalice | A golden chalice adorned with beautiful jewels. |
+
+### Consumable Library Example
+
+| ID: | Name: | Description: | Stat: |
+:-- | :-: | :-: | --:
+| 044 | First Aid Kit | Great for attending wounds of all sizes, even near death.| FIRST AID SKILL: CF: +0 HP, F: +1 HP, RS: +3 HP, HS: +4 HP, CS: +6 HP
 
 *Depending on the level of success of the item's corresponding skill, the effect of the item may be increased or decreased.*
 
@@ -38,33 +66,22 @@ As you can see, there are also different item types, each with a specific purpos
 - Consumable: Are items that disappears after using. (Affects character stats and equipments)
 - Tool: Items that can be used multiple time. (**can be used on the environment**)
 - Key Item: Specifically for story purposes.
-- Equipment/Brawl: Gives the player character a brawl weapon to use against enemy
-- Equipment/Melee: Gives the player character a melee weapon to use against enemy
-- Equipment/Firearms: Gives the player character a firearm to use against enemy
+- Equipment/Weapon: Gives the player character a weapon to use against enemy
 - Equipment/Armor: Gives the player character armor for better survival
 
-```
-REVIEW:
-Maybe the equipment should seperate into "armor" and "weapon".
-```
 
 ### Consumable:
 
 Consumable items disappear from the player character's inventory after it's used. It is also important to note that consumable items can **alter** player stats **DURING** and **OUTSIDE** of battle. Meaning, a first aid kit can be used during combat, or after combat when they are relatively safer.
 
-```
-REVIEW:
-Cosumable items need amount 'limitation'.(or how much the items can stack?)
-```
+Consumable items can **stack**, and the max limit is **10**.
 
-### Tool:
+
+### Tools:
 
 Tools can only be used outside of battle, or, during **exploration**. As they are mainly designed to be used on the environment to invoke changes (e.g. light up a dark room with a flashlight).
 
-```
-REVIEW:
-Can tools be stackable?
-```
+Tools **cannot** stack.
 
 ### Key Items:
 
@@ -79,15 +96,9 @@ There are various types of equipments player's character can equip themselves wi
 - Brawl Weapons (e.g. brass knuckle)
 - Armor
 
-Each of these equipments will affect the player's stats in one form or another. Equipping a specific type of weapon, for example, a melee weapon (sword) will give the player the **option** to **use** melee during combat. The same goes for firearms. Each weapon and armor will have their own attack stats etc.
+Each of these equipments will affect the player's stats in one form or another. Equipping a specific type of weapon, for example, a melee weapon (sword) will give the player the **option** to **use** melee during combat. The same goes for firearms. Each weapon will have their own stats, and each armor their own armor point.
 
 *Note that the player can still choose to brawl if they wish to do so.*
-
-```
-REVIEW:
-Armor and weapon has different rules, eg: weapon add extra damage, and armor increase some stats of player.
-```
-
 
 ## Create your own Items
 

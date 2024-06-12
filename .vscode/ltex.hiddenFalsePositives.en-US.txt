@@ -1,3 +1,4 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q*A Hard MECH.REPAIR skill\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QA Hard MECH.REPAIR skill or Hard SPOT HIDDEN skill would allow the player to identify the cut brake wire.\\E$"}
 {"rule":"AGREEMENT_SENT_START","sentence":"^\\QConsumables\nTools\nKey Items\\E$"}
+{"rule":"CD_NN","sentence":"^\\Q1D10 6\n073 Flintlock A rare weapon from bygone times.\\E$"}
