@@ -3,23 +3,24 @@
 ## AI Dungeon
 Catelogue:
 - [In-Game Resources, Function and How to Get Them](#in-game-resources)
-        [Credits](#1-credits)
-        [Scales](#2-scales)
-        [Energy](#3-energy)
+1.  [Credits](#1-credits)
+2. [Scales](#2-scales)
+3. [Energy](#3-energy)
 
 - [Tiers of Memership](#tiers-of-membership)
-        [Text AI Model](#text-ai-model-difference)
-        [Image AI Model](#image-ai-model)
-        [Memory (paid service)](#memory)
-        [Monthly Credits](#monthly-credits)
-        [Membership Trial](#membership-trial)
+1.  [Text AI Model](#text-ai-model-difference)
+2. [Image AI Model](#image-ai-model)
+3. [Memory (paid service)](#memory)
+4. [Monthly Credits](#monthly-credits)
+5. [Membership Trial](#membership-trial)
 
 ### In-Game Resources 
 
 Mandy's point of view: unnecessary to have so many different resources while their functions are few. We can combine them into only one resource. 
 
 #### 1. Credits 
-[AI Dungeon 'Credit' Link](https://help.aidungeon.com/faq/what-are-image-credits)
+[AI Dungeon 'Credit' Link](https://help.aidungeon.com/faq/what-are-image-credits) <br>
+
 Function: 
 1. generate images  
 2. purchase [Scales](#2-scales)
@@ -33,16 +34,17 @@ How to get Credits:
 ![credit](credit-price.png)
 
 #### 2. Scales
-[Scales Link](https://help.aidungeon.com/faq/how-can-players-spend-scales)
+[Scales Link](https://help.aidungeon.com/faq/how-can-players-spend-scales) <br>
+
 Function: 
 1. Speed Boost Basic AI Models, including MythoMax, Tiefighter, Griffin (Deprecated), Stable Diffusion 1.5.
 2. Tip the creators you like.
 
 How to Get Scales: 
-1. Daily Rewards
+1. Daily Rewards <br>
 ![daily scales](scales-daily.png)
 
-2. use credits to purchse scales
+2. use credits to purchse scales <br>
 ![scales](purchase-scales.png)
 
 #### 3. Energy: 
