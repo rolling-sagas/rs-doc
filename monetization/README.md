@@ -5,9 +5,9 @@ These files shows a research on the monetization strategies of AI-assisted writi
 
 ## Research
 List (Click to find details): 
-- [AI Dungeon (mainly)](/rs-doc/monetization/ai-dungeon/ai-dungeon.md)
-- [NovelAI](/rs-doc/monetization/novelai/novelai.md)
-- [DreamGen](/rs-doc/monetization/dreamgen/dreamgen.md)
+- [AI Dungeon (mainly)](ai-dungeon/ai-dungeon.md)
+- [NovelAI](novelai/novelai.md)
+- [DreamGen](dreamgen/dreamgen.md)
 
 To sum up, main subscribed services of competitors are:
 1. access to more text and image AI models
