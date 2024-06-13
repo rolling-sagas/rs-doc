@@ -182,8 +182,6 @@ I have modified the way player characters take/receive damage so it better fits 
     id5[First Aid: Recover 4 HP]
     id6[Medicine: Recover 1D10 HP]
 
-
-
     id1-->id2
     id2-->id2a
     id1-->id3
