@@ -63,7 +63,7 @@ Key Items **cannot** stack.
 
 ## Equipment
 
-There will be a left hand (LH), right hand (R), and also centerpiece (CP). These are all slots that player character can equipment melee weapons, firearms, and armor.
+There will be a left hand (LH), right hand (R), and also centerpiece (CP). These are all slots that player character can equipment melee weapons, firearms, and armor. Along with a smaller box to store equipment specific items.
 
 - If any melee or firearms are equipped, it would directly influence the **attack options** of the character.
 
