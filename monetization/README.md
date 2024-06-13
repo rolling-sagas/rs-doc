@@ -72,12 +72,28 @@ Considering RS provides both gameplay and writing experiences, RS membership can
 | Tier       | Monthly Price          | Features                                            |
 |------------|----------------|----------------------------------------------------|
 | Free       | 0              | - 50 free credits for visitors. Extra 50 credits if visitors register accounts. Daily login 10 credits. <br> - Access to GPT 4o and image generator<br> - Writers can create 10 Chapters at most, 10 turns and 10 rules at most per chapter.   |
-| Standard       | $10            | - 700 credits per month. Daily login 20 credits. <br> - Access to GPT 4o and image generator<br> - Writers can create 15 Chapters at most, 12 turns and 15 rules at most per chapter.<br>- Writers have access to custom enemies and items.<br> - Players can have extra level up points for characters.<br> - Players have access to custom weapons and items they want to take.|
-| Pro       | $15            | - 1000 credits per month. Daily login 20 credits. <br> - Access to GPT 4o and image generator<br> - Writers can create 18 Chapters at most, 16 turns and 18 rules at most per chapter.<br> - Writers have access to custom enemies and items.<br> - Players can have extra level up points for characters.<br> - Players have access to custom weapons and items they want to take.|
+| Standard       | $10            | - 700 credits per month. Daily login 20 credits. <br> - Access to GPT 4o and image generator<br> - Writers can create 15 Chapters at most, 12 turns and 15 rules at most per chapter.<br>- Writers have access to custom enemies and items.<br> - Players can have extra* level up points for characters.<br> - Players have access to custom weapons and items they want to take.* <br> - Players have access to fancier dice.  |
+| Pro       | $15            | - 1000 credits per month. Daily login 20 credits. <br> - Access to GPT 4o and image generator<br> - Writers can create 18 Chapters at most, 16 turns and 18 rules at most per chapter.<br> - Writers have access to custom enemies and items.<br> - Players can have extra* level up points for characters.<br> - Players have access to custom weapons and items they want to take.* <br> - Players have access to fancier dice.|
+
+*Amount to be discussed.
 
 #### Discount
 Users who subscribe 6 month altogether can have a 10% discount. 12 month altogether have 15% discount. 
 
-#### Membership Trial
+#### Membership Trial   
 A one-week trial is offered. If user cancels during the trial period, the premium benefits will end at once.
 
+#### Achievements
+*Not going to dig into this part for now, just to write down some ideas for future design.*
+
+First day playing 30 minute, for example, 30 credits.
+Play 10 hours in total
+
+Finish 1 story 
+Finish 5 stories
+
+Create 1 story
+
+Beat XX Enemies
+
+Share with Friends

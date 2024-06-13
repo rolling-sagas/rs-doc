@@ -19,5 +19,5 @@ Anlas: NovelAI's in-game resource, used for generating image(1 image cost 20 Anl
 
 Anlas can be obtained by subscription or users can purchase Anlas alone. 
 
-![anlas](/rs-doc/monetization/novelai/anlas.png)
+![anlas](anlas.png)
 

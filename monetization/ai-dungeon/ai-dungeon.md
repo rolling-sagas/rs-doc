@@ -30,7 +30,7 @@ How to get Credits:
 1. Membership gives [monthly credits](#monthly-credits). 
 2. Users can purchase credits alone. See prices below. 
 
-![credit](/rs-doc/monetization/ai-dungeon/credit-price.png)
+![credit](credit-price.png)
 
 #### 2. Scales
 [Scales Link](https://help.aidungeon.com/faq/how-can-players-spend-scales)
@@ -40,23 +40,23 @@ Function:
 
 How to Get Scales: 
 1. Daily Rewards
-![daily scales](/rs-doc/monetization/ai-dungeon/scales-daily.png)
+![daily scales](scales-daily.png)
 
 2. use credits to purchse scales
-![scales](/rs-doc/monetization/ai-dungeon/purchase-scales.png)
+![scales](purchase-scales.png)
 
 #### 3. Energy: 
 Function: Energy is now used for free users to enjoy free actions for the Paid Model Mixtral. 
 
 **Free models like MythoMax and Tiefighter have no limit, thus no energy button is shown when choosing free models. Paid users have unlimited use of models, thus no energy concept for paid users either.*
 
-![energy](/rs-doc/monetization/ai-dungeon/energy-cost.png)
+![energy](energy-cost.png)
 
 How to Get: It started at 100 and once it reaches below 20, it will recharge to a max of 20 each day. 
 
 **The recovery time varies. It recovers more quickly for new players. 8 hours-20 hours.*  
 
-![energy recover](/rs-doc/monetization/ai-dungeon/energy-recover.png)
+![energy recover](energy-recover.png)
 
 ### Tiers of membership
 Short conclusion - main advantages for paid memebers:
@@ -66,7 +66,7 @@ Short conclusion - main advantages for paid memebers:
 
 AI Dungeon's membership seems to focus on how to making stories more cohesive, rather than the use limit of AI actions. Free users now can also have unlimited access to AI actions as long as they use basic models. And according to their website, they hope to make premium only features available to all players in the future.
 
-![hope](/rs-doc/monetization/ai-dungeon/hope.png)
+![hope](hope.png)
 
 #### Text AI Model Difference
 
@@ -76,7 +76,7 @@ Core Difference：
 
 [Click to see AI Dungeon Models introductions](https://help.aidungeon.com/faq/what-are-the-different-ai-language-models)
 
-![model](/rs-doc/monetization/ai-dungeon/models.png)
+![model](models.png)
 
 
 #### Image AI Model
@@ -84,7 +84,7 @@ Core Difference:
 1. access to more AI models, response time and steps are different.
 2. different credits cost 
 
-![image](/rs-doc/monetization/ai-dungeon/images.png)
+![image](images.png)
 
 | **TIER**       | **STABLE DIFFUSION** | **STABLE DIFFUSION XL** | **DALLE-3** | **DALLE-3 HD** |
 |----------------|-----------------------|-------------------------|-------------|----------------|
@@ -110,14 +110,14 @@ Once Story Summary get long enough, AI Dungeon will re-summarize and compresses 
 This auto summarization is now accessible to **premium users only**. Creator can also write story summary manually.
 
 In the Content Viewer, users can check the memories.
-![memory bank](/rs-doc/monetization/ai-dungeon/memory-system.jpg)
+![memory bank](memory-system.jpg)
 
 ##### Memory Bank (updated in Apr, 2024, exprimental)
 Memory Bank dynamically stores and retrieves relevant key information from player's adventure in order to improve the AI's ability to recall important story details. 
 It's using an embedding model to rank all of player's memories by relevance to your current story. 
 
 AI Dungeon takes the most relevant memories and send them to AI. Used memories can be viewed in the Content Viewer.
-![memory bank](/rs-doc/monetization/ai-dungeon/memory-bank.jpg)
+![memory bank](memory-bank.jpg)
 
 Capacity of Memory Bank varies depending on your memebership tiers.
 | Membership Tier | Memory Bank |

@@ -7,13 +7,13 @@ Their in-game resource is Credit only. Subscription is bascially having **more c
 Credit Monthly limits 100. Daily extra 15 credits.
 
 **Credits for Paid Users**
-![subscription plans](/rs-doc/monetization/dreamgen/subscription.png)
+![subscription plans](subscription.png)
 
 They have a credit calculator and credit usage breakdown to help users carefully manage credits. 
-![model credits](/rs-doc/monetization/dreamgen/credit-cost.png)
+![model credits](credit-cost.png)
 
-![usage-of-credit](/rs-doc/monetization/dreamgen/breakdown-credit.png)
+![usage-of-credit](breakdown-credit.png)
 
 **Token Difference**
 Token limit differs depending on users' level and model users use.
-![token](/rs-doc/monetization/dreamgen/token.png)
+![token](token.png)
