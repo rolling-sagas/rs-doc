@@ -1,4 +1,0 @@
-{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Q*A Hard MECH.REPAIR skill\\E$"}
-{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QA Hard MECH.REPAIR skill or Hard SPOT HIDDEN skill would allow the player to identify the cut brake wire.\\E$"}
-{"rule":"AGREEMENT_SENT_START","sentence":"^\\QConsumables\nTools\nKey Items\\E$"}
-{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QIf your characters' sanity points drop to 1/5 of your maximum, then the character will inherit a BOUT OF MADNESS.\\E$"}
