@@ -10,7 +10,7 @@ Martin is standing on the edge of an ancient temple built underneath a cliff. Th
 
 When he turns around to leave the temple through an arched doorway, he can hear murmurs and whispers of cries for mercy emanating from the sickening mess of bodily shaped corals hindering his path. Though he was careful and gentle with his maneuvers, he felt a firm tug around his ankle while he leaped over a coral, tripping him as his body weight shifted to the other foot. As Martin crashes against the abrasive coral, the shattered coral tore through his skin, leaving deep gashes on his arms and legs. Blood flowed profusely from his arm, but Martin quickly bound the gaping wound with a piece of cloth stuffed in his back pocket. He glanced back at the coral, hoping to identify what had made him fall, but the coral’s bodily shape induced an intense primordial fear within Martin, compelling him to look away.
 
-He made his way through the sculpted arched doorway, which has Roman numerals etched over (knowledge roll), which spelled out the number “7”. Martin wonders, is this the seventh time I have been here? Regardless, he continues onwards to a stairway which leads him up and out of the temple, to a field filled with white flowers (natural world rolls here to learn that they are “lilies”). Amidst the field of white stood a slim feminine figure in black, who appears to be collecting the flowers. Martin quickly made his way towards her in hopes of acquiring some answers. Yet before he could speak, the lady greets him.
+He made his way through the sculpted arched doorway, which has Roman numerals etched over (knowledge roll), which spelled out the number “7”. Martin wonders, is this the seventh time I have been here? Regardless, he continues onwards to a stairway which leads him up and out of the temple, to a field filled with white flowers (natural world rolls here to learn that they are “lilies”). Amidst the field of white stood a slim feminine figure in black, her face veiled by her hood, appears to be collecting the flowers. Martin quickly made his way towards her in hopes of acquiring some answers. Yet before he could speak, the lady greets him.
 
 “Welcome back traveler, it’s nice to see you again. The children have missed you dearly.”
 
@@ -37,3 +37,40 @@ As he arrives at the beach, Martin realizes what he thought to be children sitti
 ## Part 3
 
 The wave beats against the shore, the sound of the crashing waves muffles the sobbing cries of the prostrating man and woman. 
+
+*If the player talks to the man and woman, then they will say "That monster... drowned them..."*
+
+Amongst them stood the same lady in black garments from before, her features still hidden behind the hood, yet Martin could sense her watching the boundless horizon.
+
+*If the player approaches her, she will say, "They have left now, sailing, to somewhere far, far away. Do wave them goodbye."*
+
+As she waves, you noticed that there's no one out there. Prompting you to question, "I thought they were waiting for me?"
+
+"They are."
+
+She grabs a thick mossy rope form the damp sands below and hands it towards Martin.
+
+"Now pull."
+
+*The player has the choice follow her instructions or ignore them.*
+- *If ignored, she will pull the rope.*
+
+*Either way, disgusting monster of some sort emerges from the crimson sea and attacks the player.*
+
+Martin fought hard against the monster, ultimately surviving the battle. In its final moments, the monster, spoke his last words, "How can you do this again? Have you no remorse?"
+
+## Part 4
+
+The woman in black garments is again nowhere to be found. Instead, a rag doll is found in the place of the woman in black. 
+
+*Player can choose to examine or ignore the rag doll*
+- *If examined, the rag doll will speak to the player, "..."* (Sanity Check)
+<!-- Need to insert what it says above. -->
+
+
+Martin then hears a bell toll radiating from the nearby village, as if it was beckoning him towards it. 
+
+
+It was during this time when a large bell started ringing from the nearby village.
+
+
