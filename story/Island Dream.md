@@ -68,9 +68,33 @@ The woman in black garments is again nowhere to be found. Instead, a rag doll is
 <!-- Need to insert what it says above. -->
 
 
-Martin then hears a bell toll radiating from the nearby village, as if it was beckoning him towards it. 
+Martin then hears a bell toll radiating from the nearby village, as if it was beckoning him towards it. As he makes his way towards the village, the doll began to speak.
+
+"I would refrain from moving towards that bell toll if I were you, no matter how sweet and melodic it is, it is not worth it."
+
+"Last person who didn't heed my warning never returned. Curiosity got the better of him, and nothing could bring him back."
+
+"Such fragility."
+
+*Player can choose to heed the doll's warning or ignore.*
+- If the player heeds its warning, then the doll will suggest you to visit the orphanage instead.
+- If the player doesn't heed its warning, then they go straight to the church.
+
+## Part 5a (E.O.D)
 
 
-It was during this time when a large bell started ringing from the nearby village.
+
+
+
+
+
+
+
+
+
+## Part 5b (Orphanage)
+
+
+
 
 
