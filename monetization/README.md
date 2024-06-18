@@ -1,21 +1,21 @@
 # Monetization Strategy 
 
 ## Overview
-These files shows a research on the monetization strategies of AI-assisted writing platforms, and RS' monetization stragey which refers to those existing platforms.
+These files shows a research on the monetization strategies of AI-assisted story creation platforms, and RS' monetization stragey which refers to those existing platforms.
 
 ## Research
-List (Click to find details): 
+**AI Story Creation Platforms (Click to find details):**
 - [AI Dungeon (mainly)](ai-dungeon/ai-dungeon.md)
 - [NovelAI](novelai/novelai.md)
 - [DreamGen](dreamgen/dreamgen.md)
 
-To sum up, main subscribed services of competitors are:
+To sum up, main subscribed services of them are:
 1. access to more text and image AI models
 2. longer token length
 3. more AI generation uses
-4. more advanced memory functions (AI Dungeon tobe specific)
+4. more advanced memory functions (AI Dungeon to be specific)
 
-But the exact ways how they provide these services are different. I left comments below.
+But how they provide these services are different. I left comments below.
 
 | Product      | Subscription Tier | Monthly Price | Features                                                                                         | Comments                                  |
 |--------------|-------------------|---------------|-------------------------------------------------------------------------------------------------|-------------------------------------------|
@@ -33,6 +33,44 @@ But the exact ways how they provide these services are different. I left comment
 |              | Advanced         | $19.35        | -1500 credits limit per month<br> - 50 extra daily credits<br> - 8000 tokens context limit                  |           |
 |              | Pro              | $48.30        | -3500 credits limit per month<br> - 100 extra daily credits<br> - 12000 tokens context limit                | |
 
+
+**Other AI products:**
+- [Suno](https://suno.com/account)
+
+| Plan       | Price        | AI Credits | Usage Type       | Generation Queue | Running Jobs | Features                                                                                       |
+|------------|--------------|------------|------------------|------------------|--------------|------------------------------------------------------------------------------------------------|
+| Free       | $0           | 50/day     | Non-Commercial   | Shared           | 2 at once    | Basic AI interaction, unlimited games, multiplayer access, 1 AI opponent level, access to strategies|
+| Pro        | $8/month     | 2.5k/month | General Commercial | Priority         | 10 at once   | Enhanced AI interaction, ad-free experience, 3 AI opponent levels                                 |
+| Premier    | $24/year     | 10k/month  | General Commercial | Priority         | 10 at once   | Premium AI engagement, priority support, exclusive avatars, custom game rules, highest priority generations |
+
+- [Midjourney](https://docs.midjourney.com/docs/plans)
+
+| Feature                           | Basic Plan    | Standard Plan   | Pro Plan       | Mega Plan      |
+|-----------------------------------|---------------|-----------------|----------------|----------------|
+| Monthly Subscription Cost         | $10           | $30             | $60            | $120           |
+| Annual Subscription Cost          | $96 ($8/month)| $288 ($24/month)| $576 ($48/month)| $1152 ($96/month) |
+| Fast GPU Time                     | 3.3 hr/month  | 15 hr/month     | 30 hr/month    | 60 hr/month    |
+| Relax GPU Time                    | -             | Unlimited       | Unlimited      | Unlimited      |
+| Purchase Extra GPU Time           | $4/hr         | $4/hr           | $4/hr          | $4/hr          |
+| Work Solo In Your Direct Messages | ✓             | ✓               | ✓              | ✓              |
+| Stealth Mode                      | -             | -               | ✓              | ✓              |
+| Maximum Concurrent Jobs           | 3 Jobs        | 3 Jobs          | 12 Fast Jobs   | 12 Fast Jobs   |
+|                                   | 10 Jobs queue | 10 Jobs queue   | 3 Relaxed Jobs | 3 Relaxed Jobs |
+|                                   |               |                 | 10 Jobs queue  | 10 Jobs queue  |
+| Rate Images to Earn Free GPU Time | ✓             | ✓               | ✓              | ✓              |
+| Usage Rights                      | General Commercial Terms* | General Commercial Terms* | General Commercial Terms* | General Commercial Terms* |
+
+
+- [Luma](https://lumalabs.ai/dream-machine/account)
+
+| Plan      | Price*    | Generations per Month            | Priority Generations    | Commercial Use      | Remove Watermark   |
+|-----------|----------|----------------------------------|-------------------------|---------------------|--------------------|
+| Free      | Free     | 30 generations per month         | -                       | No                  | No                 |
+| Standard  | $29.99   | 120 (+30) generations per month  | High priority           | Yes                 | Yes                |
+| Pro       | $99.99   | 400 (+30) generations per month  | Highest priority        | Yes                 | Yes                |
+| Premier   | $499.99  | 2,000 (+30) generations per month| Highest priority        | Yes                 | Yes                |
+
+Yearly subscription all get 20% off discount.
 
 ## RS Monetization Plan
 Since RS is at the beginning stage, let's make it simple and straightforward.
@@ -83,17 +121,17 @@ Users who subscribe 6 month altogether can have a 10% discount. 12 month altoget
 #### Membership Trial   
 A one-week trial is offered. If user cancels during the trial period, the premium benefits will end at once.
 
-#### Achievements
+#### Achievements & Rewards
 *Not going to dig into this part for now, just to write down some ideas for future design.*
 
-First day playing 30 minute, for example, 30 credits.
-Play 10 hours in total
+- First day playing 30 minute, for example, 30 credits.
+- Play 10 hours in total
 
-Finish 1 story 
-Finish 5 stories
+- Finish 1 story 
+- Finish 5 stories
 
-Create 1 story
+- Create 1 story
 
-Beat XX Enemies
+- Invite friends. After they sign up, both you and your referrals will receive 50 credits. 
 
-Share with Friends
+- Beat XX Enemies
