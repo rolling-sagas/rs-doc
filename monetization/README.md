@@ -109,17 +109,67 @@ Considering RS provides both gameplay and writing experiences, RS membership can
 
 | Tier       | Monthly Price          | Features                                            |
 |------------|----------------|----------------------------------------------------|
-| Free       | 0              | - 50 free credits for visitors. Extra 50 credits if visitors register accounts. Daily login 10 credits. <br> - Access to GPT 4o and image generator<br> - Writers can create 10 Chapters at most, 10 turns and 10 rules at most per chapter.   |
-| Standard       | $10            | - 700 credits per month. Daily login 20 credits. <br> - Access to GPT 4o and image generator<br> - Writers can create 15 Chapters at most, 12 turns and 15 rules at most per chapter.<br>- Writers have access to custom enemies and items.<br> - Players can have extra* level up points for characters.<br> - Players have access to custom weapons and items they want to take.* <br> - Players have access to fancier dice.  |
-| Pro       | $15            | - 1000 credits per month. Daily login 20 credits. <br> - Access to GPT 4o and image generator<br> - Writers can create 18 Chapters at most, 16 turns and 18 rules at most per chapter.<br> - Writers have access to custom enemies and items.<br> - Players can have extra* level up points for characters.<br> - Players have access to custom weapons and items they want to take.* <br> - Players have access to fancier dice.|
+| Free       | 0              | - 50 free credits for visitors. Extra 50 credits if visitors register accounts. Daily login 10 credits. <br> - Access to GPT 4o and image generator (generate avatar, background image) <br> ~~- Writers can create 10 Chapters at most, 10 turns and 10 rules at most per chapter.~~   |
+| Standard       | $10            | - 700 credits per month. Daily login 20 credits. <br> - Access to GPT 4o and image generator (generate avatar, background image)<br> ~~- Writers can create 15 Chapters at most, 12 turns and 15 rules at most per chapter.~~<br>- Writers have access to AI generated initial message, chapter rules(skill checks, chapter gending). <br>- Writers have access to create own enemies and items (free accounts can only use templates).<br>  ~~- Players can have extra* level up points for characters. <br> - Players have access to custom weapons and items they want to take.*~~ <br> - Players have access to premium occupations.* <br> - Players have access to fancier dice. <br> - Ads free. |
+| Pro       | $15            | ~~- 1000 credits per month. Daily login 20 credits.~~ Unlimited credits. <br> - Access to GPT 4o and image generator (generate avatar, background image)<br> ~~- Writers can create 18 Chapters at most, 16 turns and 18 rules at most per chapter.~~<br>- Writers have access to AI generated initial message, chapter rules(skill checks, chapter gending). <br> - Writers have access to create own enemies and items (free accounts can only use templates). <br> ~~- Players can have extra* level up points for characters. <br>- Players have access to custom weapons and items they want to take.* <br>~~ - Players have access to premium occupations.* <br> - Players have access to fancier dice. <br> - Ads free.|
 
-*Amount to be discussed.
+*To be discussed.
 
 #### Discount
 Users who subscribe 6 month altogether can have a 10% discount. 12 month altogether have 15% discount. 
 
 #### Membership Trial   
 A one-week trial is offered. If user cancels during the trial period, the premium benefits will end at once.
+
+#### Membership Exposure
+**主动露出 Active:**
+##### 1. Home page
+
+Position: at the buttom left, similar to ChatGPT
+After user click, directly jump to the monetization webpage.
+![home](rs-monetization/home-page.png)
+
+##### 2. Daily Login rewards
+Free vs VIP
+Daily login will pop up the first time user opens the home page every day. Pro users don't have the pop up cuz they already have unlimited credits. 
+![login](rs-monetization/login.jpg)
+
+
+**被动触发 Passive:**
+##### 1. Player runs out of credit while playing in the story
+
+Every time AI generates new content (which is when player make a choice, do a skill check, or player regenerate), cost 1 Credit. 
+Position: When player runs out of credit while playing, a window pops up, telling 'You've run out of credits. Upgrade to a Premium account and continue your journey!' A button 'Upgrade to Premium' at the bottom. 
+After user click, directly jump to the monetization webpage.
+
+![out-of-credit](rs-monetization/out-of-credit.png)
+
+##### 2. Besides remaining credits 
+Position: wherever user can check their remaining credits, e.g. profile page. Besides the remaining credits, there's a 'Unlock unlimited credits' button. After user click, directly jump to the monetization webpage.
+
+
+##### 3. Ads free
+If user click to close the image ads or turn off the video ads, jump to the monetization page. It depends on if it's image ad or video ad.
+
+According to our subscription, membership will also appear where subscribed service are provided: 
+##### 4. Creator editing chapter page  
+
+Have an AI generate button/column besides the initial message. The button has a premium logo on it to let users know it's a paid function. After user click, directly jump to the monetization webpage.
+
+![initial-message](rs-monetization/initial=message.png)
+
+![ai-generate](rs-monetization/ai-generate.png)
+
+Besides the chapter rule, there's a button 'Add some skill check by AI'. If user click on, directly jump to the monetization webpage.
+
+![skillcheck](rs-monetization/skillcheck.png)
+
+##### 5. Play mode, select characters. Premium occupations, with a premium logo on it. Player can click to see the occupation, but if player clicks the 'Start' game, jump to the monetization page.
+![premium-occupation](rs-monetization/premium-occupation.png)
+
+##### 6. Fancier Dice
+On the playing story page, together with the check occupation button, share my adventure button, there's a 'dice' button. Some dice are free, but some are premium.   
+![dice](rs-monetization/dice.png)
 
 #### Achievements & Rewards
 *Not going to dig into this part for now, just to write down some ideas for future design.*
