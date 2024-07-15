@@ -78,13 +78,16 @@ Since RS is at the beginning stage, let's make it simple and straightforward.
  To simplify, we only have one in-game resource called **Credit**. 
  
  It is consumed in:
-- text generation. Every time GPT generate, which is when user make a choice, do a skill check, or regenerate, cost 1 Credit.  
-- image generations (avatar, background image). Cost 2 credits per time.
+- text generation. Every time GPT generate new content(**cache will NOT cost credit**), which is when user make a choice, do a skill check, or regenerate, cost 1 Credit. 
+
+**Error will NOT cost credit (use programme to detect). Players can report bugs if the detection has error.**
+
+- image generations (avatar, background image). Cost 2 credits per time. Video generation, 5 credits.
 ~~- users roll a dice to determine their character stats or descriptions. Every time users rolling a dice cost 1 Credit.~~
 - tip the creator you like. Users can select how much credits they want to tip. Creator can gain the credits for their own use. 
 
 How to Get it:
-- Subscribors will receive their credits at the beginning of every month. 
+- VIP users will receive their credits at the beginning of every month. 
 - Daily Login. 10 credits for free users. Double credits for subscribers.
 ~~- Users can purchase additional credits.~~ (Not now)
 
@@ -114,6 +117,12 @@ Considering RS provides both gameplay and writing experiences, RS membership can
 | Pro       | $15            | ~~- 1000 credits per month. Daily login 20 credits.~~ Unlimited credits. <br> - Access to GPT 4o and image generator (generate avatar, background image)<br> ~~- Writers can create 18 Chapters at most, 16 turns and 18 rules at most per chapter.~~<br>- Writers have access to AI generated initial message, chapter rules(skill checks, chapter gending). <br> - Writers have access to create own enemies and items (free accounts can only use templates). <br> ~~- Players can have extra* level up points for characters. <br>- Players have access to custom weapons and items they want to take.* <br>~~ - Players have access to premium occupations.* <br> - Players have access to fancier dice. <br> - Ads free.|
 
 *To be discussed.
+
+**Every user can use AI to generate initial messages and chapter rules, cost 5 credits.**
+**Every user can let AI generate skill checks for them.**
+**Every user can create new boss, stats**
+**Every user can custom their own character (for now).**
+为角色付费 
 
 #### Discount
 Users who subscribe 6 month altogether can have a 10% discount. 12 month altogether have 15% discount. 
