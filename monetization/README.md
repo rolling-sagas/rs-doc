@@ -77,16 +77,16 @@ Since RS is at the beginning stage, let's make it simple and straightforward.
 ### In-Game Reource
  To simplify, we only have one in-game resource called **Credit**. 
  
- It has several uses:
-- text generation uses, or AI actions. Every time user make a choice, do a skill check, or retry cost 1 Credit. 
-- image generations. Cost 5 credits per time.
-- users roll a dice to determine their character stats or descriptions. Every time users rolling a dice cost 1 Credit.
+ It is consumed in:
+- text generation. Every time GPT generate, which is when user make a choice, do a skill check, or regenerate, cost 1 Credit.  
+- image generations (avatar, background image). Cost 2 credits per time.
+~~- users roll a dice to determine their character stats or descriptions. Every time users rolling a dice cost 1 Credit.~~
 - tip the creator you like. Users can select how much credits they want to tip. Creator can gain the credits for their own use. 
 
 How to Get it:
-- Subscribors will receive their credits at the beginning of every month, 
+- Subscribors will receive their credits at the beginning of every month. 
 - Daily Login. 10 credits for free users. Double credits for subscribers.
-- Users can purchase additional credits.
+~~- Users can purchase additional credits.~~ (Not now)
 
 In AI Dungeon, 1 Credit cost 0.0125 dollars. One image cost 1 credit.
 In NovelAI, 1 Anlas cost 0.0024 dollars, but one image cost 20 anlas. same value equals to 0.048 dollars.
