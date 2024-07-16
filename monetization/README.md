@@ -75,19 +75,19 @@ Yearly subscription all get 20% off discount.
 ## RS Monetization Plan
 Since RS is at the beginning stage, let's make it simple and straightforward.
 ### In-Game Reource
- To simplify, we only have one in-game resource called **Credit**. 
- 
- It is consumed in:
+To simplify, we only have one in-game resource called **Credit**. 
+
+It is consumed in:
 - text generation. Every time GPT generate new content(**cache will NOT cost credit**), which is when user make a choice, do a skill check, or regenerate, cost 1 Credit. 
 
-**Error will NOT cost credit (use programme to detect). Players can report bugs if the detection has error.**
+**Error will NOT cost credit (use programme to detect). Players can report bugs if the detection itself has error.**
 
 - image generations (avatar, background image). Cost 2 credits per time. Video generation, 5 credits.
 ~~- users roll a dice to determine their character stats or descriptions. Every time users rolling a dice cost 1 Credit.~~
 - tip the creator you like. Users can select how much credits they want to tip. Creator can gain the credits for their own use. 
 
 How to Get it:
-- VIP users will receive their credits at the beginning of every month. 
+- VIP users will receive their credits at the beginning of every month. 1st of every month.
 - Daily Login. 10 credits for free users. Double credits for subscribers.
 ~~- Users can purchase additional credits.~~ (Not now)
 
@@ -108,21 +108,17 @@ Since our Credit has more uses than AI Dungeon, I think we can set higher prices
 
 ### Membership
 
-Considering RS provides both gameplay and writing experiences, RS membership can offer advanced gameplay experience and writing experience aside from more credits.
+#### Full pricing plan (discussed with Aspirin on Jul 15th)
 
 | Tier       | Monthly Price          | Features                                            |
 |------------|----------------|----------------------------------------------------|
-| Free       | 0              | - 50 free credits for visitors. Extra 50 credits if visitors register accounts. Daily login 10 credits. <br> - Access to GPT 4o and image generator (generate avatar, background image) <br> ~~- Writers can create 10 Chapters at most, 10 turns and 10 rules at most per chapter.~~   |
-| Standard       | $10            | - 700 credits per month. Daily login 20 credits. <br> - Access to GPT 4o and image generator (generate avatar, background image)<br> ~~- Writers can create 15 Chapters at most, 12 turns and 15 rules at most per chapter.~~<br>- Writers have access to AI generated initial message, chapter rules(skill checks, chapter gending). <br>- Writers have access to create own enemies and items (free accounts can only use templates).<br>  ~~- Players can have extra* level up points for characters. <br> - Players have access to custom weapons and items they want to take.*~~ <br> - Players have access to premium occupations.* <br> - Players have access to fancier dice. <br> - Ads free. |
-| Pro       | $15            | ~~- 1000 credits per month. Daily login 20 credits.~~ Unlimited credits. <br> - Access to GPT 4o and image generator (generate avatar, background image)<br> ~~- Writers can create 18 Chapters at most, 16 turns and 18 rules at most per chapter.~~<br>- Writers have access to AI generated initial message, chapter rules(skill checks, chapter gending). <br> - Writers have access to create own enemies and items (free accounts can only use templates). <br> ~~- Players can have extra* level up points for characters. <br>- Players have access to custom weapons and items they want to take.* <br>~~ - Players have access to premium occupations.* <br> - Players have access to fancier dice. <br> - Ads free.|
+| Free       | 0              | - 50 free credits for visitors. Extra 50 credits if visitors register accounts. Daily login 10 credits. <br> - Access to GPT 4o, image and video generators <br> - AI assisted game writing <br>~~- Writers can create 10 Chapters at most, 10 turns and 10 rules at most per chapter.~~   |
+| Standard       | $10            | - 700 credits per month. Daily login 20 credits. <br> - Access to GPT 4o, image and video generators <br> - AI assisted game writing <br>~~- Writers can create 15 Chapters at most, 12 turns and 15 rules at most per chapter.~~<br>~~- Writers have access to AI generated initial message, chapter rules(skill checks, chapter gending).~~ <br>~~- Writers have access to create own enemies and items (free accounts can only use templates).~~<br>  ~~- Players can have extra* level up points for characters. <br> - Players have access to custom weapons and items they want to take.*~~ <br> - Players have access to premium occupations.* <br> - Players have access to fancier dice. <br> - Ads free. |
+| Pro       | $15            | ~~- 1000 credits per month. Daily login 20 credits.~~ Unlimited credits. <br> - Access to GPT 4o, image and video generators <br> - AI assisted game writing <br> ~~- Writers can create 18 Chapters at most, 16 turns and 18 rules at most per chapter.~~~~<br>- Writers have access to AI generated initial message, chapter rules(skill checks, chapter gending). <br> - Writers have access to create own enemies and items (free accounts can only use templates). <br>~~ ~~- Players can have extra* level up points for characters. <br>- Players have access to custom weapons and items they want to take.* <br>~~ - Players have access to premium occupations.* <br> - Players have access to fancier dice. <br> - Ads free.|
 
-*To be discussed.
-
-**Every user can use AI to generate initial messages and chapter rules, cost 5 credits.**
-**Every user can let AI generate skill checks for them.**
-**Every user can create new boss, stats**
-**Every user can custom their own character (for now).**
-为角色付费 
+**AI assisted game writing: All users can use AI to generate initial messages, chapter rules, skill checks. Only need to spend credits, maybe cost 5 credits every time.**
+**All users can create new boss and custom their stats.**
+**All users can custom their own character while playing, but we'll provide some premium characters only accessible for VIPs. (wait for Aspirin's decision)**
 
 #### Discount
 Users who subscribe 6 month altogether can have a 10% discount. 12 month altogether have 15% discount. 
@@ -131,7 +127,6 @@ Users who subscribe 6 month altogether can have a 10% discount. 12 month altoget
 A one-week trial is offered. If user cancels during the trial period, the premium benefits will end at once.
 
 #### Membership Exposure
-**主动露出 Active:**
 ##### 1. Home page
 
 Position: at the buttom left, similar to ChatGPT
@@ -143,9 +138,7 @@ Free vs VIP
 Daily login will pop up the first time user opens the home page every day. Pro users don't have the pop up cuz they already have unlimited credits. 
 ![login](rs-monetization/login.jpg)
 
-
-**被动触发 Passive:**
-##### 1. Player runs out of credit while playing in the story
+##### 3. Player runs out of credit while playing in the story
 
 Every time AI generates new content (which is when player make a choice, do a skill check, or player regenerate), cost 1 Credit. 
 Position: When player runs out of credit while playing, a window pops up, telling 'You've run out of credits. Upgrade to a Premium account and continue your journey!' A button 'Upgrade to Premium' at the bottom. 
@@ -153,15 +146,14 @@ After user click, directly jump to the monetization webpage.
 
 ![out-of-credit](rs-monetization/out-of-credit.png)
 
-##### 2. Besides remaining credits 
+##### 4. Besides remaining credits 
 Position: wherever user can check their remaining credits, e.g. profile page. Besides the remaining credits, there's a 'Unlock unlimited credits' button. After user click, directly jump to the monetization webpage.
 
-
-##### 3. Ads free
+##### 5. Ads free
 If user click to close the image ads or turn off the video ads, jump to the monetization page. It depends on if it's image ad or video ad.
 
 According to our subscription, membership will also appear where subscribed service are provided: 
-##### 4. Creator editing chapter page  
+##### 6. Creator editing chapter page  
 
 Have an AI generate button/column besides the initial message. The button has a premium logo on it to let users know it's a paid function. After user click, directly jump to the monetization webpage.
 
@@ -173,12 +165,69 @@ Besides the chapter rule, there's a button 'Add some skill check by AI'. If user
 
 ![skillcheck](rs-monetization/skillcheck.png)
 
-##### 5. Play mode, select characters. Premium occupations, with a premium logo on it. Player can click to see the occupation, but if player clicks the 'Start' game, jump to the monetization page.
+##### 7. Play mode, select characters. Premium occupations, with a premium logo on it. Player can click to see the occupation, but if player clicks the 'Start' game, jump to the monetization page.
 ![premium-occupation](rs-monetization/premium-occupation.png)
 
-##### 6. Fancier Dice
+##### 8. Fancier Dice
 On the playing story page, together with the check occupation button, share my adventure button, there's a 'dice' button. Some dice are free, but some are premium.   
 ![dice](rs-monetization/dice.png)
+
+#### Current pricing plan (based on current features)
+
+##### Subscription page
+
+首先，subscription有一个单独的网页，会有多个入口链接到该网页。
+
+Subscription页面包含：
+1. Free, Standard, Pro 三种等级user的权益和定价
+2. 付费相关的FAQ
+
+| Free                                    | Standard                                      | Pro                                 |
+|-------------------------------------------------------------------------------------------|------------------------------------------------------------|-------------------------------------|
+| Free                                     | $10 per month                                              | $15 per month                       |
+| 50 free credits for casual browsers. Extra 50 credits for registered users. Daily login rewards 10 credits. | - 700 credits per month. Daily login rewards doubled.      | - Unlimited credits.                |
+| - Access to GPT-4o                                                 | - Access to GPT-4o                                        | - Access to GPT-4o                  |
+|                                                                                           | - Early access to new functions.                          | - Early access to new functions.    |
+
+基于现有产品，在full pricing plan上做了削减，现阶段三个等级主要还是在于credit数量的差别，后面等功能多了再加其他权益。
+
+样式参考下图，
+- 分成Free, Standard, Pro三列，每列包含Tier名称，价格和features（即上面图表里的信息），以及在价格下方，feature上方加button: Free 'Try now', Standard 'Upgrade to Standard', Pro 'Upgrade to Pro'。
+'Try now'点击后跳转到Home页面，如果是没有注册的用户，跳转到Home页面后，需要立即跳一个login页面引导ta注册。
+'Upgrade to Standard'和'Upgrade to Pro'跳转到支付页面，如果该user没有登录，需要先让ta登录页面。
+此外，在Pro列加类似参考图里的Recommended边框，引导user选这个等级，文案使用'Best Value'。
+
+- 像参考图一样分成Yearly和Monthly，打开Subscription网页时默认在Yearly（因为希望user选yearly）。Yearly即一次性买12个月，有85折优惠，做成原价划掉打折的效果，Standard 原价$120 Yearly $102, Pro 原价$180 Yearly$153
+
+![home](rs-monetization/yearly.png)
+
+
+由于现阶段只是credit数量的差别，不涉及功能上的区别，所以不设置one-week free trial
+
+
+Frequently Asked Questions
+Subscription页面底部放关于订阅的FAQ，样式参考下图，每个question旁边有个按钮，点击可看到answer，不用跳转至新网页https://mobbin.com/pricing
+
+![home](rs-monetization/pay_faq.png)
+
+目前的FAQ：
+- What is Credit used for?
+Credit is used for GPT 4o to generate new content. When player makes a choice, does a skill check and regenerates, as long as content has not been generated by others, that will cost 1 credit.  
+
+- When will I receive my monthly credits for the Standard plan?
+Credits for the Standard plan are added at the start of each billing cycle. You will receive 700 credits on the first day of each month.
+
+- How do I switch from Standard tier to Pro tier?
+
+
+- Can I transfer my credits to others?
+No, credits cannot be transferred to other users. Credits are tied to your account and are non-transferable. 
+
+- What's your refund policy?
+
+##### Ways to enter subscription page 
+[Check here](#membership-exposure)
+先做1-4: Home Page, daily login rewards, 游玩过程中credit花完，和profile查看credit余额这4种情况  
 
 #### Achievements & Rewards
 *Not going to dig into this part for now, just to write down some ideas for future design.*
