@@ -136,6 +136,7 @@ After user click, directly jump to the monetization webpage.
 ##### 2. Daily Login rewards
 Free vs VIP
 Daily login will pop up the first time user opens the home page every day. Pro users don't have the pop up cuz they already have unlimited credits. 
+Daily login rewards last 14 days. Day 1 10 credits, Day 2 12 credits,... 
 
 ![login](rs-monetization/login.jpg)
 
@@ -185,9 +186,9 @@ Subscription Page包含：Free, Standard, Pro 三种等级user的权益和定价
 | Free                                    | Standard                                      | Pro                                 |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------|-------------------------------------|
 | Free                                     | $10 per month                                              | $15 per month                       |
-| - 50 free credits for casual browsers. Extra 50 credits for registered users. Daily login rewards*. | - 700 credits per month. Daily login rewards double.      | - Unlimited credits.                |
-| - Access to GPT-4o                                                 | - Access to GPT-4o                                        | - Access to GPT-4o                  |
-|                                                                                           | - Early access to upcoming functions.                          | - Early access to upcoming functions.    |
+| - 50 free credits for casual browsers. Extra 50 credits for registered users. Daily rewards*. | - 700 credits per month. Daily rewards double.      | - Unlimited credits.                |
+| - Access to AI language model                                                 | - Access to AI language model                                        | - Access to AI language model                  |
+|                                                                                           | - Early access to upcoming functions                          | - Early access to upcoming functions    |
 
 
 基于现有产品，在full pricing plan上做了削减，现阶段三个等级主要还是在于credit数量的差别，后面等功能多了再加其他权益。
@@ -206,7 +207,6 @@ Subscription Page包含：Free, Standard, Pro 三种等级user的权益和定价
 
 *由于现阶段只是credit数量的差别，不涉及功能上的区别，所以不设置one-week free trial*
 
-
 **Frequently Asked Questions**<br>
 
 目前先在Subscription page下面放FAQ，以后guide齐全了，可以在这个page放链接跳转到guide中FAQ的地址，和ChatGPT一样。
@@ -217,10 +217,16 @@ Subscription Page包含：Free, Standard, Pro 三种等级user的权益和定价
 
 FAQ list：
 - What is Credit?<br>
-Credit is an in-game resource in Rolling Sagas used for generating new content with GPT-4o during gameplay. Each content generation costs 1 credit.
+Credit is an in-game resource in Rolling Sagas used for generating new text during gameplay. Each generation costs 1 credit.
 
 - When do I receive my Credits for a Subscription?<br>
-Credits are granted after successful payment of your chosen subscription. If you sign up for a 12-month plan, you will receive the entire allotment of credits at the beginning of your subscription, rather than on a monthly basis.
+Credits are granted after successful payment of your chosen subscription. 
+For 12-month pro users, your unlimited credit will take into effort immediately after successful payment, until it expires.
+For 12-month standard users, you'll receive 700 credits on the first day of each month. 
+
+
+
+If you sign up for a 12-month plan, you will receive the entire allotment of credits at the beginning of your subscription, rather than on a monthly basis.
 
 - Can I transfer my Credits to others?<br>
 Credits are tied to your account and are non-transferable.  
