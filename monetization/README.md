@@ -199,7 +199,7 @@ Subscription Page包含：Free, Standard, Pro 三种等级user的权益和定价
 - 在Pro列加类似参考图里的Recommended边框，引导user选这个等级，文案使用'Best Value'。
 
 - 像参考图一样分成Annually和Monthly，user可以点击查看年付和月付的价格，不过打开Subscription网页时默认在Annually（因为希望user选annually）。Annually即一次性买12个月，有85折优惠，做成原价划掉打折的效果，Standard 原价$120 Yearly $102, Pro 原价$180 Yearly$153
-![home](rs-monetization/yearly.png)
+![annually](rs-monetization/yearly.png)
 
 
 - standard和pro plan订阅后自动续订，在下一次扣款前3天提醒user
@@ -207,36 +207,36 @@ Subscription Page包含：Free, Standard, Pro 三种等级user的权益和定价
 *由于现阶段只是credit数量的差别，不涉及功能上的区别，所以不设置one-week free trial*
 
 
-**Frequently Asked Questions**
+**Frequently Asked Questions**<br>
+
 目前先在Subscription page下面放FAQ，以后guide齐全了，可以在这个page放链接跳转到guide中FAQ的地址，和ChatGPT一样。
 
 样式参考下图，每个question右侧有个按钮，点击直接可看到answer，不用跳转至新网页 https://mobbin.com/pricing
 
-![home](rs-monetization/pay_faq.png)
+![faq](rs-monetization/pay_faq.png)
 
 FAQ list：
-- What is Credit?
+- What is Credit?<br>
 Credit is an in-game resource in Rolling Sagas used for generating new content with GPT-4o during gameplay. Each content generation costs 1 credit.
 
-- When do I receive my Credits for a Subscription?
+- When do I receive my Credits for a Subscription?<br>
 Credits are granted after successful payment of your chosen subscription. If you sign up for a 12-month plan, you will receive the entire allotment of credits at the beginning of your subscription, rather than on a monthly basis.
 
-- Can I transfer my Credits to others?
+- Can I transfer my Credits to others?<br>
 Credits are tied to your account and are non-transferable.  
 
-- How do I switch from Standard tier to Pro tier?
+- How do I switch from Standard tier to Pro tier?<br>
 Simply upgrade your plan and complete the payment for the Pro plan. The Pro tier benefits will take effect immediately after the payment is processed.
 
-- How to cancel my subscription?
+- How to cancel my subscription?<br>
 Your subscription renews automatically based on the frequency specified on your subscription page (or monthly if not specified). To cancel, go to the subscription settings on your Profile page. Your cancellation will take effect at the end of the current subscription period.
 
-- How do I request a refund?
+- How do I request a refund?<br>
 Refunds are not available for monthly subscriptions. However, users who purchase a 12-month subscription can request a refund within 3 days of purchase. Please contact us at support@rollingsagas.com.
-
-自动续订和退款之后会正式做成policy放在guide网页，链接过去
 
 More questions? Contact us at support@rollingsagas.com
 
+PS. 自动续订和退款之后会正式做成policy放在guide网页，链接过去
 ##### Ways to enter subscription page 
 [Check here](#membership-exposure)
 先做1-4: Home Page, daily login rewards, 游玩过程中credit花完，和profile查看credit余额这4种情况  
