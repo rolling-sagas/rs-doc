@@ -149,7 +149,11 @@ After user click, directly jump to the monetization webpage.
 ![out-of-credit](rs-monetization/out-of-credit.png)
 
 ##### 4. Besides remaining credits 
-Position: wherever user can check their remaining credits, e.g. profile page. Besides the remaining credits, there's a 'Unlock unlimited credits' button. After user click, directly jump to the monetization webpage.
+Position: wherever user can check their remaining credits, e.g. profile page.
+
+在remaining credits下面放一个renew时间
+Your credits renew on XX date. 
+Need more credits? Upgrade your subscription! 连接到subscription页面
 
 ##### 5. Ads free
 If user click to close the image ads or turn off the video ads, jump to the monetization page. It depends on if it's image ad or video ad.
@@ -199,13 +203,18 @@ Subscription Page包含：Free, Standard, Pro 三种等级user的权益和定价
 'Upgrade to Standard'和'Upgrade to Pro'跳转到支付页面，如果该user没有注册或没有登录，需要先让TA login。
 - 在Pro列加类似参考图里的Recommended边框，引导user选这个等级，文案使用'Best Value'。
 
-- 像参考图一样分成Annually和Monthly，user可以点击查看年付和月付的价格，不过打开Subscription网页时默认在Annually（因为希望user选annually）。Annually即一次性买12个月，有85折优惠，做成原价划掉打折的效果，Standard 原价$120 Yearly $102, Pro 原价$180 Yearly$153
+- 像参考图一样分成Annually和Monthly，user可以切换查看年付和月付的价格。
+Annually即一次性买12个月，有8折优惠 Save 20%，做成图中原价划掉打折的效果，Standard $10 per month划掉变成$8, 下面小字 $96 billed annually，Pro $15 per month划掉变成$12，下面小字 $144 billed annually
+- 打开Subscription网页时默认在Annually, 希望user选annually
 ![annually](rs-monetization/yearly.png)
 
+By subscribing you agree to our Terms of Service（链接） and Privacy Policy（链接）.
 
 - standard和pro plan订阅后自动续订，在下一次扣款前3天提醒user
 
 *由于现阶段只是credit数量的差别，不涉及功能上的区别，所以不设置one-week free trial*
+
+
 
 **Frequently Asked Questions**<br>
 
@@ -221,18 +230,18 @@ Credit is an in-game resource in Rolling Sagas used for generating new text duri
 
 - When do I receive my Credits for a Subscription?<br>
 Credits are granted after successful payment of your chosen subscription. 
-For 12-month pro users, your unlimited credit will take into effort immediately after successful payment, until it expires.
-For 12-month standard users, you'll receive 700 credits on the first day of each month. 
 
+For annually purchase users, credits will be issused the day you purchase. 
 
-
-If you sign up for a 12-month plan, you will receive the entire allotment of credits at the beginning of your subscription, rather than on a monthly basis.
+Please note: credits will be reset every month. Credits included in subscriptions do not carry over from month to month.
 
 - Can I transfer my Credits to others?<br>
 Credits are tied to your account and are non-transferable.  
 
-- How do I switch from Standard tier to Pro tier?<br>
-Simply upgrade your plan and complete the payment for the Pro plan. The Pro tier benefits will take effect immediately after the payment is processed.
+- How do I switch from Standard tier to Pro tier before due date?<br>
+For monthly basis, the Pro benefits will take into effect immediately after your successful payment for the monthly pro plan. 
+
+For annually plan, Annually Standard Plan to Annually Pro Plan, 
 
 - How to cancel my subscription?<br>
 Your subscription renews automatically based on the frequency specified on your subscription page (or monthly if not specified). To cancel, go to the subscription settings on your Profile page. Your cancellation will take effect at the end of the current subscription period.
