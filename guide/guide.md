@@ -40,6 +40,8 @@
 ### Subscriptions plans
 #### Three tiers
 #### Switch plans
+refer to
+https://help.midjourney.com/en/articles/8150064-how-can-i-change-to-a-different-subscription-plan
 ### How do credits work?
 ### Billing
 #### payment method
