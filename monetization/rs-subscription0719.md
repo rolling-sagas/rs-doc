@@ -41,7 +41,7 @@ PS. 最好button上的文案能根据用户当前等级显示，上面是免费�
 
 ## Frequently Asked Questions
 
-目前先在Subscription tier下面放FAQ，以后guide网址上线了，可以在这个page放链接跳转到guide的地址，和ChatGPT一样。
+目前先在Subscription tier下面放FAQ，以后guide网页上线了，会放链接跳转到guide的地址，和ChatGPT一样。
 
 样式参考下图，每个question右侧有个按钮，点击直接可看到answer，不用跳转至新网页 https://mobbin.com/pricing
 
@@ -76,14 +76,16 @@ We'll have additional credit purchase soon.
 
 - Can I upgrade my plan?<br>
 
-You can upgrade your plan at any time, effective immediately by paying the difference. The next billing date will be the expiration date of the new plan.
+You can upgrade your plan at any time, effective immediately by paying the difference. The next billing date will be based on the expiration date of the new plan.
 
-For example, Tom bought an annual Standard plan on July 17th, 2024 for 96usd and received 700 credits. On July 30th, Tom runs out of credits and decides to upgrade to an annual Pro plan. Tom only needs to pay the difference of 56usd (annual Standard plan 96usd minus the used one month Standard plan 8usd, minus annual pro plan 144usd minus one month Standard plan). Pro services start immediately after successful payment, with the next billing date for annual Pro plan on July 30, 2025.
+For example, Tom bought an annual Standard plan on July 17th, 2024 for 96usd and received 700 credits. On July 30th, Tom decides to upgrade to an annual Pro plan. Tom only needs to pay the difference of 56usd (annual Standard plan 96usd minus the used one month Standard plan 8usd, minus annual pro plan 144usd minus one month Standard plan). Pro services start immediately after successful payment, with the next billing date for annual Pro plan on July 30, 2025.
 
 - How to cancel my subscription?<br>
+
 Your subscription renews automatically based on the frequency specified on your subscription page (or monthly if not specified). To cancel, go to the subscription settings on your Profile page. Your cancellation will take effect at the end of the current subscription period.
 
 - How do I request a refund?<br>
+
 Refunds are available only for annual subscriptions. You can receive a refund for the remaining months of your subscription. Credits issued for the current month are non-refundable. Fees for used months are charged at full price. Send an email with your login email address to support@rollingsagas.com.
 
 More questions? Contact us at support@rollingsagas.com
