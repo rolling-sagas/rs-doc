@@ -82,7 +82,7 @@ For example, Tom bought an annual Standard plan on July 17th, 2024 for 96usd and
 
 - How to cancel my subscription?<br>
 
-Your subscription renews automatically based on the frequency specified on your subscription page (or monthly if not specified). To cancel, go to the subscription settings on your Profile page. Your cancellation will take effect at the end of the current subscription period.
+Automatic subscription renewal is enabled when you purchase a subscription plan. To cancel, go to your Profile page. Your cancellation will take effect at the end of the current subscription period.
 
 - How do I request a refund?<br>
 
@@ -99,7 +99,32 @@ subscription的露出
 1. 使用规则：每次gpt生成新内容时，扣1个credit，cache不扣credits。
 如果GPT生成内容出错，比如断句的情况，此时user的regenerate不扣credit，可以由程序自动监测？。如果程序没有监测到的错误，但扣了credit，留一个通道给user report error。
 
-2. 需要在Profile页面显示user credit余额，daily rewards和月度credits分开显示，并且分别显示credits renewal时间
+2. 需要在Profile页面显示user当前的plan，以及credit余额情况。
+
+Free user
+Your current plan: Free
+Your remaining daily credit rewards: X/30. Need more credits? Upgrade your plan(链接到subscription page)
+
+Standard user
+Your current plan: Standard Monthly
+Your remaining daily credit rewards: X/60.
+Your remaining monthly credits: X/700. Next billing date: XX（自动续订时间）Cancel automatic renewal?(取消自动续费的入口)
+
+Standard user
+Your current plan: Standard Annually
+Your remaining daily credit rewards: X/60.
+Your remaining monthly credits: X/700. Credit renewal date: 下个月X号 
+Next billing date：XX （自动续订时间）Cancel automatic renewal?(取消自动续费的入口)
+
+Pro user
+Your current plan: Pro Monthly
+Credits: Unlimited
+Next billing date：XX（自动续订时间）Cancel automatic renewal?(取消自动续费的入口)
+
+Luma和Midjourney参考：
+![monthyl credits](rs-monetization/monthly%20renew.png)
+![monthyl credits](rs-monetization/currentplan.png)
+
 3. 作为产品里的货币，Credit需要有一个sign，显示在credit出现的地方。
 
 - 关于Daily login rewards：
@@ -111,5 +136,6 @@ user要升级plan时，需要在结算页面给TA自动计算差价，让user明
 ![upgrade](rs-monetization/upgrade.png)
 
 - 支付页面记得加:
-By subscribing you agree to our Terms of Service（链接） and Privacy Policy（链接）。条款同意
-Automatic renewal will be enabled after subscription. You can manually disable automatic renewal at any time. 自动续订说明
+条款同意 By subscribing you agree to our Terms of Service（链接） and Privacy Policy（链接）.
+自动续订说明 Automatic renewal will be enabled after subscription. You can manually disable automatic renewal at any time. 
+- 需要一个做取消自动续订的功能
