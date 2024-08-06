@@ -139,3 +139,12 @@ user要升级plan时，需要在结算页面给TA自动计算差价，让user明
 条款同意 By subscribing you agree to our Terms of Service（链接） and Privacy Policy（链接）.
 自动续订说明 Automatic renewal will be enabled after subscription. You can manually disable automatic renewal at any time. 
 - 需要一个做取消自动续订的功能
+
+
+
+Terms of Service
+https://docs.midjourney.com/docs/terms-of-service
+
+
+
+Privacy Policy
