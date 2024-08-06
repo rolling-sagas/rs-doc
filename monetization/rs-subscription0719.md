@@ -135,16 +135,10 @@ user要升级plan时，需要在结算页面给TA自动计算差价，让user明
 
 ![upgrade](rs-monetization/upgrade.png)
 
-- 支付页面记得加:
-条款同意 By subscribing you agree to our Terms of Service（链接） and Privacy Policy（链接）.
-自动续订说明 Automatic renewal will be enabled after subscription. You can manually disable automatic renewal at any time. 
+- 支付页面记得加 条款和隐私政策，以及自动续费的告知，参考图中GPT的设计。
+You'll be charged the amount and at the frequency listed above until you cancel. We may change our price as described in our Terms of Use. You can cancel any time（链接到取消自动续费）. By subscribing you agree to our Terms of Service（链接） and Privacy Policy（链接）.
+
+![upgrade](rs-monetization/terms.png)
+
 - 需要一个做取消自动续订的功能
 
-
-
-Terms of Service
-https://docs.midjourney.com/docs/terms-of-service
-
-
-
-Privacy Policy
