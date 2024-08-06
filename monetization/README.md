@@ -135,7 +135,8 @@ After user click, directly jump to the monetization webpage.
 
 ##### 2. Daily Login rewards
 Free vs VIP
-Daily login rewards will pop up the first time user opens the home page every day. Pro users don't have the pop up cuz they already have unlimited credits.
+~~Daily login rewards will pop up the first time user opens the home page every day. Pro users don't have the pop up cuz they already have unlimited credits.~~
+先参考其他AI产品，直接补到账号，不做额外获取动作
 
 ![login](rs-monetization/login.jpg)
 
