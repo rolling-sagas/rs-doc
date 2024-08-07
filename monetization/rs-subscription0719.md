@@ -28,7 +28,8 @@ Daily login rewards reset every day. Monthly credits do not roll over to next mo
 文案：
 - 顶部：Choose Your Subscription Plan
 - Annually和Monthly: Annually在前 Save 20%，Monthly在后，打开Subscription网页时默认在Annually。
-Annually页签里可以做成图中原价划掉打折的效果，Standard 10刀/month划掉变成8刀, 下面小字 96刀 billed annually；Advanced 15刀/month划掉变成刀12，下面小字 144刀 billed annually. 
+Annually页签里可以做成图中原价划掉打折的效果,价格对照如下。
+![discount](rs-monetization/discount.jpg)
 
 - Free, Standard, Advanced每列除了包含图表里的Tier名称，价格和权益外，分别加button: Free 'Play now', Standard 'Subscribe', Advanced 'Subcribe'。
 'Play now'点击后跳转到Home页面，开始选故事play。
