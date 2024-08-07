@@ -54,7 +54,7 @@ Credit is an in-game resource in Rolling Sagas used for generating new text duri
 
 - When do I receive Credits?<br>
 
-Daily login rewards will be issued every day when you login. Please note that daily login rewards included in subscriptions do not carry over from day to day, so take use of your daily rewards!
+Daily login rewards will be issued every day to your account. Please note that daily login rewards included in subscriptions do not carry over from day to day, so take use of your daily rewards!
 
 For monthly Standard subscribers, 700 credits are granted at once after successful payment of your chosen subscription. Please note that those unused credits will be reset to 0 after your subscription expires.
 
@@ -62,7 +62,7 @@ For annually Standard users, credits reset to 700 credits every month starting f
 
 For Advaned users, unlimited credits will take into effort immediately after successful payment until your subscription expires.
 
-You can always check your credits renewal time in your Profile(链接).
+You can always check your remaining and credits renewal time in your Profile(链接).
 
 - What is the prority of daily rewards credits and monthly credits for a Standard plan?
 
@@ -70,15 +70,17 @@ Daily login rewards will be deducted before your monthly credits. You can always
 
 - How can I get more Credits? 
 
-You can upgrade to Standard plan for 700 credits per month and double daily credit rewards or upgrade to Advanced plan for unlimited credits according to the credit amount you need. Benefits will take into effort immediately after successful payment. 
+You can upgrade to Standard plan for 700 credits per month and double daily login credit rewards or upgrade to Advanced plan for unlimited credits. Benefits will take into effort immediately after successful payment. 
 
 We'll have additional credit purchase soon.
 
-- Can I upgrade my plan?<br>
+- Can I switch plans?<br>
 
 You can upgrade your plan at any time, effective immediately by paying the difference. The next billing date will be based on the expiration date of the new plan.
 
 For example, Tom bought an annual Standard plan on July 17th, 2024 for 96usd and received 700 credits. On July 30th, Tom decides to upgrade to an annual Advanced plan. Tom only needs to pay the difference of 56usd (annual Standard plan 96usd minus the used one month Standard plan 8usd, minus annual advanced plan 144usd minus one month Standard plan). Advanced services start immediately after successful payment, with the next billing date for annual Advanced plan on July 30, 2025.
+
+Downgrades are always effective at the end of the current billing cycle.
 
 - How to cancel my subscription?<br>
 
