@@ -29,7 +29,7 @@ You may not use our Services for any illegal, harmful, or abusive activity. For 
 ## Content Rights
 
 **Your Rights**
-You retain ownership of all assets you create using the Services to the fullest extent permitted by law. However, this ownership is subject to the obligations specified in this Agreement and any rights held by third parties. Additionally, your ownership of the assets will remain intact even if you decide to downgrade or cancel your membership at a later date.
+The Services, including their “look and feel” (e.g., text, graphics, images, logos), proprietary content, information, and other materials, are protected under copyright, trademark, and other intellectual property laws. You agree that the Company and/or its licensors own all rights, titles, and interests in and to the Services (including any and all intellectual property rights therein), and you agree not to take any action(s) inconsistent with such ownership interests. We and our licensors reserve all rights in connection with the Services and its content (other than Your Content), including, without limitation, the exclusive right to create derivative works.
 
 **Rights You give to Rolling Sagas**
 By using the Services, you grant to Rolling Sagas, its successors, and assigns a perpetual, worldwide, non-exclusive, sublicensable no-charge, royalty-free, irrevocable copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute text and image prompts You input into the Services, as well as any Assets produced by you through the Service. This license survives termination of this Agreement by any party, for any reason.
