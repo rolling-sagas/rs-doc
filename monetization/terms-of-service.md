@@ -34,10 +34,8 @@ You retain ownership of all assets you create using the Services to the fullest 
 **Rights You give to Rolling Sagas**
 By using the Services, you grant to Rolling Sagas, its successors, and assigns a perpetual, worldwide, non-exclusive, sublicensable no-charge, royalty-free, irrevocable copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute text and image prompts You input into the Services, as well as any Assets produced by you through the Service. This license survives termination of this Agreement by any party, for any reason.
 
-## Paid Accounts
+## Paid Services
 If you purchase or subscribe to any of our paid Services, you agree to pay the applicable fees and taxes in U.S. Dollars. If you fail to make these payments, your access to the paid Services will be terminated. You acknowledge that: (a) we may store and continue charging your payment method (e.g., credit card) to ensure uninterrupted access to the Services, and (b) we may determine the taxes you owe based on the billing information you provide at the time of purchase. We reserve the right to modify our subscription plans or adjust pricing at our sole discretion. Unless otherwise specified, any changes in pricing or subscription plans will be communicated to you with reasonable notice. All payments must be made in accordance with the payment terms in effect at the time the subscription is due. You may pay using a credit card, debit card, or any other methods we offer. Subscriptions will not be processed until full payment is received, and any issues with payment processing by other providers are your responsibility.
-
-
 
 **Subscription Renewals and Cancellations**
 By subscribing to a paid portion of our Services, you agree that your subscription will automatically renew at the frequency specified on your subscription page (or monthly if no frequency is specified), and your payment method will be automatically charged for the fees and taxes applicable to each new subscription period. To avoid future charges, you must cancel your subscription, which will be effective at the end of your current subscription period. You can manage your subscription and cancel it through the subscription settings on your Profile page.
@@ -52,6 +50,18 @@ The Services may allow you to buy physical or digital items, including products 
 
 **Changes and Pricing.**
 We may revise or change the pricing, availability, specifications, content, descriptions, or features of any Offerings at any time. While we strive to provide accurate descriptions of Offerings, we do not guarantee that descriptions are complete, reliable, current, or error-free. The availability of any Offering does not imply it will be available in the future. We reserve the right to update prices, correct pricing errors, and cancel orders at our discretion if pricing errors occur. All changes will take effect immediately upon posting new prices or notifying customers of pricing errors.
+
+## Termination and Suspension
+You are free to cancel Your plan at any time. We also reserve the right to suspend or terminate your access to our Services or close your account if we determine, acting reasonably and objectively:
+- You breached these Terms or our Usage Policies.
+- We must do so to comply with the law.
+- Your use of our Services could cause risk or harm to Rolling Sagas, our users, or anyone else.
+
+You will not be refunded for the current subscription period, but You will not be charged after the current subscription period has ended.
+
+If you believe we have suspended or terminated your account in error, you can file an appeal with us by contacting support@rollingsagas.com.
+
+
 
 ## DMCA Policy
 We respect the intellectual property rights of others. If you believe that content on or linked through the Services infringes your copyright or trademark, please send a notice to support@rollingsagas.com with the subject line “Takedown Request.” Your notice should include the following:
