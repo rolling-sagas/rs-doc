@@ -77,9 +77,7 @@ We'll have additional credit purchase soon.
 
 - Can I switch plans?<br>
 
-You can upgrade your plan at any time, effective immediately by paying the difference. The next billing date will be based on the expiration date of the new plan.
-
-For example, Tom bought an annual Standard plan on July 17th, 2024 for 96usd and received 700 credits. On July 30th, Tom decides to upgrade to an annual Advanced plan. Tom only needs to pay the difference of 56usd (annual Standard plan 96usd minus the used one month Standard plan 8usd, minus annual advanced plan 144usd minus one month Standard plan). Advanced services start immediately after successful payment, with the next billing date for annual Advanced plan on July 30, 2025.
+You can upgrade your plan at any time. When upgrading, you may choose whether the upgrade should be effective immediately or at the end of the current billing cycle. If you choose to upgrade immediately, you will be offered a prorated price based on the usage of the plan you are upgrading from. The next billing date will be based on the expiration date of the new plan.
 
 Downgrades are always effective at the end of the current billing cycle.
 
@@ -133,10 +131,22 @@ Luma和Midjourney参考：
 ~~- 关于Daily login rewards：~~
 ~~在Free user和Standard user每天第一次登录时弹窗让TA领取每日奖励，advanced user因为unlimited credit就不用了~~
 
-- 关于subscribe升级：
-user要升级plan时，需要在结算页面给TA自动计算差价，让user明确知道要补多少钱。
+- 关于switch plans：
+主要参考Midjourney，[Aspirin's MJ subscription page](https://www.midjourney.com/checkout/plans?hash=f197d2f6df68a9ee53c347d05c0c8f50308eba0d15e8e5fc92e5a08dc7bbeb9fc7ded41982fb2166bd6dbce038ceffee4mYWoG/vsHozZBsXs5PFpqnTpwpUXYDIBnX6s67K4Irkp99UAjiKrFDnVCEIjH3A/jM01nuSfMnw1gV2kofGGXF7WLt%20e98%200Xx9I16zs/8%20H3J97NhCPqnonBNE9iSDt/R9JL9GZ%20HvCJUImn3Ri%205IXGnV0b28k1v1SKiI2L0BNAstcKoT6x1U3TEpZ8Wf7TU4U7/MqeUppUFdw/dnKE4Ng8lYXJAZ9U19JgUfDt9ZzuY/yf6keULGa8fE4ViKcP/Jh7dr5Tc%203J6N40e07BiOV%202f3NpH05TtoRGjvNc=)
+user要升级plan时，可以选择立即升级或是在下一次扣费时升级。
+![upgrade time](rs-monetization/upgrade_time.png)
 
-![upgrade](rs-monetization/upgrade.png)
+点击立即升级后，会跳出结算页面，给TA自动计算差价，让user明确知道要补多少钱，见下图。
+
+![upgrade now](rs-monetization/upgrade.png)
+
+点击下个付款周期升级，也会告知价格的变化，并让user confirm。
+
+![upgrade next billing date](rs-monetization/upgrade_end_of_due_day.png)
+
+Annual plan变更为monthly plan都是在下个付款周期时更改，不能在当前周期内更改。
+![annual to monthly](rs-monetization/annual_to_monthly.png)
+
 
 - 支付页面记得加 条款和隐私政策，以及自动续费的告知，参考图中GPT的设计。
 You'll be charged the amount and at the frequency listed above until you cancel. We may change our price as described in our Terms of Use. You can cancel any time（链接到取消自动续费）. By subscribing you agree to our Terms of Service（链接） and Privacy Policy（链接）.
