@@ -147,7 +147,6 @@ user要升级plan时，可以选择立即升级或是在下一次扣费时升级
 Annual plan变更为monthly plan都是在下个付款周期时更改，不能在当前周期内更改。
 ![annual to monthly](rs-monetization/annual_to_monthly.png)
 
-
 - 支付页面记得加 条款和隐私政策，以及自动续费的告知，参考图中GPT的设计。
 You'll be charged the amount and at the frequency listed above until you cancel. We may change our price as described in our Terms of Use. You can cancel any time（链接到取消自动续费）. By subscribing you agree to our Terms of Service（链接） and Privacy Policy（链接）.
 
