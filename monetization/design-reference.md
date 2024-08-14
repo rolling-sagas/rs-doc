@@ -17,7 +17,7 @@
 
 - 在这个页面不放FAQ了，拆到各个合适的地方。<br>
 1. credits相关解释，用角标注释的方式，鼠标移上去会显示注释。<br>
-2. Cancel和Refund参考vimeo，放在支付页面。文案用我们原来的。[vimeo支付页面](https://vimeo.com/store/seat_subscription?plan=standard&trial=false&period=year)
+2. Cancel和Refund参考vimeo，放在支付页面，文案另给。[vimeo支付页面](https://vimeo.com/store/seat_subscription?plan=standard&trial=false&period=year)
 ![cancel and refund](rs-monetization/image-3.png)<br>
 3. Switch plan的阐述，放到user实际点击button时，见下。
 </details>
