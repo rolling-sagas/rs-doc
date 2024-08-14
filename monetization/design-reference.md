@@ -53,34 +53,9 @@ Daily login rewards resets daily. Credits that aren't used do not roll over to t
 ![cancel and refund](image-3.png)
 </details>
 
-# switch plan reference
+# Switch Plan
 
-何时生效，费用清算，在user点击upgrade后的页面显示。这里参考的Aspirin midjourney的switch plan页面。<br>
-
-user要升级plan时，可以选择立即升级或是在下一次扣费时升级。<br>
-![upgrade time](rs-monetization/upgrade_time.png)
-
-点击立即升级后，会跳出结算页面，给TA自动计算差价，让user明确知道要补多少钱，见下图。<br>
-
-![upgrade now](rs-monetization/upgrade.png)
-
-点击下个付款周期升级，也会告知价格的变化，并让user confirm。<br>
-
-![upgrade next billing date](rs-monetization/upgrade_end_of_due_day.png)
-
-Annual basic plan变更为monthly advanced plan，都是在下个付款周期时更改，不能在当前周期内更改。<br>
-![annual basic to monthly advanced](rs-monetization/annual_to_monthly.png)
-
-Annual basic to monthly, 退钱的情况，只能在下个付款周期变更。
-![alt text](img_v3_02dn_3718ba14-a1db-45b6-b6a7-4da4e22a689g.jpg)
-
-如果想要立即生效，写邮件。
-![alt text](image-5.png)
-
-
-
-
-# Our switch plan
+[Check full workflow here](https://www.figma.com/design/nhUeWK24dm4vYdJoZ36nfS/Subscription-Page?node-id=0-1&t=TE62Dp1PocmNQ0WV-0)
 
 **General Rule**
 For upgrade tier, user can choose whether to upgrade immediately with proration or upgrade at the end of the current subscription period.
@@ -97,7 +72,7 @@ For downgrade tier, user can only downgrade at the end of current subscription p
     id2d[annual standard to monthly adv]
     id3a[Upgrade immediately: used months will not be refunded, user needs to pay the difference. Once paid, use new plan's valid period.]
     id3b[upgrade at end of current subscription period: deduct the new price at the renewal date]
-    id4[send email: refund annual and repurchase monthly*]
+    id4[Wanna take into effect immediately? Send email*]
 
     id1-->id2a
     id1-->id2b
@@ -110,17 +85,14 @@ For downgrade tier, user can only downgrade at the end of current subscription p
     id2c-->id3a
     id2c-->id3b
     id2d-->id3b
-    id2d-->id4
+    id2d-.->id4
 ```
-需确定的是最后一条annual basic to monthly pro，vimeo和MJ对这种情况公开的处理是下个付款周期生效。
-vimeo客服回复：想早点生效的话，可以退订annual plan，重买monthly plan，但退订需符合相应的退订政策，30天内。
-Midjourney：想立即生效，发邮件<br>
-
-我们的方案：网页公开信息为下个付款周期生效，但如果想立即生效，同样要求user发邮件，走特殊处理：当前annual方案中插入一个月的adv，standard顺延一个月。
-
 <br>
+针对最后一种情况，发邮件过来的处理方式：<br>
 
-**Downgrade参考Vimeo，Midjourney，[Suno](https://suno-ai.notion.site/Subscriptions-f33c81dcee7a4069986e737b4b0dcc36)，[Runway](https://help.runwayml.com/hc/en-us/articles/21664961171475-Which-plan-is-right-for-me), 一律是当前plan到期后生效。**
+![alt text](image-12.png)<br>
+
+**Downgrade参考[Vimeo](https://help.vimeo.com/hc/en-us/articles/12425416895249-Downgrade-your-subscription)，[Midjourney](https://docs.midjourney.com/docs/plans)，[Suno](https://suno-ai.notion.site/Subscriptions-f33c81dcee7a4069986e737b4b0dcc36)，[Runway](https://help.runwayml.com/hc/en-us/articles/21664961171475-Which-plan-is-right-for-me), 一律是当前plan到期后生效。同一等级付款频次的变化，也是在当前plan到期后生效。**
 ```mermaid
     flowchart LR
     id1[Downgrade Tier]
@@ -149,8 +121,5 @@ Midjourney：想立即生效，发邮件<br>
 ```
 
 # Refund Policy
-Vimeo offer a within 30-day refund for annual plan, and a 15 days refund for monthly plan.
 
-Midjourney can only accept refund request from subscribers who have lifetime usage of less than 20 GPU minutes.
-
-RS offer refund only for annual plan. We can refund unused months. Users can then purchase other plans they want.
+![refund](image-13.png)
