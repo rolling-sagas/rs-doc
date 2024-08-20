@@ -144,7 +144,13 @@ The direction of the game's development will eventually strive towards cooperati
 
 #### Time Constriant
 
-There will also be a timer for each player's action. 
+We can also implement a timer for each player's action to create a sense of urgency, danger, and thrill. This would naturally push the game forward and create less wait time.
+
+*This could be an option in settings, as some player's want to move things slower.*
+
+![BG3PartyCombat](/combat_2.0/images/baldurs-gate-3-party-combat.webp)
+*It would be similar to BG3, co-op with other players with the additional timer on their action so it pushes the combat forward faster.*
 
 
+## Combat System B: Classic Turn-Based Combat
 
