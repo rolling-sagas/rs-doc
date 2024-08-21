@@ -234,5 +234,34 @@ Again, the fact that we are progressing towards multiplayer means that we need a
 
 Similar to my previous proposal, there can be a **action time limit** option for players when engaged in multiplayer. Again, it is essentially there to push the game forward and reduce waiting time among players.
 
-## Comabt System C: Tactical RPG
+## Combat System C: Tactical RPG
+
+Tactical RPG adds the element of unit movement and placement in combat, giving the player the opportunity to strategically mobilize their units and maximize their strengths and gain an advantage over the enemy. Furthermore, there could be environmental obstacles or elements on the map that creates a variability between each encounter. The game we will be looking into will be **Wildermyth**, and explore how the combat mechanic of this game could be used as a template for our game.
+
+![WildermythBattle](/combat_2.0/images/wildermythbattle.webp)
+
+*Wildermyth battlefield*
+
+### 3D Models
+
+![WildermythBattle2](/combat_2.0/images/wildermyth%20battle%202.jpg)
+
+*2D cut out models in Wildermyth*
+
+
+Although **wildermyth** uses 2D paper cut out art style, there are many products within the same **genre** that uses 3D models.
+
+E.g.
+- Fire Emblem Engage: Also uses square grid for their unit movement and attack range.
+- Baldur's Gate 3: Doesn't use square grid, but same concept. Uses 3D models though.
+
+![FireEmblemEngageBattle](/combat_2.0/images/fire-emblem-engage-battle.jpg)
+
+*Fire Emblem has 3D models with Japanese anime style*
+
+Regardless, **Wildermyth** extracts the essence of the game play and simplifies combat for a wide range of players. Which is what we are looking for, and essentially swapping the 2D with 3D models.
+
+#### Animation
+
+
 
