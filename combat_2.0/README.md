@@ -154,3 +154,85 @@ We can also implement a timer for each player's action to create a sense of urge
 
 ## Combat System B: Classic Turn-Based Combat
 
+This combat system follows the more classic and traditional turn-based combat that is seen in old school RPG. CoC combat aligns with this style of combat too as it adheres to the "we all take a turn in a specific order based on "X" stat". Ofcourse, CoC has its own nuaces, but in the grand scheme of things, it is very similar. With so many turn-based combat out there, a easy and straight forward one I think we can use as a template is **Final Fantasy X**.
+
+- Dragon Quest also uses this style.
+
+![FFXBattle](/combat_2.0/images/FFX%20Battle.jpg)
+*Characters and enemies take turns depending on their speed stat, and can take actions such as attack or use items.*
+
+### 3D Models
+
+It is clear that FFX uses 3D models for their game, which we will be doing the same. 
+
+#### Animation
+
+Just like FFX, there will be animation for the characters depending on the type of weapon they are utilizing. With this combat style, there can even be special effects for a more dramatic expression.
+
+![FFXSwordSwing](/combat_2.0/images/ffxswordswing2.png)
+*They added a streak for the swing, which is something we can consider. But there is an animation of the guy running towards the enemy and swinging.*
+
+- It is important to note that animation style like this requires more work being invested. 
+- We can potentially make the enemies and characters stand closer, and instead of running animation, it can be a quick shift.
+
+**Again, special characters can have unique animations. This would further encourage player's to collect certain characters.**
+
+### Combat
+
+Combat is simple, and there isn't a position/rank system. Anyone is free to attack which ever unit they see fit.
+
+There is also a **Turn Order Visibility** system, this allow players to strategize around order of action.
+
+### Strategy
+
+Traditional has many mechanics that are incorporated into the game to add depth to the strategy gameplay experience. For our purposes, we will be subtracting a few of those mechanics in order to simplify the combat experience. 
+
+#### Turn Order Visibility
+
+This system reveals the action order of all the units on the field. 
+
+![FFXTurnVisibility](/combat_2.0/images/FFXTurnOrder.png)
+
+*With turn order visible, player's can strategize around the order. E.g. Attack/Kill monster A & C as they are higher on the priority list.*
+
+Player's can now place different priority to different enemies, making some more urgent than others. This will be further emphasized when there are hard hitting enemies but are also slower.
+
+#### Enemy Weakness
+
+Although the monster and cosmic beasts don't offficially have a specific **weakness**, this is often incorporated by the **keeper**. Since we will have different type of weapons in the game, the variable type of damage they inflict can be incorporated into enemy weakness *(e.g. Deepones can be more resistant to **slash damage** and weak to **pierce damage**)*.
+
+![FFXOctopus](/combat_2.0/images/FFXOctopusMonster.png)
+
+![FFXOctopusStats](/combat_2.0/images/FFXOctopusStats.png)
+
+*There is a elemental weakness to the Octopus monster. Similar to pokemon, enemies recieve additional damage when hit by their weakness.*
+
+- Another game that has a great **enemy weakness system** is **Octopath Traveller**. This game has **weapon** & **elemental** weaknesses present for the enemies.
+
+- We can also potentially allow player's to use specific items in their bag to inflict damage too. Torch to burn cosmic plant enemies.
+
+
+#### Dismemberment
+
+Exactly like the previous proposal.
+
+### Multiplayer
+
+Like traditional RPG, the party size can increase to a comfortable 4. This is a tested number where it increases player engagement and reduce waiting time before one would take **another action**.
+
+![FFXBattle2](/combat_2.0/images/FFXBattle2.jpg)
+
+*Although it is shown as a party of 3 here, it could easily increase to 4 and still have the same experience.*
+
+![BG3FullPartyCombat](/combat_2.0/images/BG3FullPartyCombat.webp)
+
+*Essentially making a point how a party of 4 is a very standard and comfortable multiplayer size.*
+
+Again, the fact that we are progressing towards multiplayer means that we need a combat system that can grow into it.
+
+#### Time Constraint
+
+Similar to my previous proposal, there can be a **action time limit** option for players when engaged in multiplayer. Again, it is essentially there to push the game forward and reduce waiting time among players.
+
+## Comabt System C: Tactical RPG
+
