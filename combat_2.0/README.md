@@ -261,7 +261,13 @@ E.g.
 
 Regardless, **Wildermyth** extracts the essence of the game play and simplifies combat for a wide range of players. Which is what we are looking for, and essentially swapping the 2D with 3D models.
 
+#### Map
+
+With this combat style, there is a need to build a map, increasing complexity but also interesting variability. Map can be procedurally generated to provide variability. We can also give tools to the player, or premade assets for them to piece together their own map.
+
+- Requires a wide variety of map design depending on the setting.
+
 #### Animation
 
-
+Adopting a tactical RPG style will greatly increase the animation load, as there are much more animation that would need to be made.
 
