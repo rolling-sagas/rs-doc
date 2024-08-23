@@ -38,15 +38,12 @@
 
 ## [Subscriptions, Billing & Credits](vip/vip.md#vip)
 ### Subscriptions plans
-#### Three tiers
-#### Switch plans
-refer to
-https://help.midjourney.com/en/articles/8150064-how-can-i-change-to-a-different-subscription-plan
-### How do credits work?
 ### Billing
-#### payment method
 
 ## [Manage My Account](manage-account/manage-account.md#manage-account)
 ## [FAQ](faq/faq.md#faq)
 ## [Dev Logs](dev-log/dev-log.md#dev-log)
 ## [Community](community/community.md#community)
+## Policies
+### [Terms of Service](terms-of-service.md)
+### [Privacy Policy](privacy-policy.md)

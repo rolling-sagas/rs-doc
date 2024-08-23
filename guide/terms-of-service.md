@@ -45,7 +45,7 @@ By subscribing to a paid portion of our Services, you agree that your subscripti
 ### Refund Policy
 We offer refunds for up to 14 days for annual plan subscription or 3 days for monthly plan if your used credits are no more than 400.
 
-If your local law requires a longer refund eligibility period, then the longer time period will apply.（需确认各个国家的退款政策）
+If your local law requires a longer refund eligibility period, then the longer time period will apply.
 
 Credits issued for the current month are non-refundable. Fees for used months are charged at full price. Send an email with your login email address to support@rollingsagas.com.
 
