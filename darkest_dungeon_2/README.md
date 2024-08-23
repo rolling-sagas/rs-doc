@@ -87,6 +87,8 @@ Some tokens grant unique abilities like counter attack (e.g. Riposte).
 
 There are also unique **tokens** that are tied to specific **characters** and **enemies**. Thus it is party of the game play look for player's to maximize their buffs while evading or manage debuffs.
 
+Different **quirks** can also provide the player with different tokens at the start of battle, this applies to both **postive** and **negative**.
+
 ### Damage Over Time
 
 Characters and enemies can both inflict **DOT** effects:
@@ -97,6 +99,30 @@ Characters and enemies can both inflict **DOT** effects:
 The three of them function identically but is effective on different enemies since there are a variety of resistance among them.
 
 
+## Actions
+
+During the character's turn, there are various actions that one may take. All characters will have **5 skills** equipped, a **movement action**, choice to use **combat items** and a **pass turn**. 
+
+### Skills
+
+Characters can adjust or recombine the skills they want **outside** of combat. It is hihgly encouraged to have character's specialize in certain aspect in a specific rank on the team.
+
+**Moving your cursor over a skill will also reveal the position/rank it is best used from.**
+
+Hit chance, damage, and crit chance is also displayed to the player. Giving them the opportunity to juggle between **high risk high rewards** or **slow and steady**.
+
+### Movement
+
+Characters can move/shuffle their postion if they desire, which can be beneficial or detrimental depending on the situation.
+- Character's may move 1 position at a time (unless they have a unique skill).
+
+### Comabt Items
+
+If characters are equipped with combat items, they may also utilize them during combat. **Note that combat items do not take up a turn.**
+
+### Pass Turn
+
+There are also moments where one may want to not engage in combat or support. Whatever the reasons may be, there is a choice to do that.
 
 ## Enemies
 
@@ -120,6 +146,11 @@ There are many different kinds of enemies in the game to give variability and di
 Player can maximize their attack by exploiting its weakness, alter its position to back ranks so it deals less damage, or even prioritize it and attempt to take it down ASAP.
 
 I would also like to put an emphasis on the skill "Brine Bucket", for it may also add "Barnacle Token", dealing damage if the player's characters move among the ranks. It also takes up 2 ranks/positions due to his size, a very simple and **intuitive** way of saying "he's dangerous".
+
+
+### Waves
+
+Some battle encounters will come in multiple waves. Meaning once a group of enemies have been annihilated, a new group of enemies will take their place.
 
 
 ## Combat Flow
@@ -186,8 +217,10 @@ Combat takes place over a number of rounds, and during each **round** every unit
     Actor Player
     Participant Combat
     Participant Turn Order System
+    Participant Stress System
     Participant Map
     Participant Town
+
 
     
     Player->>+Combat: Enters
@@ -248,3 +281,50 @@ Enemies can inflict **horror** damage instead of physical damage, pushing the me
 - Toxic: Adds a "Toxic" token and a bunch of other effects
 
 **These quirks will also give **buffs** or **debuffs** to said character during combat. Greatly influencing the final result of battle.**
+
+*Full list of quirks can be found here: https://darkestdungeon.wiki.gg/wiki/Quirks_(Darkest_Dungeon_II)*
+
+
+### Inn
+
+Although it is not part of the combat mechanic, it still has great influence on combat. There are various Inns, each with their own unique buffs and/or debuffs.
+
+![GoodDoctor](/darkest_dungeon_2/images/Good%20Doctor%20Inn.png)
+
+![LimpingMule](/darkest_dungeon_2/images/Limping%20Mule%20Inn.png)
+
+
+- Mastery Training: Character's can upgrade their skills.
+
+- The Provisioner: Purchase supplies
+
+- The Wainwright: Repair and Upgrade the Stagecoach
+
+#### Embarking
+
+When the characters embark on their next journey, there is a chance for them to develop relationship. It is either a **positive** relationship or **negative** relationship.
+
+![Respectful](/darkest_dungeon_2/images/Respectful%20Relationship.png)
+*Obviously Respectful Relationship garners positive traits and results*
+
+![Hateful](/darkest_dungeon_2/images/Hateful%20Relationship.png)
+*Hateful relationships would wreak havoc, potentially forcing the player to abandon the character when possible.*
+
+#### Abandon Expidition
+
+Player can choose to abandon the expidition at the Inn if they would like to do so. Although the mission will be deemed as a failure, the consequences are far lesser than abandoning the quest in the middle of a region or have the entire party wiped out.
+
+
+### Battle Modifiers
+
+Combat encounters can sometimes be at a disadvantage, adding a **battle modifier**, further increasing the difficulty of the battle.
+
+![BattleModifier](/darkest_dungeon_2/images/Battle%20Modifier.png)
+
+### Stagecoach
+
+Between battles or exploring various points of interest (nodes), players must travel using the stagecoach. The state of the stagecoach affects certain states too:
+
+![Stagecoach](/darkest_dungeon_2/images/Wheels%20and%20Armor.png)
+
+*Max Durability gives buffs/bonueses.*
