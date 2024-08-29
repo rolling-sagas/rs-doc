@@ -5,15 +5,14 @@
 Credit is an in-game resource in Rolling Sagas used for generating new text during gameplay. Each generation costs 1 credit. 
 
 ### How many credits come with my plan?
-Free plan users can receive 30 credits as daily login rewards. Daily login credits do not expire.
+Free plan users can receive 30 credits as daily login reward. Daily login credits do not expire.
 
-Standard plan users receive 60 daily login credit rewards during subscription period. Monthly credits reset to 700 every month starting from your subscription date. Unused monthly credits will not roll over to next month.
+Standard plan users receive 60 daily login credit rewards during subscription period. Monthly allowance credits reset to 700 every month starting from your subscription date. Unused monthly credits will not roll over to next month.
 
 Advanced plan users have unlimited credits during subscription period.
 
 ### How to check my remaining credits?
-You can check your remaining creidts anytime by navigating to **Profile > View My Plan**.
-
+You can check your remaining credits anytime by navigating to **Profile > View My Plan**.
 
 ## Subscription 
 Rolling Sagas have two subscription tiers. Check the subscription plan here (subscription页面的链接).
@@ -40,3 +39,4 @@ You can request a full refund of your subscription payment for any tier within 1
 If your local law requires a longer refund eligibility period, then the longer time period will apply.
 
 Send an email with your login email address to support@rollingsagas.com.
+
