@@ -1,7 +1,7 @@
 # Privacy Policy
-**Version Effective Date: August 15th, 2024**
+**Version Effective Date: September 11th, 2024**
 
-This Privacy Policy describes how (海外公司名称，是RollingSagas, Inc.吗?) (“Company”, “we”, “us” “our”) collects, uses and discloses information about users of the Company’s website (rollingsagas.com), mobile applications, online services, tools and features (collectively, the “Services”). For the purposes of this Privacy Policy, “you” and “your” means you as the user of the Services.
+This Privacy Policy describes how Dreame Technology Pte.Ltd. (“Company”, “we”, “us” “our”) collects, uses and discloses information about users of the Company’s website (rollingsagas.com), mobile applications, online services, tools and features (collectively, the “Services”). For the purposes of this Privacy Policy, “you” and “your” means you as the user of the Services.
 
 ## Updating This Privacy Policy
 We may modify this Privacy Policy from time to time in which case we will update the “Last Revised” date at the top of this Privacy Policy. If we make changes that are material, we will use reasonable efforts to attempt to provide notice to you and, where required by applicable law, we will obtain your consent. Notice may be by email to you at the last email address you provided us, by posting notice of such changes on the Services, or by other means, consistent with applicable law. However, it is your sole responsibility to review the Privacy Policy from time to time to view any such changes. The updated Privacy Policy will be effective as of the time of posting, or such later date as may be specified in the updated Privacy Policy. IF YOU DO NOT ACCEPT AND AGREE TO THIS PRIVACY POLICY, INCLUDING ANY CHANGES, THEN YOU MUST NOT ACCESS OR USE THE SERVICES.

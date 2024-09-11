@@ -1,7 +1,7 @@
 # Terms of Services
-**Version Effective Date: August 15th, 2024**
+**Version Effective Date: September 11th, 2024**
 
-Thank you for using Rolling Sagas! These Terms of Service (“Terms”) govern the relationship between (海外公司主体名是RollingSagas, Inc.吗?) (“Company”,”we”,”our”) and the entity or person (“Customer, “You”, “Your”) using or accessing our services, applications, or platform through our website available at rollingsagas.com (the “Site”). These terms govern your access to and use of the Services. Please read these Terms carefully, as they include important information about your legal rights. By accessing and/or using the Services, you are agreeing to these Terms. If you do not understand or agree to these Terms, please do not use the Services.
+Thank you for using Rolling Sagas! These Terms of Service (“Terms”) govern the relationship between Dreame Technology Pte.Ltd. (“Company”,”we”,”our”) and the entity or person (“Customer, “You”, “Your”) using or accessing our services, applications, or platform through our website available at rollingsagas.com (the “Site”). These terms govern your access to and use of the Services. Please read these Terms carefully, as they include important information about your legal rights. By accessing and/or using the Services, you are agreeing to these Terms. If you do not understand or agree to these Terms, please do not use the Services.
 
 ## Registration and access
 ### Age Requirements
@@ -72,7 +72,7 @@ We respect the intellectual property rights of others. If you believe that conte
 - A statement, under penalty of perjury, that you are authorized to act on behalf of the copyright owner.
 - If the copyright owner’s rights arise under the laws of a country other than the United States, please identify the country.
 
-You may also send notices containing the above-required information to the following Address:(需要海外公司地址)
+You may also send notices containing the above-required information to the following Address: 120 ROBINSON ROAD #13-01 Singapore 068913.
 
 Upon receipt of a notice that complies with the foregoing, we reserve the right to remove or disable access to the accused material or disable any links to the material; notify the party accused of infringement that we have removed or disabled access to the identified material; and terminate access to and use of the Services for any user who engages in repeated acts of infringement.
 
