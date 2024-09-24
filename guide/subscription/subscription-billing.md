@@ -34,7 +34,18 @@ You can cancel your plan any time by navigating to **Profile > Edit profile > My
 Cancellations are effective at the end of the current billing cycle. However, you'll keep access to all of your subscription features until then.
 
 ### Refunds
-You are eligible for a full refund of your subscription payment if you request it within 14 days of purchasing an annual plan or within 3 days of purchasing a monthly plan, provided you have used no more than 400 credits.
+You are eligible for a full refund of your subscription if you meet the following conditions:
 
-To request a refund, please email us at support@rollingsagas.com. Our team will verify your eligibility and notify you via email. Once approved, refunds can take up to 10 business days to process, depending on your bank, but you will receive a confirmation email shortly after your request.
+- You request the refund within 14 days of purchasing an annual plan or within 3 days of purchasing a monthly plan.
+- You have used no more than 400 credits.
+
+To request a refund, please provide the following information:
+
+- Your account email address
+- Subscription start date
+- Reason for requesting a refund (optional, to help improve Rolling Sagas)
+
+Send your request with the subject line [Request Refund] to support@rollingsagas.com.
+
+Our team will review your eligibility and notify you via email. Once approved, refunds may take up to 10 business days to process, depending on your bank.
 
