@@ -1,0 +1,348 @@
+# Combat Dataset
+
+**Overview:** In this document I will propose the datasets (data category) and combat formulas that will be used for our game's combat system. Categories like Health Points (HP), Damage (ATK), Sanity (SAN), and formulas to determine how damage is dealt and received.
+
+I will discuss in the order below:
+
+1. Player Characters
+
+2. Enemies (Monsters + Cosmic Beings)
+
+3. Combat Formula
+
+**Note that I will be utilizing *Call of Cthulhu* as the base infrastructure of the character data and combat formula.**
+
+## Player Characters
+
+**Overview:** Building on top of what we already have on *Rollingsagas* and *Cyberoll*, the dataset provided by **Call of Cthulhu** will be used predominantly for our infrastructure.
+
+### Characteristics
+
+**Strength:** Muscle Power.
+- 3D6 x 5
+
+**Constitution:** Represents the vigor and vitality.
+- 3D6 x 5
+
+**Dexterity:** How nimble a person is.
+- 3D6 x 5
+
+**Intelligence:** The ability to generate ideas, to connect previous information and form new ones. IQ.
+- (2D6 + 6) x 5
+
+**Size:** Pretty straight forward.
+- (2D6 + 6) x 5
+
+**Power:** Will power.
+- 3D6 x 5
+
+**Appearance:** Physical appearance.
+- 3D6 x 5
+
+**Education:** How knowledgeable a person is, how much information they know.
+- (2D6 + 6) x 5
+
+**Age:** Self Explanatory
+- **table 1-3*
+
+**Hit Points:** How much Health a character has. 0 HP = DEAD. 
+- CON + SIZ / 10
+- Round Down the result
+
+**Magic Points:** How much magic points the character has. This is used for casting spells.
+- 1/5 POWER
+
+**Luck:** Everyone eventually runs out of luck.
+- 3D6 x 5
+
+**Sanity:** The mental/psychological state of a character. The lower it is, the crazier the character becomes. 0 SAN = DEAD
+- Starting SAN = POWER
+
+### Skills
+
+**Here I will only focus on combat specific skills.**
+
+**Fighting (Brawl):** 1D3 + DB **table 1-1*
+
+**Fighting (Weapon):** Refer to Weapons Table (Depends on what weapons we would like to include into our game.)
+
+**Firearms (Handgun):** Refer to Weapons Table (Depends on what weapons we would like to include into our game.)
+
+**Firearms (Rifle/Shotgun):** Refer to Weapons Table (Depends on what weapons we would like to include into our game.)
+
+### Additional Stats
+
+**Movement:** How fast and far one could move.
+- **table 1-2*
+
+**Build:** The ability to perform maneuvers on others.
+- **table 1-1*
+
+**Dodge:** The ability to avoid an attack.
+- 1/2 of DEX.
+
+**Damage Bonus:** Additional damage dealt based on the character's inherent strength.
+- **table 1-1*
+
+---
+### Table 1-1: Damage Bonus & Build Table(DB)
+
+
+Str + Size | Damage Bonus | Build
+:-- | :-: | --:
+2-64 | -2 | -2
+65 - 84 | -1 | -1 
+85 - 124 | None | 0 
+125 - 164 | +1D4 | 1
+165 - 204 | +1D6 | 2
+205 - 284 | +2D6 | 3
+285 - 364 | +3D6 | 4
+365 - 444 | +4D6 | 5
+445 - 524 | +5D6 | 6
+
+*For every 80 points in weight is increased beyond 524, increase the DB by an additional 1D6 and increase build by 1.*
+
+
+### Table 1-2: Movement Rate
+
+DEX < SIZE + STR < SIZE = MOVEMENT 7
+
+If either STR + DEX is equal or greater than SIZE, or if all 3 are equal = MOVEMENT 8
+
+DEX > SIZE + STR > SIZE = MOVEMENT 9
+
+Age | Movement Modification
+:-- | --:
+40s | -1
+50s | -2
+60s | -3
+70s | -4
+80s | -5
+
+
+### Table 1-3: Age Modifiers
+
+Age | Modifiers
+:-- | --:
+15 - 19 | -5 among STR & SIZ, -5 EDU, Roll Luck twice and take the **higher** value
+20 - 39 | Make EDU Improvement Check
+40 - 49 | -5 among STR & CON & DEX, -5 APP, 2 EDU improvement check
+50 - 59 | -10 among STR & CON & DEX, -10 APP, 3 EDU improvement check
+60 - 69 | -20 among STR & CON & DEX, -15 APP, 4 EDU improvement check
+70 - 79 | -40 among STR & CON & DEX, -20 APP, 4 EDU improvement check
+80 - 89 | -80 among STR & CON & DEX, -25 APP, 4 EDU improvement check
+
+*EDU Improvement Check: Roll a 1D100, if it is greater than present EDU, add 1D10 percentage points to your EDU.
+
+
+
+---
+
+
+## Enemies
+
+Like characters, every enemy has their own characteristics, skills, abilities and stats. This would allow for a near unlimited design of monster/cosmic beings.
+
+Furthermore, the stats of the enemies also affect the player's decision, to engage or not, to fight or flight.
+
+
+### Example:
+
+| ID: | Name: | Description: | STR: | CON: | SIZE: | DEX: | POW: | HP: | DMG BONUS: | BUILD: | MP: | MOV: | ATK / RND: | ATK | ARMOR | SAN LOSS: |
+:-- | :-: | :-: |:-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |--:
+001 | Zombie | Walking Dead that can bite, claw, and loves to eat human flesh | 80 | 80 | 65 | 35 | 05 | 14 | 1D4 | 1 | 1 | 6 | 1 | Maw: 30%, 1D3 + DMG Bonus | - | 0 / 1D8
+
+
+**ID:** Every monster, cosmic being, beasts, will require an **ID**. Since there can be multiple versions of the same enemy (e.g. Big zombie), it is important that we give them proper codes to differentiate them in the system. *Of course, programmers, feel free to use another system if there is a better one.*
+
+**Name:** Every enemy must have a corresponding name, gives player a good sense of idea what kind of creature they are up against. Furthermore giving a name to a face is important when we have multiplayer, as players can communicate better.
+
+**Description:** A detailed but brief description for the enemy is also important. It is a good place to add some atmosphere and lore into the story. This will be incredibly important especially when players begin developing their own stories and populate their fantasy with unique creatures. 
+
+**Characteristics:** These stats are mirrors those in player characters. It helps determine other basic stats like HP, MP, Build, etc.
+
+**Health Points:** When it's 0, then the enemy is dead.
+
+**Spells:** Certain enemies are capable of conjuring spells.
+
+**Magic Points:** Some enemies, like cosmic entities are capable of conjuring spells. Spells consume MP.
+
+**MOVEMENT:** The higher it is, the faster the enemy. Which will also be used to determine which character goes first. *Will go into detail in the sections below.*
+
+~~**Build:** Its resistance to maneuvers.~~
+
+**Attacks:** The forms of attacks available for the enemy to enact, which can be close range or long range*(note that some enemies may wield weapons like humans)*.
+
+**Damage Bonus:** Additional damage dealt based on the enemy's inherent strength.
+
+**Attack per Round:** Some enemies can attack multiple times during a round of combat. Again, attack turn is based on DEX, so if an enemy has 2 attack/round, they will attack **twice** on their turn.
+
+**Armor:** Some enemies will have exoskeleton, or thick fur (bear), giving them an armor bonus.
+
+**Sanity Loss:** Certain enemies (cosmic entities, other worldly creature) will require the player to roll a **sanity check** to determine how they react to the horror they witness. Then refer to the *sanity point costs.*
+
+**Dodge:** Enemies do not dodge!
+
+
+## Weapons
+
+It is imperative that we include weapons as it adds a lot of its own unique rules.
+
+![EnemyPositions](/combat_dataset/images/EnemyPositions.jpg)
+
+1. **Touch** - Brawl, melee weapons
+2. **10 Yards** - Handguns, whips, some throwing weapons, shotgun
+3. **20 Yards** - Bow & Arrow, shotgun, submachine guns, 
+4. **30 Yards** - rifles, 
+
+### Example Melee Weapon Stats
+
+ID | Name | Skill | Damage | Base Range | Uses per Round | Mag Size | Era
+:-- | :-: | :-: | :-: | :-: | :-: | :-: | --: |
+M001 | Baseball Bat | Fighting (Brawl) | 1D8 + DB | Touch | 1 | n/a | 1920s & Modern
+M002 | Knife(i) | Fighting (Brawl) | 1D4 + DB | Touch | 1 | n/a | 1920s & Modern
+
+### Melee Weapon Modifiers
+
+**Blunt Weapon**: Extreme success & Critical Success: **Max Weapon Damage + Max Damage Bonus**
+
+- Thus, a character with DB of 1D4 rolling a extreme success with a baseball bat can deal this damage: 8 + 4
+
+- If they don't have any DB, then it would just be: 8
+
+**Impaling Weapon**: Extreme success & Critical Success: **Weapon Damage + Max Weapon Damage + Max Damage Bonus**
+
+- Thus, a character with DB of 1D4 rolling a extreme success with a knife can deal this damage:  1D4 + 4 + 4
+
+- If they don't have any DB, then it would just be: 1D4 + 4
+
+### Example Firearm stats
+
+ID | Name | Skill | Damage | Base Range | Uses per Round | Mag Size | Era
+:-- | :-: | :-: | :-: | :-: | :-: | :-: | --: |
+G001 | .38 Revolver | Firearms (Handgun) | 1D10 | 15 Yards | 1-3 | 6 | 1920s & Modern
+
+### Firearms Modifiers
+
+**Impaling Weapon**: Extreme success & Critical Success: **Weapon Damage + Max Weapon Damage**
+
+- Thus, a extreme success with a revolver can deal this damage:  1D10 + 10. *(no DB because muscles don't affect the bullet power)*
+
+**Range**: 
+- Within *base range*: **Regular Difficulty Roll**
+- Up to twice the base range: **Hard Difficulty Roll**
+- ~~Up to 4 times the base range: **Extreme Difficulty Roll**~~
+
+**Point Blank**
+- Using a firearm on a *touch* distant enemy: **Bonus Die**
+
+**Fast Moving Target**
+- Enemy MOVEMENT (MOV) 8 or above: **PENALTY DIE**
+
+**Target Size**
+- Enemy Build -2 or below: **Penalty Die**
+- Enemy Build 4 or above: **Bonus Die**
+
+**Multiple Shots**
+- Firing multiple shots will apply a **Penalty Die** on **ALL** attempts.
+- e.g. If I fire 2 shots, i need to apply a penalty die for both of my shot attempts.
+
+
+## Combat
+
+In this section, I will provide examples of situations and demonstrate how damage is calculated. 
+
+### Example 1
+
+*Player Character: Bob*
+- HP: 10
+- MOV: 9
+- ATK: 
+    - Brawl: 1D3 + DB
+    - Baseball Bat: 1D8 + DB
+- Damage Bonus: 1D4
+- Sanity: 60
+
+*Enemy: Mummy*
+- HP: 14
+- MOV: 6
+- ATK: 1D6 + DB
+- ATK/RND: 2
+- Damage Bonus: 1D6
+- Armor: 2 AP (Impaling weapon deals 1/2 damage).
+- Sanity Loss: 1 / 1D8
+
+**Round 1**
+
+1. Bob must roll a **sanity check** for seeing the mummy! 
+    - Bob rolls a **1D100** and fails the sanity check.
+    - Bob rolls a **1D8** and got a 2. Bob loses 2 Sanity Points.
+
+2. Compare **Movement** to determine who goes first.
+    - Bob goes first.
+
+3. Bob uses the baseball bat against the Mummy. **Skill check succeeds**.
+    - Bob rolls a **1D8 + 1D4**, and got a total of **6**.
+    - Mummy has **2AP**, so final damage dealt is **4**.
+    - Mummy now has **10HP** left
+
+4. Mummy attacks Bob.
+    - Bob uses **dodge** and succeeds. 
+    - Mummy's **skill check failed**.
+
+5. Mummy attacks Bob **again** (remember, Mummy has 2 attacks per round), **skill check succeeds**.
+    - Mummy rolls a **1D6 + 1D6**, and got a total of **3**.
+    - Bob receives 3 Damage and now has **7** HP.
+
+6. Repeat
+
+### Example 2
+
+*Player Character: John*
+- HP: 10
+- MOV: 9
+- ATK: 
+    - Brawl: 1D3 + DB
+    - Baseball Bat: 1D8 + DB
+    - Glock 17: 1D10 / 15yards / 1(3) Shots per round / Mag:17
+- Damage Bonus: 1D4
+- Sanity: 60
+
+*Enemy: Mummy 1 (touch distance)*
+- HP: 14
+- MOV: 6
+- ATK: 1D6 + DB
+- ATK/RND: 2
+- Damage Bonus: 1D6
+- Armor: 2 AP (Impaling weapon deals 1/2 damage).
+- Sanity Loss: 1 / 1D8
+
+*Enemy: Mummy 2 (10 yards away)*
+- HP: 14
+- MOV: 6
+- ATK: 1D6 + DB
+- ATK/RND: 2
+- Damage Bonus: 1D6
+- Armor: 2 AP (Impaling weapon deals 1/2 damage).
+- Sanity Loss: 1 / 1D8
+
+
+![DD2SoloFight](/combat_dataset/images/dd2%20solo%20fight.png)
+*Example Image. Pretend that the left side is the player character and right side are the 2 Mummies.*
+
+**Round 1**
+
+1. Bob must roll a **sanity check** for seeing the mummy! 
+    - Bob rolls a **1D100** and succeeds the sanity check.
+    - Bob loses 1 Sanity Points.
+
+2. Compare **Movement** to determine who goes first.
+    - Bob goes first.
+
+3. Bob uses his **glock** against Mummy 2, and attempts to fire **3** shots.
+    - Glock has a range of **15 yards**, and the enemy is only **10 yards** away. No penalty.
+    - Firing multiple shots will be given a **penalty die** for each shot.
+    - Only 1 shot landed. Bob rolls a **1D10** for the damage dealt, and got a 6.
+    - Mummy 2 loses 6 HP, and now has **8 HP** left.
+
+4. Mummy 1 attacks
