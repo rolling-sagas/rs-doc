@@ -8,7 +8,9 @@ I will discuss in the order below:
 
 2. Enemies (Monsters + Cosmic Beings)
 
-3. Combat Formula
+3. Weapons
+
+4. Combat Formula
 
 **Note that I will be utilizing *Call of Cthulhu* as the base infrastructure of the character data and combat formula.**
 
@@ -183,6 +185,18 @@ Furthermore, the stats of the enemies also affect the player's decision, to enga
 
 **Dodge:** Enemies do not dodge!
 
+## Bonus and Penalty Die
+
+During combat, there are various instances where there is a need to impose bonus and penalty die for the given situation to better imitate realism. 
+
+### Bonus Die
+- Imposes an additional "tens" percentage die (00-90) when rolling. 
+- Player (or enemy) takes the **LOWER** result (remember, lower is better).
+
+### Penalty Die
+- Imposes an additional "tens" percentage die (00-90) when rolling.
+- Player (or enemy) takes the **HIGHER** result (remember, lower is better).
+
 
 ## Weapons
 
@@ -234,18 +248,28 @@ G001 | .38 Revolver | Firearms (Handgun) | 1D10 | 15 Yards | 1-3 | 6 | 1920s & M
 - ~~Up to 4 times the base range: **Extreme Difficulty Roll**~~
 
 **Point Blank**
-- Using a firearm on a *touch* distant enemy: **Bonus Die**
+- Using a firearm on a *touch* distant enemy: **BONUS DIE**
 
 **Fast Moving Target**
 - Enemy MOVEMENT (MOV) 8 or above: **PENALTY DIE**
 
 **Target Size**
-- Enemy Build -2 or below: **Penalty Die**
-- Enemy Build 4 or above: **Bonus Die**
+- Enemy Build -2 or below: **PENALTY DIE**
+- Enemy Build 4 or above: **BONUS DIE**
 
 **Multiple Shots**
-- Firing multiple shots will apply a **Penalty Die** on **ALL** attempts.
+- Firing multiple shots will apply a **PENALTY DIE** on **ALL** attempts.
 - e.g. If I fire 2 shots, i need to apply a penalty die for both of my shot attempts.
+
+**Reload & Ammunition**
+- Firing weapons **consume** ammunition! Every shot fired is removed from the gun's **magazine** or **chamber**.
+- Player can reload **1** magazine in a combat round.
+- OR, load **2 shells** in a combat round (shotguns).
+- ~~OR, load **1 shell** in a combat round and fire that round (impose **PENATLY DIE**).~~
+
+**Cover**
+- Player character or enemies behind cover gains an advantage.
+- **Targeting** enemies behind a **cover** imposes a **PENATLY DIE** for the **ATTACKER**.
 
 
 ## Combat
@@ -294,7 +318,7 @@ In this section, I will provide examples of situations and demonstrate how damag
     - Mummy rolls a **1D6 + 1D6**, and got a total of **3**.
     - Bob receives 3 Damage and now has **7** HP.
 
-6. Repeat
+6. Repeat from **3**.
 
 ### Example 2
 
@@ -343,6 +367,26 @@ In this section, I will provide examples of situations and demonstrate how damag
     - Glock has a range of **15 yards**, and the enemy is only **10 yards** away. No penalty.
     - Firing multiple shots will be given a **penalty die** for each shot.
     - Only 1 shot landed. Bob rolls a **1D10** for the damage dealt, and got a 6.
+    - Bob's Glock now has **14** bullets left in the magazine.
     - Mummy 2 loses 6 HP, and now has **8 HP** left.
 
 4. Mummy 1 attacks
+    - Bob chooses to **fight back**. Mummy 1 and Bob both used **fighting (brawl)** to roll against each other. Bob succeeds.
+    - Bob rolls for damage 1D8 + DB and got a 5.
+    - Mummy 1 loses 5 health and has 9 HP remaining
+
+5. Mummy 1 attacks again (remember they can attack **twice** per round)
+    - Bob successfully **dodges** the attack.
+    - No damage dealt.
+
+6. Mummy 2 attacks
+    - Mummy 2 attacks with **disadvantage** since it is not within distance of its attack.
+    - Bob chooses to **dodge** and succeeds.
+    - No damage dealt.
+
+7. Mummy 2 attacks again
+    - Mummy 2 attacks with **disadvantage** since it is not within distance of its attack.
+    - Bob chooses to **dodge** and succeeds.
+    - No damage dealt.
+
+8. Repeat from **3**.
