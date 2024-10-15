@@ -8,9 +8,11 @@ I will discuss in the order below:
 
 2. Enemies (Monsters + Cosmic Beings)
 
-3. Weapons
+3. Bonus & Penalty Die
 
-4. Combat Formula
+4. Weapons
+
+5. Combat Formula
 
 **Note that I will be utilizing *Call of Cthulhu* as the base infrastructure of the character data and combat formula.**
 
