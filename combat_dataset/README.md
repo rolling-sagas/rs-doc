@@ -399,7 +399,7 @@ In this section, I will provide examples of situations and demonstrate how damag
 
 In order to add a bit of complexity to the already existing combative gameplay, we have decided to implement **Buffs** and **Debuffs**. These addition *should* naturally introduce strategy and tactics in the game play, and provide a welcoming challenge to players if it is balanced right. After a close inspection of *Darkest Dungeon's* character and enemy buff and debuff skills, I believe there is a thing or two in which we can borrow from them.
 
-### Status Modifications
+### Stat Modifications
 
 Below is a list of mechanics in which the buffs and debuffs can modify:
 
@@ -411,6 +411,25 @@ Below is a list of mechanics in which the buffs and debuffs can modify:
 
 - **Movement Stat Mod:** (Temporary **increase** or **decrease** the MOV stat, gaining an advantage or disadvantage.)
 
-- **Armor Point Stat Mod:** (Temporary **increase** or **decrease** AP for additional defense.)
+- **Armor Point Stat Mod:** (Temporary **increase** or **decrease** AP for additional defense. *Note, this can be in the negatives "-" to signify increase damage taken)
 
 *Note that some enemies can activate multiple buffs at once*
+
+
+### Status Effect
+
+There will also be various **status effects** during combat that the player needs to manage. These same status effects can also be imposed on the enemies, but this would depend on the character's weapon, items, and skill proficiency.
+
+**Bleed:** When a target is bleeding, they will lose HP per round until the wound is treated. *(Treatment requires gauze, bandages, first aid, or surgery)*
+
+**Poison:** When a target is poisoned, they will lose HP per round until they are cured. *(Treatment requires)*
+
+**Stun:** When a target is stunned, they will be unable to take action for 2 turns. Furthermore, any incoming attacks are an automatic success.
+
+**Burn:** When a target is burned, they will lose HP per round, but it gets progressively worse each round if not treated. 
+
+**Mark:** When a target is marked, they will receive a penalty die and receive increased damage (-AP).
+
+**Taunt:** When a character or enemy uses taunt, all incoming attack will be directed at them instead. In order words, the opposing side cannot choose specific targets.
+
+**Bind:** When a target is bound, they are unable to take action until they are unbound. May receive damage during this period. *(Unbinding may require a STR check)*
