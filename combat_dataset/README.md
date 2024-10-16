@@ -392,3 +392,25 @@ In this section, I will provide examples of situations and demonstrate how damag
     - No damage dealt.
 
 8. Repeat from **3**.
+
+
+
+## Buffs and Debuffs
+
+In order to add a bit of complexity to the already existing combative gameplay, we have decided to implement **Buffs** and **Debuffs**. These addition *should* naturally introduce strategy and tactics in the game play, and provide a welcoming challenge to players if it is balanced right. After a close inspection of *Darkest Dungeon's* character and enemy buff and debuff skills, I believe there is a thing or two in which we can borrow from them.
+
+### Status Modifications
+
+Below is a list of mechanics in which the buffs and debuffs can modify:
+
+- **Roll Probability: Accuracy + Dodge** (Temporary Increase, OR, temporary decrease. *e.g. +5% or +15% for higher success rates*)
+
+- **Damage Bonus Die Mod:** (Temporary changes the DB die to either **increase** or **decrease** the potential damage. *e.g. 1D3 -> 1D6 or 1D8*)
+
+- **Weapon Base Damage Die Mod:** (Temporary changes the base damage die of the weapon to either **increase** or **decrease** the potential damage. *e.g. 1D10 -> 1D20*)
+
+- **Movement Stat Mod:** (Temporary **increase** or **decrease** the MOV stat, gaining an advantage or disadvantage.)
+
+- **Armor Point Stat Mod:** (Temporary **increase** or **decrease** AP for additional defense.)
+
+*Note that some enemies can activate multiple buffs at once*
