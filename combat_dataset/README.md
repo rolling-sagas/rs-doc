@@ -455,6 +455,20 @@ Character Abilities are active abilities in which the players can use **during**
 
 *Need to balance this out.*
 
+Examples:
+
+Frenzied Assault
+Effect: The character can choose to make an extra melee attack on their turn. However, if they do, they must roll a penalty die on all subsequent attacks that round due to fatigue.
+
+Unyielding Defense
+Effect: The character can choose to sacrifice their next attack roll to gain a significant bonus to their defense for that round. This means they can absorb damage or counterattack with increased precision on their next turn.
+
+Last Stand
+Effect: When the character is reduced to half health or less, they can declare a Last Stand to gain a significant bonus to all attack rolls for one turn. Afterward, they must make a sanity check due to the intense focus and stress.
+
+Precise Strike
+Effect: Before rolling for a melee or ranged attack, the character can declare a Precise Strike to add a bonus die to the roll. However, doing so increases the damage taken from the next incoming attack by +1d4 due to overexertion.
+
 
 ### Character Talents
 
@@ -467,7 +481,23 @@ Taken from **Pulp Cthulhu**, here are some potential talents for our player char
 ![Talent1](/battle_system/Images/pulp_cthulhu_talent1.png)
 ![Talent2](/battle_system/Images/pulp_cthulhu_talent2.png)
 ![Talent3](/battle_system/Images/pulp_cthulhu_talent3.png)
-![Talent4](/battle_system/Images/pulp_cthulhu_talent4.png) 
+![Talent4](/battle_system/Images/pulp_cthulhu_talent4.png)
+
+
+Critical Precision
+Effect: Allows the character to reroll a failed attack roll once per round with a bonus die, reflecting their honed instincts. However, they suffer a penalty die on their next attack roll due to overexertion.
+
+Bloodlust
+Effect: Grants a bonus die on all melee attack rolls after a successful attack, reflecting the character’s increasing aggression. However, after three consecutive successful attacks, they must make a sanity check due to their growing obsession with violence.
+
+Savage Strikes
+Effect: Increases melee damage by +1d6 when the character is below half health, symbolizing their desperation and ferocity. However, they receive a penalty die on all defense rolls due to reckless aggression.
+
+Berserker Fury
+Effect: Allows the character to deal an additional +1d8 damage on a successful melee attack, reflecting their frenzy. However, they must make a sanity check after the attack, as the adrenaline and bloodlust take a toll on their mental state.
+
+Defensive Stance
+Effect: Provides a damage reduction bonus of -1d6 for one round when the character is attacked, but all their attacks during that round receive a penalty die due to their focus on defense.
 
 
 ## Characters with Talent Example
@@ -478,7 +508,7 @@ Jack Carson | 70 | 60 | 80 | 70 | 70 | 60 | 50 | 60 | 13 | 12 | 55 | 60 | 9 | +1
 
 Rapid Fire: Firing multiple times will not be imposed with penalty.
 
-Marked: Enemies will receive a penalty die against range attacks.
+Marked: Attacking marked enemies will give the attacker a bonus die.
 
 
 
@@ -496,6 +526,8 @@ Marked: Enemies will receive a penalty die against range attacks.
     - Glock 17: 1D10 / 15yards / 1(3) Shots per round / Mag:17
 - Damage Bonus: 1D4
 - Sanity: 60
+- Talent: Rapid Fire
+- Ability: Marked
 
 
 *Enemy: Mummy 1 (touch distance)*
@@ -525,9 +557,43 @@ Marked: Enemies will receive a penalty die against range attacks.
 
 **Round 1**
 
-1. Bob must roll a **sanity check** for seeing the mummy! 
-    - Bob rolls a **1D100** and succeeds the sanity check.
-    - Bob loses 1 Sanity Points.
+1. Jack must roll a **sanity check** for seeing the mummy! 
+    - Jack rolls a **1D100** and succeeds the sanity check.
+    - Jack loses 1 Sanity Points.
 
 2. Compare **Movement** to determine who goes first.
-    - Bob goes first.
+    - Jack goes first.
+
+3. Jack uses the ability **marked**, and marks **Mummy 2**
+    - **Mummy 2** is now marked for 2 turns and will receive **penalty** when rolling.
+
+4. Mummy 1 attacks
+    - Jack chooses to **fight back**. Mummy 1 and Jack both used **fighting (brawl)** to roll against each other. Jack succeeds.
+    - Jack rolls for damage 1D8 + DB and got a 8.
+    - Mummy 1 has 2 AP
+    - Mummy 1 loses 6 health and has 8 HP remaining.
+
+5. Mummy 1 attacks again (remember they can attack **twice** per round)
+    - Jack fails to **dodge** the attack.
+    - Mummy 1 rolls for damage 1D6 + DB and got a 6.
+    - Jack loses 6 HP and has 7 HP remaining.
+
+6. 6. Mummy 2 attacks
+    - Mummy 2 attacks with **disadvantage** since it is not within distance of its attack.
+    - Bob chooses to **dodge** and succeeds.
+    - No damage dealt.
+
+7. Mummy 2 attacks again
+    - Jack chooses to **fight back**. Mummy 1 and Jack both used **fighting (brawl)** to roll against each other. Jack succeeds.
+    - Jack rolls for damage 1D8 + DB and got a 5.
+    - Mummy 2 has 2 AP
+    - Mummy 2 loses 3 health and has 11 HP remaining.
+
+8. Jack uses his **glock** against Mummy 2, and attempts to fire **3** shots.
+    - Glock has a range of **15 yards**, and the enemy is only **10 yards** away. No penalty.
+    - Firing multiple shots will **NOT** be given a **penalty die** due to **RAPID FIRE** talent.
+    - Attacking a marked enemy is granted a **bonus die**.
+    - Only 3 shot landed. Bob rolls a **1D10** for the damage dealt, and got a 17.
+    - Bob's Glock now has **11** bullets left in the magazine.
+    - Mummy 2 has 2 AP
+    - Mummy 2 loses 15 HP, and is now destroyed.
