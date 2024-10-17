@@ -415,6 +415,10 @@ Below is a list of mechanics in which the buffs and debuffs can modify:
 
 *Note that some enemies can activate multiple buffs at once*
 
+![Buffs&DebuffsIcon](/combat_dataset/images/Tokens_List.webp)
+
+*Similar to DD2, we should utilize intuitive icons to represent the buffs and debuffs*
+
 
 ### Status Effect
 
@@ -428,8 +432,102 @@ There will also be various **status effects** during combat that the player need
 
 **Burn:** When a target is burned, they will lose HP per round, but it gets progressively worse each round if not treated. 
 
-**Mark:** When a target is marked, they will receive a penalty die and receive increased damage (-AP).
+**Mark:** When a target is marked, they will receive a penalty die.
 
 **Taunt:** When a character or enemy uses taunt, all incoming attack will be directed at them instead. In order words, the opposing side cannot choose specific targets.
 
 **Bind:** When a target is bound, they are unable to take action until they are unbound. May receive damage during this period. *(Unbinding may require a STR check)*
+
+![StatusEffectIcon](/combat_dataset/images/DoT2.png)
+
+*Similar to DD2, we should utilize intuitive icons to represent the status effects*
+
+
+### Character Abilities
+
+Character Abilities are active abilities in which the players can use **during** combat. Abilities is where players and enemies can inflict **status effects**, **buffs**, and **debuffs**. Depending on the ability we design, we can apply different buffs and debuffs.
+
+**challenges:**
+
+- How many abilities per character?
+
+- How many times can they use their ability per battle?
+
+*Need to balance this out.*
+
+
+### Character Talents
+
+In order to create memorable and unique characters, we shall introduce character **talents**. Talents will be passive skills that may activate under specific circumstances, players will be able to utilize their character's talents to gain the advantage. Or, perhaps take advantage of the talent and use it as part of the play style. **Talents are PERMANENT!!! and each character gets 1 Talent**
+
+*Although this document is combat focused, I believe **talent** can also be used during story progression.*
+
+Taken from **Pulp Cthulhu**, here are some potential talents for our player characters:
+
+![Talent1](/battle_system/Images/pulp_cthulhu_talent1.png)
+![Talent2](/battle_system/Images/pulp_cthulhu_talent2.png)
+![Talent3](/battle_system/Images/pulp_cthulhu_talent3.png)
+![Talent4](/battle_system/Images/pulp_cthulhu_talent4.png) 
+
+
+## Characters with Talent Example
+
+| Name: | STR: | CON: | DEX: | INT: | SIZ: | POWER: | APP: | EDU: | HP: | MP: | LUCK: | SAN: | MOV: | BUILD: | DODGE: | DAMAGE BONUS: | Talent: | Abilities:
+:-- | :-: | :-: |:-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | --:
+Jack Carson | 70 | 60 | 80 | 70 | 70 | 60 | 50 | 60 | 13 | 12 | 55 | 60 | 9 | +1 | 40 | +1D4 | Rapid Fire | Marked
+
+Rapid Fire: Firing multiple times will not be imposed with penalty.
+
+Marked: Enemies will receive a penalty die against range attacks.
+
+
+
+## Example 3
+
+*Player Character: Jack Carson*
+- HP: 13
+- MOV: 9
+- Skills:
+    - Firearms (Handgun 65% )
+    - Fighting (Brawl 50% )
+- ATK: 
+    - Brawl: 1D3 + DB
+    - Combat Knife: 1D4 + 2 + DB
+    - Glock 17: 1D10 / 15yards / 1(3) Shots per round / Mag:17
+- Damage Bonus: 1D4
+- Sanity: 60
+
+
+*Enemy: Mummy 1 (touch distance)*
+- HP: 14
+- MOV: 6
+- Skills:
+    - Fighting 70%
+- ATK: 1D6 + DB
+- ATK/RND: 2
+- Damage Bonus: 1D6
+- Armor: 2 AP (Impaling weapon deals 1/2 damage).
+- Sanity Loss: 1 / 1D8
+
+
+*Enemy: Mummy 2 (10 yards away)*
+- HP: 14
+- MOV: 6
+- Skills:
+    - Fighting 70%
+- ATK: 1D6 + DB
+- ATK/RND: 2
+- Damage Bonus: 1D6
+- Armor: 2 AP (Impaling weapon deals 1/2 damage).
+- Sanity Loss: 1 / 1D8
+
+---
+
+**Round 1**
+
+1. Bob must roll a **sanity check** for seeing the mummy! 
+    - Bob rolls a **1D100** and succeeds the sanity check.
+    - Bob loses 1 Sanity Points.
+
+2. Compare **Movement** to determine who goes first.
+    - Bob goes first.
