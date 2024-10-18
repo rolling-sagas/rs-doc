@@ -1,0 +1,43 @@
+{
+"enemies": [
+    {
+      "name": "Deep One",
+      "type": "Mythos Creature",
+      "stats": {
+        "strength": 70,
+        "dexterity": 50,
+        "intelligence": 65,
+        "constitution": 50,
+        "power": 50,
+        "hit_points": 13,
+        "magic_points": 10,
+        "armor_points": 1,
+        "movement": 8
+      },
+      "combat": {
+        "attacks": [
+          {
+            "name": "bite",
+            "damage": "1d6+db"
+          },
+          {
+            "name": "spear",
+            "damage": "1d8+db"
+          }
+        ],
+        "damage_bonus": "1d4"
+      },
+      "behavior": {
+        "aggression": "Hostile",
+        "intelligence_level": "Basic",
+        "combat_tactics": "The Deep One charges its target, attacking relentlessly with claws and bites."
+      },
+      "mythos_abilities": {
+        "cause_fear": {
+          "description": "The mere sight of the Deep One forces investigators to make a Sanity check.",
+          "sanity_loss": "0/1d6"
+        }
+      }
+    }
+  ]
+}
