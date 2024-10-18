@@ -1,0 +1,50 @@
+{
+    "investigators": [
+      {
+        "name": "John Doe",
+        "occupation": "Private Investigator",
+        "stats": {
+          "strength": 70,
+          "dexterity": 60,
+          "intelligence": 80,
+          "constitution": 55,
+          "appearance": 50,
+          "power": 75,
+          "sanity": 65,
+          "luck": 55,
+          "hit_points": 12,
+          "magic_points": 13
+        },
+        "skills": {
+          "spot_hidden": 70,
+          "library_use": 65,
+          "persuade": 50,
+          "firearms": 40,
+          "psychology": 55
+        },
+        "inventory": {
+          "weapons": [
+            {
+              "name": "Revolver",
+              "damage": "1d8",
+              "range": "15 yards",
+              "ammo": 6,
+              "malfunction": 100
+            }
+          ],
+          "items": [
+            "flashlight",
+            "notebook",
+            "magnifying glass"
+          ]
+        },
+        "backstory": {
+          "traits": ["Brave", "Cautious"],
+          "personal_description": "A well-dressed, middle-aged man with a sharp eye for details.",
+          "ideology_beliefs": "Truth must be uncovered at all costs.",
+          "important_people": "Jane, his long-lost sister.",
+          "significant_locations": "The family home, now abandoned."
+        }
+      }
+    ]
+}
