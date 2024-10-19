@@ -1,8 +1,10 @@
 {
 "enemies": [
     {
+      "id": "001",
       "name": "Deep One",
       "type": "Mythos Creature",
+      "description": "A creature born from the unknown depths of the ocean.",
       "stats": {
         "strength": 70,
         "dexterity": 50,
@@ -12,7 +14,8 @@
         "hit_points": 13,
         "magic_points": 10,
         "armor_points": 1,
-        "movement": 8
+        "movement": 8,
+        "attack/round": 1
       },
       "combat": {
         "attacks": [

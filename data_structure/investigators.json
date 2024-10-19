@@ -1,49 +1,75 @@
 {
     "investigators": [
       {
-        "name": "John Doe",
+        "id": "i001",
+        "name": "Jack Carson",
         "occupation": "Private Investigator",
         "stats": {
           "strength": 70,
-          "dexterity": 60,
-          "intelligence": 80,
-          "constitution": 55,
+          "dexterity": 80,
+          "intelligence": 70,
+          "constitution": 60,
           "appearance": 50,
-          "power": 75,
-          "sanity": 65,
+          "power": 60,
+          "sanity": 60,
           "luck": 55,
-          "hit_points": 12,
-          "magic_points": 13
+          "hit_points": 13,
+          "magic_points": 12,
+          "armor_points": 0,
+          "movement": 9,
+          "attack/round": 1
         },
         "skills": {
           "spot_hidden": 70,
           "library_use": 65,
           "persuade": 50,
-          "firearms": 40,
-          "psychology": 55
+          "firearms": 65,
+          "psychology": 55,
+          "brawl": 50
         },
         "inventory": {
           "weapons": [
             {
               "name": "Revolver",
-              "damage": "1d8",
+              "damage": "1d10",
               "range": "15 yards",
               "ammo": 6,
-              "malfunction": 100
+              "shots_per_round": "1-3"
+            },
+            {
+              "name": "combat_knife",
+              "damage": "1d4+2+db",
+              "range": "touch",
+              "ammo": "n/a"
             }
           ],
+
+        "trait": [
+          {
+            "name": "rapid_fire",
+            "effect": "firing multiple times will not be imposed with penalty"
+          }
+          ],
+
+        "abilities": [
+            {
+              "name": "death_mark",
+              "success_rate": 100,
+              "damaga": "n/a",
+              "status_effect": "marked",
+              "status_effect_damaga/round": "2" 
+            }
+          ],
+
           "items": [
-            "flashlight",
-            "notebook",
+            "",
+            "lighter",
             "magnifying glass"
           ]
         },
         "backstory": {
-          "traits": ["Brave", "Cautious"],
           "personal_description": "A well-dressed, middle-aged man with a sharp eye for details.",
-          "ideology_beliefs": "Truth must be uncovered at all costs.",
-          "important_people": "Jane, his long-lost sister.",
-          "significant_locations": "The family home, now abandoned."
+          "story": "insert story here..."
         }
       }
     ]
