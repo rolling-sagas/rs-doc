@@ -1,0 +1,39 @@
+[
+    {
+      "name": "iron_flesh",
+      "effect": "Reduces all incoming physical damage by 2 points"
+    },
+    {
+      "name": "nightmare_aura",
+      "effect": "Any investigator within 10 yards must succeed in a Sanity check or lose 1d4 Sanity per 2 rounds"
+    },
+    {
+      "name": "shadow_step",
+      "effect": "Can move 10 feet as a free action."
+    },
+    {
+        "name": "frenzied_strikes",
+        "effect": "Gains an extra melee attack if the enemy hits with their first attack in the same round"
+    },
+    {
+      "name": "regeneration",
+      "effect": "Regains 1 hit point per round unless damage is caused by fire, bleed, or poison."
+    },
+    {
+      "name": "mind_shatter",
+      "effect": "Successful attacks impose a penalty die on the target’s next Intelligence or Willpower roll"
+    },
+    {
+      "name": "bloodlust",
+      "effect": "Gains an extra attack if an attack reduces more than 50% of an investigator’s health."
+    },
+    {
+      "name": "howling_scream",
+      "effect": "Every investigator within earshot must pass a Power check or be stunned for 1 round"
+    },
+    {
+      "name": "ancient_wrath",
+      "effect": "Deal an additional 1d4 damage when below 50% health"
+    }
+  ]
+  
