@@ -1,39 +1,56 @@
 [
     {
       "name": "iron_flesh",
-      "effect": "Reduces all incoming physical damage by 2 points"
+      "description": "The enemy's skin is as tough as iron, reducing the impact of physical attacks.",
+      "effect": "reduce damage",
+      "modifier": "-2 physical damage"
     },
     {
       "name": "nightmare_aura",
-      "effect": "Any investigator within 10 yards must succeed in a Sanity check or lose 1d4 Sanity per 2 rounds"
+      "description": "A terrifying aura causes investigators to suffer mental strain when nearby.",
+      "effect": "Sanity loss",
+      "modifier": "1d4 Sanity loss per 2 rounds"
     },
     {
       "name": "shadow_step",
-      "effect": "Can move 10 feet as a free action."
+      "description": "The enemy can slip through the shadows, allowing quick repositioning without effort.",
+      "effect": "free movement",
+      "modifier": "Move 10 feet"
     },
     {
-        "name": "frenzied_strikes",
-        "effect": "Gains an extra melee attack if the enemy hits with their first attack in the same round"
+      "name": "frenzied_strikes",
+      "description": "Once the enemy lands a hit, their wild frenzy grants them an additional attack.",
+      "effect": "extra attack",
+      "modifier": "If first attack hits"
     },
     {
       "name": "regeneration",
-      "effect": "Regains 1 hit point per round unless damage is caused by fire, bleed, or poison."
+      "description": "The enemy heals rapidly, recovering health each round unless specific damage types are applied.",
+      "effect": "regain hit points",
+      "modifier": "+1 HP per round"
     },
     {
       "name": "mind_shatter",
-      "effect": "Successful attacks impose a penalty die on the target’s next Intelligence or Willpower roll"
+      "description": "The enemy's attacks not only hurt physically but also shatter the victim's mental stability.",
+      "effect": "penalty die",
+      "modifier": "Next INT or POW roll"
     },
     {
       "name": "bloodlust",
-      "effect": "Gains an extra attack if an attack reduces more than 50% of an investigator’s health."
+      "description": "When the enemy senses blood, it gains relentless energy, attacking even more viciously.",
+      "effect": "extra attack",
+      "modifier": "If >50% health loss"
     },
     {
       "name": "howling_scream",
-      "effect": "Every investigator within earshot must pass a Power check or be stunned for 1 round"
+      "description": "A piercing scream stuns investigators, leaving them vulnerable.",
+      "effect": "stun",
+      "modifier": "1 round if fail POW check"
     },
     {
       "name": "ancient_wrath",
-      "effect": "Deal an additional 1d4 damage when below 50% health"
+      "description": "When the enemy is wounded, their rage intensifies, increasing their damage output.",
+      "effect": "additional damage",
+      "modifier": "+1d4 damage <50% health"
     }
-  ]
-  
+]
