@@ -30,17 +30,51 @@
       "equipment": {
         "weapon_ids": ["w001", "w005", "w019"]
       },
-      "trait": [
-        "it012"
-      ],
-      "abilities": [
-        "ia012"
-      ],
-      "items": ["i001", "i002"]
+      "trait": ["it012"],
+      "abilities": ["ia012"],
+      "items": ["i001", "i002"],
+      "backstory": {
+        "personal_description": "A well-dressed, middle-aged man with a sharp eye for details.",
+        "story": "insert story here..."
+      }
+    },
+    {
+      "id": "i002",
+      "name": "Anna Hawke",
+      "occupation": "Journalist",
+      "stats": {
+        "strength": 50,
+        "dexterity": 75,
+        "intelligence": 80,
+        "constitution": 55,
+        "appearance": 70,
+        "power": 65,
+        "sanity": 65,
+        "luck": 60,
+        "hit_points": 11,
+        "magic_points": 13,
+        "armor_points": 0,
+        "movement": 9,
+        "attack/round": 1
+      },
+      "skills": {
+        "spot_hidden": 80,
+        "photography": 75,
+        "fast_talk": 65,
+        "firearms_bow": 50,
+        "psychology": 60,
+        "brawl": 40
+      },
+      "equipment": {
+        "weapon_ids": ["w019", "w011"]
+      },
+      "trait": ["it003"],
+      "abilities": ["ia003"],
+      "items": ["i003", "i004"],
+      "backstory": {
+        "personal_description": "A sharp-eyed and quick-witted reporter with a passion for uncovering the truth.",
+        "story": "Anna's investigative work has led her deep into the underbelly of the city, where whispers of dark forces are becoming more frequent. She is determined to expose these horrors to the world."
+      }
     }
-  ],
-  "backstory": {
-    "personal_description": "A well-dressed, middle-aged man with a sharp eye for details.",
-    "story": "insert story here..."
-  }
+  ]
 }

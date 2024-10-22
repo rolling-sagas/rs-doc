@@ -26,7 +26,7 @@
           },
           {
             "name": "spear",
-            "spear": 45,
+            "brawl": 45,
             "damage": "1d8+db"
           }
         ],
@@ -42,6 +42,51 @@
         {
           "description": "The mere sight of the Deep One forces investigators to make a Sanity check.",
           "sanity_loss": "sl005"
+        }
+      ]
+    },
+    {
+      "id": "e002",
+      "name": "Shoggoth Spawn",
+      "type": "Mythos Creature",
+      "description": "A pulsating, amorphous entity born from the primordial darkness.",
+      "stats": {
+        "strength": 85,
+        "dexterity": 35,
+        "intelligence": 25,
+        "constitution": 90,
+        "power": 70,
+        "hit_points": 20,
+        "magic_points": 12,
+        "armor_points": 3,
+        "movement": 6,
+        "attack/round": 2
+      },
+      "combat": {
+        "attacks": [
+          {
+            "name": "tentacle_slam",
+            "brawl": 55,
+            "damage": "1d8+db"
+          },
+          {
+            "name": "engulf",
+            "brawl": 35,
+            "damage": "1d10+db"
+          }
+        ],
+        "damage_bonus": "1d6",
+        "trait": [
+          "et005"
+        ],
+        "abilities": [
+          "ea002"
+        ]
+      },
+      "mythos_abilities": [
+        {
+          "description": "The unnatural form of the Shoggoth Spawn causes investigators to lose grip on reality.",
+          "sanity_loss": "sl007"
         }
       ]
     }
