@@ -1,94 +1,46 @@
 {
-    "investigators": [
-      {
-        "id": "i001",
-        "name": "Jack Carson",
-        "occupation": "Private Investigator",
-        "stats": {
-          "strength": 70,
-          "dexterity": 80,
-          "intelligence": 70,
-          "constitution": 60,
-          "appearance": 50,
-          "power": 60,
-          "sanity": 60,
-          "luck": 55,
-          "hit_points": 13,
-          "magic_points": 12,
-          "armor_points": 0,
-          "movement": 9,
-          "attack/round": 1
-        },
-        "skills": {
-          "spot_hidden": 70,
-          "library_use": 65,
-          "persuade": 50,
-          "firearms_handgun": 65,
-          "psychology": 55,
-          "brawl": 50
-        },
-        "equipment": {
-          "weapons": [
-            {
-              "name": "Revolver",
-              "damage": "1d10",
-              "range": "15 yards",
-              "ammo": 6,
-              "uses_per_round": "1-3",
-              "required_skill": "firearms_handgun"
-            },
-            {
-              "name": "combat_knife",
-              "damage": "1d4+2+db",
-              "range": "touch",
-              "ammo": "n/a",
-              "uses_per_round": "1",
-              "required_skill": "brawl"
-            },
-            {
-              "name": "fists",
-              "damage": "1d3+db",
-              "range": "touch",
-              "ammo": "n/a",
-              "uses_per_round": "1",
-              "required_skill": "brawl"
-            }
-          ],
-
-        "trait": [
-          {
-            "name": "rapid_fire",
-            "effect": "firing multiple times will not be imposed with penalty"
-          }
-          ],
-
-        "abilities": [
-            {
-              "name": "death_mark",
-              "success_rate": 100,
-              "damaga": "n/a",
-              "status_effect": "marked",
-              "status_effect_damaga/round": "2" 
-            }
-          ],
-
-          "items": [
-            {
-              "id": "i001",
-              "name": "Lighter",
-              "description": "A simple lighter, useful for starting fires or providing a brief source of light."
-            },
-            {
-              "id": "i002",
-              "name": "Magnifying Glass",
-              "description": "A handheld magnifying glass, helpful for examining small details and clues."
-            }
-          ]
-        },
-        "backstory": {
-          "personal_description": "A well-dressed, middle-aged man with a sharp eye for details.",
-          "story": "insert story here..."
-        }
-      }
-    ]
+  "investigators": [
+    {
+      "id": "i001",
+      "name": "Jack Carson",
+      "occupation": "Private Investigator",
+      "stats": {
+        "strength": 70,
+        "dexterity": 80,
+        "intelligence": 70,
+        "constitution": 60,
+        "appearance": 50,
+        "power": 60,
+        "sanity": 60,
+        "luck": 55,
+        "hit_points": 13,
+        "magic_points": 12,
+        "armor_points": 0,
+        "movement": 9,
+        "attack/round": 1
+      },
+      "skills": {
+        "spot_hidden": 70,
+        "library_use": 65,
+        "persuade": 50,
+        "firearms_handgun": 65,
+        "psychology": 55,
+        "brawl": 50
+      },
+      "equipment": {
+        "weapon_ids": ["w001", "w005", "w019"]
+      },
+      "trait": [
+        "it012"
+      ],
+      "abilities": [
+        "ia012"
+      ],
+      "items": ["i001", "i002"]
+    }
+  ],
+  "backstory": {
+    "personal_description": "A well-dressed, middle-aged man with a sharp eye for details.",
+    "story": "insert story here..."
+  }
 }

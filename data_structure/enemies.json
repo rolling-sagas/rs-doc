@@ -1,5 +1,5 @@
 {
-"enemies": [
+  "enemies": [
     {
       "id": "e001",
       "name": "Deep One",
@@ -31,29 +31,17 @@
           }
         ],
         "damage_bonus": "1d4",
-
         "trait": [
-          {
-            "name": "slippery_skin",
-            "effect": "Impose penalty die on every incoming brawl attack"
-          }
+          "et010"
         ],
-
         "abilities": [
-            {
-              "name": "poison_sting",
-              "success_rate": 45,
-              "damaga": "1d4",
-              "uses_per_round": "1-3",
-              "status_effect": "poison",
-              "status_effect_damaga/round": "-1 HP for 3 rounds" 
-            }
-          ]
+          "ea011"
+        ]
       },
       "mythos_abilities": [
         {
-         "description": "The mere sight of the Deep One forces investigators to make a Sanity check.",
-         "sanity_loss": "sl005"
+          "description": "The mere sight of the Deep One forces investigators to make a Sanity check.",
+          "sanity_loss": "sl005"
         }
       ]
     }

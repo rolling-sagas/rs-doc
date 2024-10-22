@@ -1,5 +1,6 @@
 [
     {
+      "id": "ia001",
       "name": "focused_strike",
       "success_rate": 75,
       "damage": "1d4",
@@ -7,6 +8,7 @@
       "status_effect_damage/round": "1 additional damage for the next attack"
     },
     {
+      "id": "ia002",
       "name": "defensive_posture",
       "success_rate": 80,
       "damage": "n/a",
@@ -14,6 +16,7 @@
       "status_effect_damage/round": "-2 damage from the next attack"
     },
     {
+      "id": "ia003",
       "name": "movement_study",
       "success_rate": 75,
       "damage": "n/a",
@@ -21,6 +24,7 @@
       "status_effect_damage/round": "Ignore penalties on the next attack"
     },
     {
+      "id": "ia004",
       "name": "inspiring_shout",
       "success_rate": 100,
       "damage": "n/a",
@@ -28,6 +32,7 @@
       "status_effect_damage/round": "All allies gain a bonus die on their next roll"
     },
     {
+      "id": "ia005",
       "name": "quick_recovery",
       "success_rate": 75,
       "damage": "n/a",
@@ -35,6 +40,7 @@
       "status_effect_damage/round": "Regain 1 HP per round for 3 rounds"
     },
     {
+      "id": "ia006",
       "name": "perceptive_insight",
       "success_rate": 85,
       "damage": "n/a",
@@ -42,6 +48,7 @@
       "status_effect_damage/round": "Gain a bonus die on your next Investigate check"
     },
     {
+      "id": "ia007",
       "name": "bruising_strike",
       "success_rate": 75,
       "damage": "1d8",
@@ -49,6 +56,7 @@
       "status_effect_damage/round": "-2 HP for 3 rounds"
     },
     {
+      "id": "ia008",
       "name": "surprise_bolas",
       "success_rate": 80,
       "damage": "n/a",
@@ -56,6 +64,7 @@
       "status_effect_damage/round": "Target cannot move for 1 round"
     },
     {
+      "id": "ia009",
       "name": "venomous_strike",
       "success_rate": 85,
       "damage": "1d6",
@@ -63,6 +72,7 @@
       "status_effect_damage/round": "-1 HP for 3 rounds"
     },
     {
+      "id": "ia010",
       "name": "tactical_reposition",
       "success_rate": 70,
       "damage": "n/a",
@@ -70,10 +80,19 @@
       "status_effect_damage/round": "You gain an advantage on your next attack after evading an attack"
     },
     {
+      "id": "ia011",
       "name": "fire_breath",
       "success_rate": 80,
       "damage": "n/a",
       "status_effect": "burn",
       "status_effect_damage/round": "-1 HP for 2 rounds"
+    },
+    {
+      "id": "ia012",
+      "name": "death_mark",
+      "success_rate": 100,
+      "damage": "n/a",
+      "status_effect": "marked",
+      "status_effect_damage/round": "2"
     }
 ]
