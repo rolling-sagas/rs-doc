@@ -1,0 +1,79 @@
+[
+    {
+      "name": "focused_strike",
+      "success_rate": 75,
+      "damage": "1d4",
+      "status_effect": "vulnerable",
+      "status_effect_damage/round": "1 additional damage for the next attack"
+    },
+    {
+      "name": "defensive_posture",
+      "success_rate": 80,
+      "damage": "n/a",
+      "status_effect": "shielded",
+      "status_effect_damage/round": "-2 damage from the next attack"
+    },
+    {
+      "name": "movement_study",
+      "success_rate": 75,
+      "damage": "n/a",
+      "status_effect": "targeted",
+      "status_effect_damage/round": "Ignore penalties on the next attack"
+    },
+    {
+      "name": "inspiring_shout",
+      "success_rate": 100,
+      "damage": "n/a",
+      "status_effect": "motivated",
+      "status_effect_damage/round": "All allies gain a bonus die on their next roll"
+    },
+    {
+      "name": "quick_recovery",
+      "success_rate": 75,
+      "damage": "n/a",
+      "status_effect": "rejuvenated",
+      "status_effect_damage/round": "Regain 1 HP per round for 3 rounds"
+    },
+    {
+      "name": "perceptive_insight",
+      "success_rate": 85,
+      "damage": "n/a",
+      "status_effect": "informed",
+      "status_effect_damage/round": "Gain a bonus die on your next Investigate check"
+    },
+    {
+      "name": "bruising_strike",
+      "success_rate": 75,
+      "damage": "1d8",
+      "status_effect": "bleed",
+      "status_effect_damage/round": "-2 HP for 3 rounds"
+    },
+    {
+      "name": "surprise_bolas",
+      "success_rate": 80,
+      "damage": "n/a",
+      "status_effect": "bind",
+      "status_effect_damage/round": "Target cannot move for 1 round"
+    },
+    {
+      "name": "venomous_strike",
+      "success_rate": 85,
+      "damage": "1d6",
+      "status_effect": "poison",
+      "status_effect_damage/round": "-1 HP for 3 rounds"
+    },
+    {
+      "name": "tactical_reposition",
+      "success_rate": 70,
+      "damage": "n/a",
+      "status_effect": "counter",
+      "status_effect_damage/round": "You gain an advantage on your next attack after evading an attack"
+    },
+    {
+      "name": "fire_breath",
+      "success_rate": 80,
+      "damage": "n/a",
+      "status_effect": "burn",
+      "status_effect_damage/round": "-1 HP for 2 rounds"
+    }
+]

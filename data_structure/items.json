@@ -1,0 +1,103 @@
+[
+    {
+      "id": "i001",
+      "name": "Lighter",
+      "description": "A simple lighter, useful for starting fires or providing a brief source of light."
+    },
+    {
+      "id": "i002",
+      "name": "Magnifying Glass",
+      "description": "A handheld magnifying glass, helpful for examining small details and clues."
+    },
+    {
+      "id": "i003",
+      "name": "Flashlight",
+      "description": "A battery-operated flashlight, providing a focused beam of light in dark areas."
+    },
+    {
+      "id": "i004",
+      "name": "Notebook",
+      "description": "A small notebook for jotting down observations, clues, and ideas during an investigation."
+    },
+    {
+      "id": "i005",
+      "name": "Pen",
+      "description": "A standard ballpoint pen, used for writing notes or marking maps."
+    },
+    {
+      "id": "i006",
+      "name": "Pocket Knife",
+      "description": "A small folding knife, handy for basic cutting tasks and self-defense."
+    },
+    {
+      "id": "i007",
+      "name": "Rope",
+      "description": "A length of strong rope, useful for climbing or binding objects."
+    },
+    {
+      "id": "i008",
+      "name": "First Aid Kit",
+      "description": "A small kit containing bandages, antiseptics, and other basic medical supplies."
+    },
+    {
+      "id": "i009",
+      "name": "Canteen",
+      "description": "A metal water container, useful for staying hydrated during long investigations."
+    },
+    {
+      "id": "i010",
+      "name": "Lockpicks",
+      "description": "A set of lockpicking tools for opening locked doors or containers."
+    },
+    {
+      "id": "i011",
+      "name": "Whistle",
+      "description": "A loud whistle, useful for signaling others or drawing attention."
+    },
+    {
+      "id": "i012",
+      "name": "Gloves",
+      "description": "A pair of leather gloves, useful for handling delicate or dangerous objects."
+    },
+    {
+      "id": "i013",
+      "name": "Binoculars",
+      "description": "A small pair of binoculars, allowing the user to see distant objects clearly."
+    },
+    {
+      "id": "i014",
+      "name": "Matches",
+      "description": "A small box of matches for starting fires."
+    },
+    {
+      "id": "i015",
+      "name": "Candle",
+      "description": "A wax candle that can be lit to provide light in dark areas."
+    },
+    {
+      "id": "i016",
+      "name": "Elder Sign Amulet",
+      "description": "A mystical amulet said to ward off ancient entities and protect the wearer from certain spells."
+    },
+    {
+      "id": "i017",
+      "name": "Necronomicon",
+      "description": "A tome filled with forbidden knowledge, granting insight into eldritch horrors but at a cost to sanity."
+    },
+    {
+      "id": "i018",
+      "name": "Cultist Dagger",
+      "description": "A ceremonial dagger used by cultists, inflicting minor damage and perhaps darker purposes."
+    },
+    {
+      "id": "i019",
+      "name": "Silver Key",
+      "description": "A key forged from pure silver, its purpose tied to ancient secrets."
+    },
+    {
+      "id": "i020",
+      "name": "Runed Stone",
+      "description": "A stone carved with eldritch runes, radiating faint energy, used in ritualistic magic."
+    }
+  ]
+  

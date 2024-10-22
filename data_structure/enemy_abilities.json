@@ -1,0 +1,84 @@
+[
+    {
+      "name": "shadow_claw",
+      "success_rate": 50,
+      "damage": "1d6",
+      "uses_per_round": "1",
+      "status_effect": "blind",
+      "status_effect_damage/round": "-15% to skill rolls for 2 rounds"
+    },
+    {
+      "name": "acid_spit",
+      "success_rate": 40,
+      "damage": "1d8",
+      "uses_per_round": "1",
+      "status_effect": "burn",
+      "status_effect_damage/round": "-1d2 HP for 3 rounds"
+    },
+    {
+      "name": "freezing_touch",
+      "success_rate": 55,
+      "damage": "1d4",
+      "uses_per_round": "1",
+      "status_effect": "slow",
+      "status_effect_damage/round": "-2 movement speed for 2 rounds"
+    },
+    {
+      "name": "taunting_challenge",
+      "success_rate": 40,
+      "damage": "n/a",
+      "uses_per_round": "1",
+      "status_effect": "enraged",
+      "status_effect_damage/round": "Affected target can only attack the user of taunting challenge"
+    },      
+    {
+      "name": "spore_cloud",
+      "success_rate": 30,
+      "damage": "1d4",
+      "uses_per_round": "1",
+      "status_effect": "poison",
+      "status_effect_damage/round": "Impose penalty die for 2 rounds"
+    },
+    {
+      "name": "necrotic_touch",
+      "success_rate": 40,
+      "damage": "1d8",
+      "uses_per_round": "1",
+      "status_effect": "bleed",
+      "status_effect_damage/round": "-1d4 HP for 3 rounds"
+    },
+    {
+      "name": "sonic_blast",
+      "success_rate": 35,
+      "damage": "1d6",
+      "uses_per_round": "1",
+      "status_effect": "stunned",
+      "status_effect_damage/round": "-15% to all dodge rolls for 2 rounds"
+    },
+    {
+      "name": "venom_bite",
+      "success_rate": 50,
+      "damage": "1d4",
+      "uses_per_round": "1",
+      "status_effect": "poison",
+      "status_effect_damage/round": "-1 HP for 4 rounds"
+    },
+    {
+      "name": "flame_breath",
+      "success_rate": 40,
+      "damage": "1d10",
+      "uses_per_round": "1",
+      "status_effect": "burn",
+      "status_effect_damage/round": "-1d3 HP for 2 rounds"
+    },
+    {
+        "name": "binding_web",
+        "success_rate": 50,
+        "damage": "n/a",
+        "uses_per_round": "1",
+        "status_effect": "bind",
+        "status_effect_damage/round": "Lose 1 turn next round"
+      }
+      
+  ]
+  

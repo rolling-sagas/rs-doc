@@ -52,5 +52,17 @@
       "description": "You expertly adopt disguises and false identities, fooling even the most observant.",
       "effect": "bonus die",
       "modifier": "disguise checks"
+    },
+    {
+      "name": "last_stand",
+      "description": "Desperation brings out one's desire to survive.",
+      "effect": "bonus die",
+      "modifier": "HP <= 25%"
+    },
+    {
+      "name": "cull_the_weak",
+      "description": "Thin the herd. Only the strong is worthy of your time.",
+      "effect": "bonus die",
+      "modifier": "Target is poisoned"
     }
 ]

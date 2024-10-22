@@ -179,6 +179,14 @@
         "ammo_type": "null",
         "uses_per_round": "1",
         "required_skill": "brawl"
+      },
+      {
+        "name": "fists",
+        "damage": "1d3+db",
+        "range": "touch",
+        "ammo": "n/a",
+        "uses_per_round": "1",
+        "required_skill": "brawl"
       }
     ]
   }

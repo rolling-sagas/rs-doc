@@ -44,6 +44,14 @@
               "ammo": "n/a",
               "uses_per_round": "1",
               "required_skill": "brawl"
+            },
+            {
+              "name": "fists",
+              "damage": "1d3+db",
+              "range": "touch",
+              "ammo": "n/a",
+              "uses_per_round": "1",
+              "required_skill": "brawl"
             }
           ],
 
@@ -65,8 +73,16 @@
           ],
 
           "items": [
-            "lighter",
-            "magnifying glass"
+            {
+              "id": "i001",
+              "name": "Lighter",
+              "description": "A simple lighter, useful for starting fires or providing a brief source of light."
+            },
+            {
+              "id": "i002",
+              "name": "Magnifying Glass",
+              "description": "A handheld magnifying glass, helpful for examining small details and clues."
+            }
           ]
         },
         "backstory": {
