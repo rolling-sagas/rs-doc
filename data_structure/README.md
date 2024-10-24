@@ -38,62 +38,134 @@
 - Ability: venomous bite
 ---
 
+```mermaid
+    timeline
+    title Current Combat Cycle
 
+    System [Before Combat]
+                                        : Load character [HP, MP]
+                                        : Load total number of enemy [HP, MP]
+                                        : Investigator [Equipment, Items]
+    System [Enter Combat]
+                                        : Activate any character + enemy TRAITS
+                                        : Initiate Sanity Check
+                                        : Compare MOVEMENT to determine which actor attacks first
+    During Combat [Player's 1st Turn]
+                                        : Resolve any STATUS EFFECTS & -1 turn for the SE
+                                        : Player uses the ability [Death Mark]
+                                        : Apply [Death Mark] status effect for 3 rounds on Enemy
+    During Combat [Enemy's 1st Turn]
+                                        : Resolve any STATUS EFFECTS & -1 turn for the SE
+                                        : Enemy attacks with brawl
+    During Combat [Player's Reaction]
+                                        : Player can 1. Fight Back 2. Dodge
+                                        : Player chooses [Fight Back]
+                                        : Roll against enemy's brawl -> Roll success
+                                        : Player rolls 1D4 + 2 + DB, result of 6
+                                        : Player deals damage to enemy
+                                        : Enemy armor applied, knife deals half damage and -2 attack.
+                                        : Enemy lose 1 HP, now has **13** HP
+    During Combat [Enemy's 2nd Turn]
+                                        : Resolve any STATUS EFFECTS & -1 turn for the SE
+                                        : Enemy attacks with brawl
+    During Combat [Player's Reaction]
+                                        : Player can 1. Fight Back 2. Dodge
+                                        : Player chooses [Dodge]
+                                        : Roll against enemy's brawl -> Roll fail
+                                        : Enemy rolls 1D6 + DB, result of 6
+                                        : No armor, no damage reduction
+                                        : player loses 6 HP, now has **7** HP 
+    During Combat [Enemy's 2nd Turn]
+                                        : [Frenzied Strike] condition satisfied, activate trait
+                                        : attack with brawl
+    During Combat [Player's Reaction]
+                                        : Player can 1. Fight Back 2. Dodge
+                                        : Player chooses [Dodge]
+                                        : Roll against enemy's brawl -> Roll success
+                                        : player does not receive damage
+    During Combat [Player's 2nd Turn]
+                                        : Resolve any STATUS EFFECTS & -1 turn for the SE
+                                        : Player uses their [GLOCK] and fires [3] shots
+                                        : [Rapid Fire] condition satisfied, activate trait, no *penalty die* applied
+                                        : Enemy is 10 yards away, which is within the weapon distance (15 yards) thus no *penalty die* applied
+                                        : Enemy has [Death Mark] SE, *bonus die* applied
+                                        : Roll for firearms (hangun) x 3, all roll success
+                                        : Roll 3 separate 1D10, total of 30
+                                        : Enemy armor applied, [Glock] deals half damage and -2 attack
+                                        : Enemy loses 13 HP, now has **0** HP left
+    System [During Combat]
+                                        : Enemy [is dead]
+                                        : No other enemy left
+                                        : Combat Concludes
+    System [After Combat]
+                                        : Record and save character state [HP, MP, Equipment, Items (ammo)]
+                                        : Exit Combat
+```
 
+```mermaid
+    timeline
+    title Current Combat Cycle
 
-```mermaid 
-    sequenceDiagram
-    participant movement    
-    participant sanity
-    actor player
-    actor enemy
-
-    participant status effect
-    participant round end
-
-
-    note left of player: load investigator's current HP, MP, Equipment, Items
-    note right of enemy: load enemy's current HP, MP
-    note left of player: check to see if player's current condition would activate any traits
-    note right of enemy: check to see if enemy's current condition would activate any traits
-
-
-    player->>+enemy: sees
-    enemy->>-sanity: initiate sanity check
-    alt if skill check succeeds:
-    sanity-->>player: lose minimum sanity
-    else if skill check fails:
-    sanity-->>player: roll sanity loss die
-    end
-
-    alt compare movement:
-    player-->+movement: 
-    enemy-->movement: 
-    else if player is faster: 
-    movement->>player: 
-    else if enemy is faster:
-    movement->>-enemy: 
-    end
-
-    player->>enemy: uses the ability: Death Mark
-    enemy->>status effect: gains a status effect for 3 rounds
-
-    status effect->>enemy: resolve any damage dealing SE and -1 SE turn
-
-    loop max enemy attack / turn
-    enemy->>player: attacks
-    alt fight back: Success
-    player->>enemy: 
-    else fight back: fail
-    player->>player: lose HP
-    else dodge: success
-    player->>player: no HP loss
-    else dodge: fail
-    player->>player: lose HP
-    end
-    end
-
-    round end->>status effect: -1 round
-
-
-
+    section Preparation
+    System [Before Combat]
+                                        : Load character [HP, MP]
+                                        : Load total number of enemy [HP, MP]
+                                        : Investigator [Equipment, Items]
+    System [Enter Combat]
+                                        : Activate any character + enemy TRAITS
+                                        : Initiate Sanity Check
+                                        : Compare MOVEMENT to determine which actor attacks first
+    section Round 1
+    During Combat [Player's 1st Turn]
+                                        : Resolve any STATUS EFFECTS & -1 turn for the SE
+                                        : Player uses the ability [Death Mark]
+                                        : Apply [Death Mark] status effect for 3 rounds on Enemy
+    During Combat [Enemy's 1st Turn]
+                                        : Resolve any STATUS EFFECTS & -1 turn for the SE
+                                        : Enemy attacks with brawl
+    During Combat [Player's Reaction]
+                                        : Player can 1. Fight Back 2. Dodge
+                                        : Player chooses [Fight Back]
+                                        : Roll against enemy's brawl -> Roll success
+                                        : Player rolls 1D4 + 2 + DB, result of 6
+                                        : Player deals damage to enemy
+                                        : Enemy armor applied, knife deals half damage and -2 attack.
+                                        : Enemy lose 1 HP, now has **13** HP
+    During Combat [Enemy's 2nd Turn]
+                                        : Resolve any STATUS EFFECTS & -1 turn for the SE
+                                        : Enemy attacks with brawl
+    During Combat [Player's Reaction]
+                                        : Player can 1. Fight Back 2. Dodge
+                                        : Player chooses [Dodge]
+                                        : Roll against enemy's brawl -> Roll fail
+                                        : Enemy rolls 1D6 + DB, result of 6
+                                        : No armor, no damage reduction
+                                        : player loses 6 HP, now has **7** HP 
+    During Combat [Enemy's 2nd Turn]
+                                        : [Frenzied Strike] condition satisfied, activate trait
+                                        : attack with brawl
+    During Combat [Player's Reaction]
+                                        : Player can 1. Fight Back 2. Dodge
+                                        : Player chooses [Dodge]
+                                        : Roll against enemy's brawl -> Roll success
+                                        : player does not receive damage
+    section Round 2
+    During Combat [Player's 2nd Turn]
+                                        : Resolve any STATUS EFFECTS & -1 turn for the SE
+                                        : Player uses their [GLOCK] and fires [3] shots
+                                        : [Rapid Fire] condition satisfied, activate trait, no *penalty die* applied
+                                        : Enemy is 10 yards away, which is within the weapon distance (15 yards) thus no *penalty die* applied
+                                        : Enemy has [Death Mark] SE, *bonus die* applied
+                                        : Roll for firearms (hangun) x 3, all roll success
+                                        : Roll 3 separate 1D10, total of 30
+                                        : Enemy armor applied, [Glock] deals half damage and -2 attack
+                                        : Enemy loses 13 HP, now has **0** HP left
+    section Post Battle
+    System [During Combat]
+                                        : Enemy [is dead]
+                                        : No other enemy left
+                                        : Combat Concludes
+    System [After Combat]
+                                        : Record and save character state [HP, MP, Equipment, Items (ammo)]
+                                        : Exit Combat
+```

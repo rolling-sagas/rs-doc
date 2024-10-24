@@ -594,6 +594,6 @@ Marked: Attacking marked enemies will give the attacker a bonus die.
     - Firing multiple shots will **NOT** be given a **penalty die** due to **RAPID FIRE** talent.
     - Attacking a marked enemy is granted a **bonus die**.
     - Only 3 shot landed. Bob rolls a **1D10** for the damage dealt, and got a 17.
-    - Bob's Glock now has **11** bullets left in the magazine.
+    - Bob's Glock now has **14** bullets left in the magazine.
     - Mummy 2 has 2 AP
     - Mummy 2 loses 15 HP, and is now destroyed.
