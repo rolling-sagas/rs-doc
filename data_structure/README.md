@@ -43,8 +43,8 @@
     title Current Combat Cycle
 
     System [Before Combat]
-                                        : Load character [HP, MP]
-                                        : Load total number of enemy [HP, MP]
+                                        : Load character [HP, MP, MOV, BUILD, etc]
+                                        : Load total number of enemy [HP, MP, MOV, BUILD etv]
                                         : Investigator [Equipment, Items]
     System [Enter Combat]
                                         : Activate any character + enemy TRAITS
@@ -83,6 +83,8 @@
                                         : Player chooses [Dodge]
                                         : Roll against enemy's brawl -> Roll success
                                         : player does not receive damage
+    System [During Combat]
+                                        : Resolve any ROUND STATUS EFFECTS & -1 round for the SE
     During Combat [Player's 2nd Turn]
                                         : Resolve any STATUS EFFECTS & -1 turn for the SE
                                         : Player uses their [GLOCK] and fires [3] shots
@@ -149,6 +151,8 @@
                                         : Player chooses [Dodge]
                                         : Roll against enemy's brawl -> Roll success
                                         : player does not receive damage
+    System [During Combat]
+                                        : Resolve any ROUND STATUS EFFECTS & -1 round for the SE
     section Round 2
     During Combat [Player's 2nd Turn]
                                         : Resolve any STATUS EFFECTS & -1 turn for the SE

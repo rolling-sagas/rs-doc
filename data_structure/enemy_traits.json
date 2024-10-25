@@ -39,7 +39,7 @@
       "name": "mind_shatter",
       "description": "The enemy's attacks not only hurt physically but also shatter the victim's mental stability.",
       "effect": "penalty die",
-      "modifier": "Next INT or POW roll"
+      "modifier": "Once every 2 rounds"
     },
     {
       "id": "et007",

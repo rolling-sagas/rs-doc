@@ -5,7 +5,8 @@
       "success_rate": 75,
       "damage": "1d4",
       "status_effect": "vulnerable",
-      "status_effect_damage/round": "1 additional damage for the next attack"
+      "status_effect_damage/round": "1 additional damage for the next attack",
+      "saving_throw": "dodge/fight back"
     },
     {
       "id": "ia002",
@@ -13,7 +14,8 @@
       "success_rate": 80,
       "damage": "n/a",
       "status_effect": "shielded",
-      "status_effect_damage/round": "-2 damage from the next attack"
+      "status_effect_damage/round": "-2 damage from the next attack",
+      "saving_throw": "n/a"
     },
     {
       "id": "ia003",
@@ -21,7 +23,8 @@
       "success_rate": 75,
       "damage": "n/a",
       "status_effect": "targeted",
-      "status_effect_damage/round": "Ignore penalties on the next attack"
+      "status_effect_damage/round": "Ignore penalties on the next attack",
+      "saving_throw": "n/a"
     },
     {
       "id": "ia004",
@@ -29,7 +32,8 @@
       "success_rate": 100,
       "damage": "n/a",
       "status_effect": "motivated",
-      "status_effect_damage/round": "All allies gain a bonus die on their next roll"
+      "status_effect_damage/round": "All allies gain a bonus die on their next roll",
+      "saving_throw": "n/a"
     },
     {
       "id": "ia005",
@@ -37,7 +41,8 @@
       "success_rate": 75,
       "damage": "n/a",
       "status_effect": "rejuvenated",
-      "status_effect_damage/round": "Regain 1 HP per round for 3 rounds"
+      "status_effect_damage/round": "Regain 2 HP per round for 3 rounds",
+      "saving_throw": "n/a"
     },
     {
       "id": "ia006",
@@ -45,7 +50,8 @@
       "success_rate": 85,
       "damage": "n/a",
       "status_effect": "informed",
-      "status_effect_damage/round": "Gain a bonus die on your next Investigate check"
+      "status_effect_damage/round": "Gain a bonus die on your next Investigate check",
+      "saving_throw": "n/a"
     },
     {
       "id": "ia007",
@@ -53,7 +59,8 @@
       "success_rate": 75,
       "damage": "1d8",
       "status_effect": "bleed",
-      "status_effect_damage/round": "-2 HP for 3 rounds"
+      "status_effect_damage/round": "-2 HP for 3 rounds",
+      "saving_throw": "dodge/fight back"
     },
     {
       "id": "ia008",
@@ -61,7 +68,8 @@
       "success_rate": 80,
       "damage": "n/a",
       "status_effect": "bind",
-      "status_effect_damage/round": "Target cannot move for 1 round"
+      "status_effect_damage/round": "Target cannot move for 1 round",
+      "saving_throw": "dodge"
     },
     {
       "id": "ia009",
@@ -69,7 +77,8 @@
       "success_rate": 85,
       "damage": "1d6",
       "status_effect": "poison",
-      "status_effect_damage/round": "-1 HP for 3 rounds"
+      "status_effect_damage/round": "-1 HP for 3 rounds",
+      "saving_throw": "dodge/fight back"
     },
     {
       "id": "ia010",
@@ -77,7 +86,8 @@
       "success_rate": 70,
       "damage": "n/a",
       "status_effect": "counter",
-      "status_effect_damage/round": "You gain an advantage on your next attack after evading an attack"
+      "status_effect_damage/round": "You gain an advantage on your next attack after evading an attack",
+      "saving_throw": "n/a"
     },
     {
       "id": "ia011",
@@ -85,7 +95,8 @@
       "success_rate": 80,
       "damage": "n/a",
       "status_effect": "burn",
-      "status_effect_damage/round": "-1 HP for 2 rounds"
+      "status_effect_damage/round": "-1 HP for 2 rounds",
+      "saving_throw": "dodge"
     },
     {
       "id": "ia012",
@@ -93,6 +104,7 @@
       "success_rate": 100,
       "damage": "n/a",
       "status_effect": "marked",
-      "status_effect_damage/round": "2"
+      "status_effect_damage/round": "2",
+      "saving_throw": "n/a"
     }
 ]
