@@ -28,7 +28,7 @@
         "brawl": 50
       },
       "equipment": {
-        "weapon_ids": ["w001", "w005", "w019"]
+        "weapon_ids": ["fw001", "mw001", "mw010"]
       },
       "trait": ["it012"],
       "abilities": ["ia012"],
@@ -66,7 +66,7 @@
         "brawl": 40
       },
       "equipment": {
-        "weapon_ids": ["w019", "w011"]
+        "weapon_ids": ["mw010", "fw006"]
       },
       "trait": ["it003"],
       "abilities": ["ia003"],
