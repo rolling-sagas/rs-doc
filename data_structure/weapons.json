@@ -1,0 +1,213 @@
+{
+  "__comment": "This file is outdated, please check firearms_weapons and melee_weapons JSON file. I have separated the weapons into 2 different catagories.",
+  "weapons": [
+      {
+          "id": "w001",
+          "name": "Revolver",
+          "type": "Firearm",
+          "damage": "1d8",
+          "range": "15 yards",
+          "ammo": 6,
+          "ammo_type": ".32_ACP",
+          "uses_per_round": "1-3",
+          "required_skill": "firearms_handgun"
+      },
+      {
+          "id": "w002",
+          "name": "Shotgun (12-gauge)",
+          "type": "Firearm",
+          "damage": "4d6/2d6/1d6",
+          "range": "10/20/50 yards",
+          "ammo": 2,
+          "ammo_type": "12_gauge",
+          "uses_per_round": "1-2",
+          "required_skill": "firearms_shotgun"
+      },
+      {
+          "id": "w003",
+          "name": "Rifle (.30-06)",
+          "type": "Firearm",
+          "damage": "2d6+4",
+          "range": "110 yards",
+          "ammo": 5,
+          "ammo_type": ".303_british",
+          "uses_per_round": "1",
+          "required_skill": "firearms_rifle"
+      },
+      {
+          "id": "w004",
+          "name": "Derringer",
+          "type": "Firearm",
+          "damage": "1d6",
+          "range": "touch",
+          "ammo": 2,
+          "ammo_type": ".25_ACP",
+          "uses_per_round": "1",
+          "required_skill": "firearms_handgun"
+      },
+      {
+          "id": "w005",
+          "name": "Knife",
+          "type": "Melee",
+          "damage": "1d4+db",
+          "range": "touch",
+          "ammo": -1,
+          "ammo_type": "null",
+          "uses_per_round": "1",
+          "required_skill": "brawl"
+      },
+      {
+          "id": "w006",
+          "name": "Baseball Bat",
+          "type": "Melee",
+          "damage": "1d8+db",
+          "range": "touch",
+          "ammo": -1,
+          "ammo_type": "null",
+          "uses_per_round": "1",
+          "required_skill": "brawl"
+      },
+      {
+          "id": "w007",
+          "name": "Brass Knuckles",
+          "type": "Melee",
+          "damage": "1d3+db",
+          "range": "touch",
+          "ammo": -1,
+          "ammo_type": "null",
+          "uses_per_round": "1",
+          "required_skill": "brawl"
+      },
+      {
+          "id": "w008",
+          "name": "Sword",
+          "type": "Melee",
+          "damage": "1d8+db",
+          "range": "touch",
+          "ammo": -1,
+          "ammo_type": "null",
+          "uses_per_round": "1",
+          "required_skill": "fighting_sword"
+      },
+      {
+          "id": "w009",
+          "name": "Crowbar",
+          "type": "Melee",
+          "damage": "1d6+db",
+          "range": "touch",
+          "ammo": -1,
+          "ammo_type": "null",
+          "uses_per_round": "1",
+          "required_skill": "brawl"
+      },
+      {
+          "id": "w010",
+          "name": "Flamethrower",
+          "type": "Firearm",
+          "damage": "2d6+fire",
+          "range": "10 yards",
+          "ammo": "10",
+          "ammo_type": "gas",
+          "uses_per_round": "1",
+          "required_skill": "firearms_flamethrower"
+      },
+      {
+          "id": "w011",
+          "name": "Crossbow",
+          "type": "Firearm",
+          "damage": "1d8",
+          "range": "30 yards",
+          "ammo": 1,
+          "ammo_type": "bolt",
+          "uses_per_round": "1",
+          "required_skill": "firearms_bow"
+      },
+      {
+          "id": "w012",
+          "name": "Molotov Cocktail",
+          "type": "Thrown",
+          "damage": "1d6+fire",
+          "range": "10 yards",
+          "ammo": 1,
+          "ammo_type": "self",
+          "uses_per_round": "1",
+          "required_skill": "throw"
+      },
+      {
+          "id": "w013",
+          "name": "Throwing Knife",
+          "type": "Thrown",
+          "damage": "1d4",
+          "range": "10 yards",
+          "ammo": 1,
+          "ammo_type": "self",
+          "uses_per_round": "1",
+          "required_skill": "throw"
+      },
+      {
+          "id": "w014",
+          "name": "Hatchet",
+          "type": "Melee",
+          "damage": "1d6+db",
+          "range": "touch",
+          "ammo": -1,
+          "ammo_type": "null",
+          "uses_per_round": "1",
+          "required_skill": "fighting_axe"
+      },
+      {
+          "id": "w015",
+          "name": "Whip",
+          "type": "Melee",
+          "damage": "1d3+db",
+          "range": "10 yards",
+          "ammo": -1,
+          "ammo_type": "null",
+          "uses_per_round": "1",
+          "required_skill": "fighting_whip"
+      },
+      {
+          "id": "w016",
+          "name": "Machete",
+          "type": "Melee",
+          "damage": "1d8+db",
+          "range": "touch",
+          "ammo": -1,
+          "ammo_type": "null",
+          "uses_per_round": "1",
+          "required_skill": "brawl"
+      },
+      {
+          "id": "w017",
+          "name": "Bow",
+          "type": "Firearm",
+          "damage": "1d6",
+          "range": "30 yards",
+          "ammo": 1,
+          "ammo_type": "arrow",
+          "uses_per_round": "1",
+          "required_skill": "firearms_bow"
+      },
+      {
+          "id": "w018",
+          "name": "Sledgehammer",
+          "type": "Melee",
+          "damage": "2d6+db",
+          "range": "touch",
+          "ammo": -1,
+          "ammo_type": "null",
+          "uses_per_round": "1",
+          "required_skill": "brawl"
+      },
+      {
+          "id": "w019",
+          "name": "Fists",
+          "type": "Melee",
+          "damage": "1d3+db",
+          "range": "touch",
+          "ammo": "n/a",
+          "uses_per_round": "1",
+          "required_skill": "brawl"
+      }
+  ]
+}

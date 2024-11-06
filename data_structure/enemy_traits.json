@@ -1,0 +1,72 @@
+[
+    {
+      "id": "et001",
+      "name": "iron_flesh",
+      "description": "The enemy's skin is as tough as iron, reducing the impact of physical attacks.",
+      "effect": "reduce damage",
+      "modifier": "-2 physical damage"
+    },
+    {
+      "id": "et002",
+      "name": "nightmare_aura",
+      "description": "A terrifying aura causes investigators to suffer mental strain when nearby.",
+      "effect": "Sanity loss",
+      "modifier": "1d4 Sanity loss per 2 rounds"
+    },
+    {
+      "id": "et003",
+      "name": "shadow_step",
+      "description": "The enemy can slip through the shadows, allowing quick repositioning without effort.",
+      "effect": "free movement",
+      "modifier": "Move 10 feet"
+    },
+    {
+      "id": "et004",
+      "name": "frenzied_strikes",
+      "description": "Once the enemy lands a hit, their wild frenzy grants them an additional attack.",
+      "effect": "extra attack",
+      "modifier": "If first attack hits"
+    },
+    {
+      "id": "et005",
+      "name": "regeneration",
+      "description": "The enemy heals rapidly, recovering health each round unless specific damage types are applied.",
+      "effect": "regain hit points",
+      "modifier": "+1 HP per round"
+    },
+    {
+      "id": "et006",
+      "name": "mind_shatter",
+      "description": "The enemy's attacks not only hurt physically but also shatter the victim's mental stability.",
+      "effect": "penalty die",
+      "modifier": "Once every 2 rounds"
+    },
+    {
+      "id": "et007",
+      "name": "bloodlust",
+      "description": "When the enemy senses blood, it gains relentless energy, attacking even more viciously.",
+      "effect": "extra attack",
+      "modifier": "If >50% health loss"
+    },
+    {
+      "id": "et008",
+      "name": "howling_scream",
+      "description": "A piercing scream stuns investigators, leaving them vulnerable.",
+      "effect": "stun",
+      "modifier": "1 round if fail POW check"
+    },
+    {
+      "id": "et009",
+      "name": "ancient_wrath",
+      "description": "When the enemy is wounded, their rage intensifies, increasing their damage output.",
+      "effect": "additional damage",
+      "modifier": "+1d4 damage <50% health"
+    },
+    {
+      "id": "et010",
+      "name": "slippery_skin",
+      "description": "Wet and smooth scales makes hard contact difficult.",
+      "effect": "penalty die",
+      "modifier": "incoming brawl attacks"
+    }
+]

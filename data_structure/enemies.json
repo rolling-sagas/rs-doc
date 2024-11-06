@@ -1,8 +1,10 @@
 {
-"enemies": [
+  "enemies": [
     {
+      "id": "e001",
       "name": "Deep One",
       "type": "Mythos Creature",
+      "description": "A creature born from the unknown depths of the ocean.",
       "stats": {
         "strength": 70,
         "dexterity": 50,
@@ -12,32 +14,81 @@
         "hit_points": 13,
         "magic_points": 10,
         "armor_points": 1,
-        "movement": 8
+        "movement": 8,
+        "attack/round": 1
       },
       "combat": {
         "attacks": [
           {
             "name": "bite",
+            "brawl": 45,
             "damage": "1d6+db"
           },
           {
             "name": "spear",
+            "brawl": 45,
             "damage": "1d8+db"
           }
         ],
-        "damage_bonus": "1d4"
+        "damage_bonus": "1d4",
+        "trait": [
+          "et010"
+        ],
+        "abilities": [
+          "ea011"
+        ]
       },
-      "behavior": {
-        "aggression": "Hostile",
-        "intelligence_level": "Basic",
-        "combat_tactics": "The Deep One charges its target, attacking relentlessly with claws and bites."
-      },
-      "mythos_abilities": {
-        "cause_fear": {
+      "mythos_abilities": [
+        {
           "description": "The mere sight of the Deep One forces investigators to make a Sanity check.",
-          "sanity_loss": "0/1d6"
+          "sanity_loss": "sl005"
         }
-      }
+      ]
+    },
+    {
+      "id": "e002",
+      "name": "Shoggoth Spawn",
+      "type": "Mythos Creature",
+      "description": "A pulsating, amorphous entity born from the primordial darkness.",
+      "stats": {
+        "strength": 85,
+        "dexterity": 35,
+        "intelligence": 25,
+        "constitution": 90,
+        "power": 70,
+        "hit_points": 20,
+        "magic_points": 12,
+        "armor_points": 3,
+        "movement": 6,
+        "attack/round": 2
+      },
+      "combat": {
+        "attacks": [
+          {
+            "name": "tentacle_slam",
+            "brawl": 55,
+            "damage": "1d8+db"
+          },
+          {
+            "name": "engulf",
+            "brawl": 35,
+            "damage": "1d10+db"
+          }
+        ],
+        "damage_bonus": "1d6",
+        "trait": [
+          "et005"
+        ],
+        "abilities": [
+          "ea002"
+        ]
+      },
+      "mythos_abilities": [
+        {
+          "description": "The unnatural form of the Shoggoth Spawn causes investigators to lose grip on reality.",
+          "sanity_loss": "sl007"
+        }
+      ]
     }
   ]
 }

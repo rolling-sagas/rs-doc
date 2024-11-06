@@ -1,0 +1,124 @@
+[
+    {
+      "id": "ea001",
+      "name": "shadow_claw",
+      "proficiency": 50,
+      "damage": "1d6",
+      "uses_per_round": "1",
+      "status_effect": "blind",
+      "status_effect_damage/round": "-15% to skill rolls for 2 rounds",
+      "saving_throw": "dodge/fight back"
+    },
+    {
+      "id": "ea002",
+      "name": "acid_spit",
+      "proficiency": 40,
+      "damage": "1d8",
+      "uses_per_round": "1",
+      "status_effect": "burn",
+      "status_effect_damage/round": "-1d2 HP for 3 turns",
+      "saving_throw": "dodge"
+    },
+    {
+      "id": "ea003",
+      "name": "freezing_touch",
+      "proficiency": 55,
+      "damage": "1d4",
+      "uses_per_round": "1",
+      "status_effect": "slow",
+      "status_effect_damage/round": "-2 movement speed for 2 rounds",
+      "saving_throw": "dodge/fight back"
+    },
+    {
+      "id": "ea004",
+      "name": "taunting_challenge",
+      "proficiency": 40,
+      "damage": "n/a",
+      "uses_per_round": "1",
+      "status_effect": "enraged",
+      "status_effect_damage/round": "Affected target can only attack the user of taunting challenge",
+      "saving_throw": "POW"
+    },      
+    {
+      "id": "ea005",
+      "name": "spore_cloud",
+      "proficiency": 30,
+      "damage": "1d4",
+      "uses_per_round": "1",
+      "status_effect": "poison",
+      "status_effect_damage/round": "Impose penalty die for 2 turns",
+      "saving_throw": "dodge"
+    },
+    {
+      "id": "ea006",
+      "name": "necrotic_touch",
+      "proficiency": 40,
+      "damage": "1d8",
+      "uses_per_round": "1",
+      "status_effect": "bleed",
+      "status_effect_damage/round": "-1d4 HP for 3 turns",
+      "saving_throw": "dodge/fight back"
+    },
+    {
+      "id": "ea007",
+      "name": "sonic_blast",
+      "proficiency": 35,
+      "damage": "1d6",
+      "uses_per_round": "1",
+      "status_effect": "stunned",
+      "status_effect_damage/round": "-15% to all dodge rolls for 2 turns",
+      "saving_throw": "dodge"
+    },
+    {
+      "id": "ea008",
+      "name": "venomous_bite",
+      "proficiency": 50,
+      "damage": "1d4",
+      "uses_per_round": "1",
+      "status_effect": "poison",
+      "status_effect_damage/round": "-1 HP for 4 turns",
+      "saving_throw": "dodge/fight back"
+    },
+    {
+      "id": "ea009",
+      "name": "flame_breath",
+      "proficiency": 40,
+      "damage": "1d10",
+      "uses_per_round": "1",
+      "status_effect": "burn",
+      "status_effect_damage/round": "-1d3 HP for 2 turns",
+      "saving_throw": "dodge"
+    },
+    {
+      "id": "ea010",
+      "name": "binding_web",
+      "proficiency": 50,
+      "damage": "n/a",
+      "uses_per_round": "1",
+      "status_effect": "bind",
+      "status_effect_damage/round": "Lose 1 turn next round",
+      "saving_throw": "dodge"
+    },
+    {
+      "id": "ea011",
+      "name": "poison_sting",
+      "proficiency": 45,
+      "damaga": "1d4",
+      "uses_per_round": "1-3",
+      "status_effect": "poison",
+      "status_effect_damaga/round": "-1 HP for 3 turns",
+      "saving_throw": "dodge"
+      },
+      {
+      "id": "ea012",
+      "name": "howling_scream",
+      "proficiency": 80,
+      "damage": "0",
+      "uses_per_round": "1",
+      "status_effect": "stun",
+      "status_effect_duration": "1 round",
+      "saving_throw": "POW"
+      }
+      
+  ]
+  

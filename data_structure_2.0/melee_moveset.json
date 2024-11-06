@@ -1,0 +1,39 @@
+{
+    "melee_weapon_moves": [
+      {
+        "id": "m001",
+        "name": "Quick Slash",
+        "type": "Melee",
+        "damage": "1d6+db",
+        "uses_per_round": 1,
+        "weapon_bound": "Sword",
+        "effect": null
+      },
+      {
+        "id": "m007",
+        "name": "Poison Sting",
+        "type": "Melee",
+        "damage": "1d4",
+        "uses_per_round": 1,
+        "weapon_bound": "Dagger",
+        "effect": "Poisons the target, dealing 1 HP damage for 3 turns"
+      },
+      {
+        "id": "m008",
+        "name": "Power Strike",
+        "type": "Melee",
+        "damage": "1d10+db",
+        "uses_per_round": 1,
+        "effect": "Lowers user’s dexterity by 10% for the next turn"
+      },
+      {
+        "id": "m012",
+        "name": "Adrenaline Surge",
+        "type": "Melee",
+        "damage": null,
+        "uses_per_round": 1,
+        "effect": "Increases user’s attack and dexterity by 10% for 3 turns"
+      }
+    ]
+  }
+  

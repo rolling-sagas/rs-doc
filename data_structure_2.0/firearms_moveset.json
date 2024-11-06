@@ -1,0 +1,41 @@
+{
+    "firearms_moves": [
+      {
+        "id": "m002",
+        "name": "Piercing Shot",
+        "type": "Firearm",
+        "damage": "1d8",
+        "uses_per_round": 1,
+        "weapon_bound": "Rifle",
+        "effect": "Ignores 1 armor point"
+      },
+      {
+        "id": "m009",
+        "name": "Flame Shot",
+        "type": "Firearm",
+        "damage": "1d6",
+        "uses_per_round": 1,
+        "weapon_bound": "Flamethrower",
+        "effect": "Sets target ablaze, dealing 1 HP per round for 2 rounds"
+      },
+      {
+        "id": "m011",
+        "name": "Double Tap",
+        "type": "Firearm",
+        "damage": "1d6 x2",
+        "uses_per_round": 1,
+        "weapon_bound": "Pistol",
+        "effect": "Consumes 2 bullets"
+      },
+      {
+        "id": "m017",
+        "name": "Explosive Arrow",
+        "type": "Firearm",
+        "damage": "1d10",
+        "uses_per_round": 1,
+        "weapon_bound": "Bow",
+        "effect": "Deals splash damage (1d4) to nearby enemies"
+      }
+    ]
+  }
+  

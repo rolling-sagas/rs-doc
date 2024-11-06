@@ -1,0 +1,110 @@
+[
+    {
+      "id": "ia001",
+      "name": "focused_strike",
+      "proficiency": 75,
+      "damage": "1d4",
+      "status_effect": "vulnerable",
+      "status_effect_damage/round": "1 additional damage for the next attack",
+      "saving_throw": "dodge/fight back"
+    },
+    {
+      "id": "ia002",
+      "name": "defensive_posture",
+      "proficiency": 80,
+      "damage": "n/a",
+      "status_effect": "shielded",
+      "status_effect_damage/round": "-2 damage from the next attack",
+      "saving_throw": "n/a"
+    },
+    {
+      "id": "ia003",
+      "name": "movement_study",
+      "proficiency": 75,
+      "damage": "n/a",
+      "status_effect": "targeted",
+      "status_effect_damage/round": "Ignore penalties on the next attack",
+      "saving_throw": "n/a"
+    },
+    {
+      "id": "ia004",
+      "name": "inspiring_shout",
+      "proficiency": 100,
+      "damage": "n/a",
+      "status_effect": "motivated",
+      "status_effect_damage/round": "All allies gain a bonus die on their next roll",
+      "saving_throw": "n/a"
+    },
+    {
+      "id": "ia005",
+      "name": "quick_recovery",
+      "proficiency": 75,
+      "damage": "n/a",
+      "status_effect": "rejuvenated",
+      "status_effect_damage/round": "Regain 2 HP per round for 3 rounds",
+      "saving_throw": "n/a"
+    },
+    {
+      "id": "ia006",
+      "name": "perceptive_insight",
+      "proficiency": 85,
+      "damage": "n/a",
+      "status_effect": "informed",
+      "status_effect_damage/round": "Gain a bonus die on your next Investigate check",
+      "saving_throw": "n/a"
+    },
+    {
+      "id": "ia007",
+      "name": "bruising_strike",
+      "proficiency": 75,
+      "damage": "1d8",
+      "status_effect": "bleed",
+      "status_effect_damage/round": "-2 HP for 3 rounds",
+      "saving_throw": "dodge/fight back"
+    },
+    {
+      "id": "ia008",
+      "name": "surprise_bolas",
+      "proficiency": 80,
+      "damage": "n/a",
+      "status_effect": "bind",
+      "status_effect_damage/round": "Target cannot move for 1 round",
+      "saving_throw": "dodge"
+    },
+    {
+      "id": "ia009",
+      "name": "venomous_strike",
+      "proficiency": 85,
+      "damage": "1d6",
+      "status_effect": "poison",
+      "status_effect_damage/round": "-1 HP for 3 rounds",
+      "saving_throw": "dodge/fight back"
+    },
+    {
+      "id": "ia010",
+      "name": "tactical_reposition",
+      "proficiency": 70,
+      "damage": "n/a",
+      "status_effect": "counter",
+      "status_effect_damage/round": "You gain an advantage on your next attack after evading an attack",
+      "saving_throw": "n/a"
+    },
+    {
+      "id": "ia011",
+      "name": "fire_breath",
+      "proficiency": 80,
+      "damage": "n/a",
+      "status_effect": "burn",
+      "status_effect_damage/round": "-1 HP for 2 rounds",
+      "saving_throw": "dodge"
+    },
+    {
+      "id": "ia012",
+      "name": "death_mark",
+      "proficiency": 100,
+      "damage": "n/a",
+      "status_effect": "marked",
+      "status_effect_damage/round": "2",
+      "saving_throw": "n/a"
+    }
+]

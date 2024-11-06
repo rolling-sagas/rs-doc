@@ -1,0 +1,86 @@
+[
+    {
+      "id": "it001",
+      "name": "quick_reflexes",
+      "description": "Your heightened reflexes allow you to react swiftly in combat.",
+      "effect": "bonus die",
+      "modifier": "dodge_checks"
+    },
+    {
+      "id": "it002",
+      "name": "hulking_strength",
+      "description": "Your immense physical power gives you an edge in feats of strength.",
+      "effect": "bonus die",
+      "modifier": "strength_rolls"
+    },
+    {
+      "id": "it003",
+      "name": "keen_observer",
+      "description": "Your sharp eyes never miss important details when searching for clues.",
+      "effect": "bonus die",
+      "modifier": "spot_hidden_rolls"
+    },
+    {
+      "id": "it004",
+      "name": "intimidating_presence",
+      "description": "Your imposing demeanor makes it hard for others to intimidate you.",
+      "effect": "penalty die for opponents",
+      "modifier": "intimidation attempts against you"
+    },
+    {
+      "id": "it005",
+      "name": "hawk_eye",
+      "description": "You can precisely attack small or fast-moving targets without difficulty.",
+      "effect": "remove penalty",
+      "modifier": "attacks on small or fast targets"
+    },
+    {
+      "id": "it006",
+      "name": "light_footed",
+      "description": "Your ability to move quietly makes it difficult for others to detect you.",
+      "effect": "bonus die",
+      "modifier": "stealth checks"
+    },
+    {
+      "id": "it007",
+      "name": "calm_under_pressure",
+      "description": "In critical situations, you remain composed and can try again if needed. Once per 12 hours?",
+      "effect": "re-roll",
+      "modifier": "failed skill check"
+    },
+    {
+      "id": "it008",
+      "name": "photographic_memory",
+      "description": "Your exceptional memory allows you to recall details with clarity.",
+      "effect": "bonus die",
+      "modifier": "knowledge rolls"
+    },
+    {
+      "id": "it009",
+      "name": "master_of_disguise",
+      "description": "You expertly adopt disguises and false identities, fooling even the most observant.",
+      "effect": "bonus die",
+      "modifier": "disguise checks"
+    },
+    {
+      "id": "it010",
+      "name": "last_stand",
+      "description": "Desperation brings out one's desire to survive.",
+      "effect": "bonus die",
+      "modifier": "HP <= 25%"
+    },
+    {
+      "id": "it011",
+      "name": "cull_the_weak",
+      "description": "Thin the herd. Only the strong is worthy of your time.",
+      "effect": "bonus die",
+      "modifier": "Target is poisoned"
+    },
+    {
+      "id": "it012",
+      "name": "rapid_fire",
+      "description": "You have adapted to the recoil of firearms.",
+      "effect":"remove penalty",
+      "modifier": "firing multiple times"
+    }
+]

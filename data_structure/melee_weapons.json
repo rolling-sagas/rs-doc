@@ -1,0 +1,114 @@
+{
+    "melee_weapons": [
+      {
+        "id": "mw001",
+        "name": "Knife",
+        "type": "Melee",
+        "damage": "1d4+db",
+        "range": "touch",
+        "ammo": -1,
+        "ammo_type": "null",
+        "uses_per_round": "1",
+        "required_skill": "brawl"
+      },
+      {
+        "id": "mw002",
+        "name": "Baseball Bat",
+        "type": "Melee",
+        "damage": "1d8+db",
+        "range": "touch",
+        "ammo": -1,
+        "ammo_type": "null",
+        "uses_per_round": "1",
+        "required_skill": "brawl"
+      },
+      {
+        "id": "mw003",
+        "name": "Brass Knuckles",
+        "type": "Melee",
+        "damage": "1d3+db",
+        "range": "touch",
+        "ammo": -1,
+        "ammo_type": "null",
+        "uses_per_round": "1",
+        "required_skill": "brawl"
+      },
+      {
+        "id": "mw004",
+        "name": "Sword",
+        "type": "Melee",
+        "damage": "1d8+db",
+        "range": "touch",
+        "ammo": -1,
+        "ammo_type": "null",
+        "uses_per_round": "1",
+        "required_skill": "fighting_sword"
+      },
+      {
+        "id": "mw005",
+        "name": "Crowbar",
+        "type": "Melee",
+        "damage": "1d6+db",
+        "range": "touch",
+        "ammo": -1,
+        "ammo_type": "null",
+        "uses_per_round": "1",
+        "required_skill": "brawl"
+      },
+      {
+        "id": "mw006",
+        "name": "Hatchet",
+        "type": "Melee",
+        "damage": "1d6+db",
+        "range": "touch",
+        "ammo": -1,
+        "ammo_type": "null",
+        "uses_per_round": "1",
+        "required_skill": "fighting_axe"
+      },
+      {
+        "id": "mw007",
+        "name": "Whip",
+        "type": "Melee",
+        "damage": "1d3+db",
+        "range": "10 yards",
+        "ammo": -1,
+        "ammo_type": "null",
+        "uses_per_round": "1",
+        "required_skill": "fighting_whip"
+      },
+      {
+        "id": "mw008",
+        "name": "Machete",
+        "type": "Melee",
+        "damage": "1d8+db",
+        "range": "touch",
+        "ammo": -1,
+        "ammo_type": "null",
+        "uses_per_round": "1",
+        "required_skill": "brawl"
+      },
+      {
+        "id": "mw009",
+        "name": "Sledgehammer",
+        "type": "Melee",
+        "damage": "2d6+db",
+        "range": "touch",
+        "ammo": -1,
+        "ammo_type": "null",
+        "uses_per_round": "1",
+        "required_skill": "brawl"
+      },
+      {
+        "id": "mw010",
+        "name": "Fists",
+        "type": "Melee",
+        "damage": "1d3+db",
+        "range": "touch",
+        "ammo": "n/a",
+        "uses_per_round": "1",
+        "required_skill": "brawl"
+      }
+    ]
+  }
+  

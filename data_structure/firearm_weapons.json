@@ -1,0 +1,68 @@
+{
+    "firearms": [
+      {
+        "id": "fw001",
+        "name": "Revolver",
+        "type": "Firearm",
+        "damage": "1d8",
+        "range": "15 yards",
+        "ammo": 6,
+        "required_skill": "firearms_handgun"
+      },
+      {
+        "id": "fw002",
+        "name": "Shotgun (12-gauge)",
+        "type": "Firearm",
+        "damage": "4d6/2d6/1d6",
+        "range": "10/20/50 yards",
+        "ammo": 2,
+        "required_skill": "firearms_shotgun"
+      },
+      {
+        "id": "fw003",
+        "name": "Rifle (.30-06)",
+        "type": "Firearm",
+        "damage": "2d6+4",
+        "range": "110 yards",
+        "ammo": 5,
+        "required_skill": "firearms_rifle"
+      },
+      {
+        "id": "fw004",
+        "name": "Derringer",
+        "type": "Firearm",
+        "damage": "1d6",
+        "range": "touch",
+        "ammo": 2,
+        "required_skill": "firearms_handgun"
+      },
+      {
+        "id": "fw005",
+        "name": "Flamethrower",
+        "type": "Firearm",
+        "damage": "2d6+fire",
+        "range": "10 yards",
+        "ammo": 10,
+        "required_skill": "firearms_flamethrower"
+      },
+      {
+        "id": "fw006",
+        "name": "Crossbow",
+        "type": "Firearm",
+        "damage": "1d8",
+        "range": "30 yards",
+        "ammo": 1,
+        "required_skill": "firearms_bow"
+      },
+      {
+        "id": "fw007",
+        "name": "Bow",
+        "type": "Firearm",
+        "damage": "1d6",
+        "range": "30 yards",
+        "ammo": 1,
+        "required_skill": "firearms_bow"
+      }
+    ]
+  }
+  
