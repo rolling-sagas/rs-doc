@@ -161,7 +161,16 @@
         "uses_per_round": 1,
         "required_skill": "brawl",
         "effect": "A powerful charging attack that stuns the enemy, making them unable to act for 1 turn."
-      }
+      },
+      {
+        "id": "tm021",
+        "name": "Stealth Takedown",
+        "type": "Melee",
+        "damage": "2d6+2db",
+        "uses_per_round": 1,
+        "required_skill": "stealth",
+        "effect": "Perform a stealth check. On success, you avoid detection and inflict damage on your target in the next round."
+      }      
     ]
   }
   

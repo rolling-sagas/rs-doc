@@ -1,95 +1,95 @@
 {
-    "traits": [
-      {
-        "id": "it001",
-        "name": "keen_observer",
-        "description": "Your sharp eyes never miss important details when searching for clues.",
-        "effect": "bonus die",
-        "modifier": "spot_hidden_rolls"
-      },
-      {
-        "id": "it002",
-        "name": "clue_hunter",
-        "description": "Your investigative skills help you uncover hidden clues.",
-        "effect": "reveal_clue",
-        "modifier": null
-      },
-      {
-        "id": "it003",
-        "name": "historical_insight",
-        "description": "A deep knowledge of history reveals hidden details in ancient artifacts.",
-        "effect": "bonus die",
-        "modifier": "history_rolls"
-      },
-      {
-        "id": "it004",
-        "name": "silent_step",
-        "description": "Your quiet movement lets you approach unseen.",
-        "effect": "lowers 1 difficulty",
-        "modifier": "stealth_rolls"
-      },
-      {
-        "id": "it005",
-        "name": "intuition",
-        "description": "Your instincts guide you to better understand people’s motives.",
-        "effect": "bonus die",
-        "modifier": "psychology_rolls"
-      },
-      {
-        "id": "it006",
-        "name": "trap_awareness",
-        "description": "You notice subtle signs of traps in your surroundings.",
-        "effect": "bonus die",
-        "modifier": "spot_traps_rolls"
-      },
-      {
-        "id": "it007",
-        "name": "survival_instinct",
-        "description": "Your survival knowledge helps you endure harsh environments.",
-        "effect": "bonus die",
-        "modifier": "survival_rolls"
-      },
-      {
-        "id": "it008",
-        "name": "photographic_memory",
-        "description": "You can recall visual details with precision.",
-        "effect": "lowers 1 difficulty",
-        "modifier": "knowledge_rolls"
-      },
-      {
-        "id": "it009",
-        "name": "eidetic_memory",
-        "description": "You remember information from books and texts easily.",
-        "effect": "bonus die",
-        "modifier": "library_use_rolls"
-      },
-      {
-        "id": "it010",
-        "name": "nature_guide",
-        "description": "Your navigation skills allow you to move through outdoor areas with ease.",
-        "effect": "bonus die",
-        "modifier": "navigate_rolls"
-      },
-      {
-        "id": "it011",
-        "name": "arcane_knowledge",
-        "description": "Your occult knowledge reveals insights into supernatural elements.",
-        "effect": "bonus die",
-        "modifier": "occult_rolls"
-      },
-      {
-        "id": "it012",
-        "name": "forensic_insight",
-        "description": "Your forensic knowledge helps analyze physical evidence.",
-        "effect": "bonus die",
-        "modifier": "forensics_rolls"
-      },
-      {
-        "id": "it013",
-        "name": "trap_mechanism_detection",
-        "description": "You can detect and disarm simple mechanical traps.",
-        "effect": "disarm_trap",
-        "modifier": null
-      }
-    ]
-  }
+  "traits": [
+    {
+      "id": "it001",
+      "name": "keen_observer",
+      "description": "Your sharp eyes never miss important details when searching for clues.",
+      "effect": "bonus die",
+      "modifier": "spot_hidden_rolls"
+    },
+    {
+      "id": "it002",
+      "name": "clue_hunter",
+      "description": "Your investigative skills help you uncover hidden clues.",
+      "effect": "reveal_clue",
+      "modifier": null
+    },
+    {
+      "id": "it003",
+      "name": "historical_insight",
+      "description": "A deep knowledge of history reveals hidden details in ancient artifacts.",
+      "effect": "bonus die",
+      "modifier": "history_rolls"
+    },
+    {
+      "id": "it004",
+      "name": "silent_step",
+      "description": "Your quiet movement lets you approach unseen.",
+      "effect": "lowers 1 difficulty",
+      "modifier": "stealth_rolls"
+    },
+    {
+      "id": "it005",
+      "name": "intuition",
+      "description": "Your instincts guide you to better understand people’s motives.",
+      "effect": "bonus die",
+      "modifier": "psychology_rolls"
+    },
+    {
+      "id": "it006",
+      "name": "trap_awareness",
+      "description": "You notice subtle signs of traps in your surroundings.",
+      "effect": "bonus die",
+      "modifier": "spot_traps_rolls"
+    },
+    {
+      "id": "it007",
+      "name": "survival_instinct",
+      "description": "Your survival knowledge helps you endure harsh environments.",
+      "effect": "bonus die",
+      "modifier": "survival_rolls"
+    },
+    {
+      "id": "it008",
+      "name": "photographic_memory",
+      "description": "You can recall visual details with precision.",
+      "effect": "lowers 1 difficulty",
+      "modifier": "knowledge_rolls"
+    },
+    {
+      "id": "it009",
+      "name": "eidetic_memory",
+      "description": "You remember information from books and texts easily.",
+      "effect": "bonus die",
+      "modifier": "library_use_rolls"
+    },
+    {
+      "id": "it010",
+      "name": "nature_guide",
+      "description": "Your navigation skills allow you to move through outdoor areas with ease.",
+      "effect": "bonus die",
+      "modifier": "navigate_rolls"
+    },
+    {
+      "id": "it011",
+      "name": "arcane_knowledge",
+      "description": "Your occult knowledge reveals insights into supernatural elements.",
+      "effect": "bonus die",
+      "modifier": "occult_rolls"
+    },
+    {
+      "id": "it012",
+      "name": "forensic_insight",
+      "description": "Your forensic knowledge helps analyze physical evidence.",
+      "effect": "bonus die",
+      "modifier": "forensics_rolls"
+    },
+    {
+      "id": "it013",
+      "name": "trap_mechanism_detection",
+      "description": "You can detect and disarm simple mechanical traps.",
+      "effect": "disarm_trap",
+      "modifier": null
+    }
+  ]
+}
