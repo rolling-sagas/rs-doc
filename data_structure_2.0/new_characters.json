@@ -35,6 +35,12 @@
               "tm003",
               "tm012"
           ],
+          "magic_moveset": [
+          ],
+          "items": [
+              "i004",
+              "i010"
+          ],
           "backstory": {
               "personal_description": "A well-dressed, middle-aged man with a sharp eye for details.",
               "story": "Jack spent years solving cases that others abandoned, honing his skills in observation and intuition to an exceptional level."
@@ -75,6 +81,12 @@
               "tm013",
               "tm018"
           ],
+          "magic_moveset": [
+          ],
+          "items": [
+              "i002",
+              "i013"
+          ],
           "backstory": {
               "personal_description": "A sharp-eyed and quick-witted reporter with a passion for uncovering the truth.",
               "story": "Anna's investigative work has led her deep into the underbelly of the city, where whispers of dark forces are becoming more frequent. She is determined to expose these horrors to the world."
@@ -113,6 +125,12 @@
               "tm007",
               "tm009",
               "tm020"
+          ],
+          "magic_moveset": [
+          ],
+          "items": [
+              "i001",
+              "i004"
           ],
           "backstory": {
               "personal_description": "A methodical, detail-oriented scientist with a cold demeanor.",
@@ -153,6 +171,12 @@
               "tm007",
               "tm019"
           ],
+          "magic_moveset": [
+          ],
+          "items": [
+              "i016",
+              "i017"
+          ],
           "backstory": {
               "personal_description": "A brooding, mysterious figure who draws power from the occult.",
               "story": "Victor Grey is a scholar of the occult who uses his knowledge of forbidden arts to investigate supernatural phenomena. Despite his understanding of the dangers, he is driven by a need to uncover deeper truths about the unknown."
@@ -191,6 +215,12 @@
               "tm004",
               "tm010",
               "tm015"
+          ],
+          "magic_moveset": [
+          ],
+          "items": [
+              "i007",
+              "i009"
           ],
           "backstory": {
               "personal_description": "A rugged, no-nonsense woman who thrives in the harshest environments.",
@@ -231,18 +261,22 @@
               "tm003",
               "tm008"
           ],
+          "magic_moveset": [
+          ],
+          "items": [
+              "i003",
+              "i006"
+          ],
           "backstory": {
               "personal_description": "A battle-worn former cop with a no-nonsense attitude.",
               "story": "Matthew Hale used to patrol the streets as a tough cop, but after a scandal forced him to resign, he now works on the fringes of the law. He has a knack for getting to the bottom of any case, using his experience on the streets and in the interrogation room."
           }
       },
       {
-        "investigators": [
-          {
-            "id": "i001",
-            "name": "Soren Nightshade",
-            "occupation": "Occultist",
-            "stats": {
+          "id": "i007",
+          "name": "Soren Nightshade",
+          "occupation": "Occultist",
+          "stats": {
               "strength": 60,
               "dexterity": 75,
               "intelligence": 85,
@@ -256,37 +290,39 @@
               "armor_points": 0,
               "movement": 9,
               "attack/round": 2
-            },
-            "skills": {
+          },
+          "skills": {
               "occult_knowledge": 85,
               "brawl": 70,
               "mythos_knowledge": 75,
               "psychology": 60,
               "firearms_handgun": 50,
               "spot_hidden": 65
-            },
-            "traits": [
+          },
+          "traits": [
               "it011"
-            ],
-            "combat_moves": [
+          ],
+          "combat_moves": [
               "tm003",
               "tm002",
               "tm010"
-            ],
-            "magic_moveset": [
+          ],
+          "magic_moveset": [
               "m003",
               "m008"
-            ],
-            "backstory": {
+          ],
+          "items": [
+              "i016",
+              "i014"
+          ],
+          "backstory": {
               "personal_description": "A dark and enigmatic figure, Soren carries the weight of forbidden knowledge and hidden power.",
               "story": "Once a promising scholar, Soren delved too deep into the arcane, becoming an occultist and summoner. His thirst for power led him to uncover ancient rites and dark secrets, forever altering his path and his sanity."
-            }
           }
-        ]
       }
-      
   ]
 }
+
 
 
   
