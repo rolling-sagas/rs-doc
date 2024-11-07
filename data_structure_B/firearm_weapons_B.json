@@ -1,0 +1,86 @@
+{
+  "firearms_moves": [
+    {
+      "id": "m001",
+      "name": "Piercing Shot",
+      "type": "Firearm",
+      "damage": "1d8",
+      "uses_per_round": 1,
+      "weapon_bound": "Rifle",
+      "effect": "Ignores 1 armor point"
+    },
+    {
+      "id": "m002",
+      "name": "Flame Shot",
+      "type": "Firearm",
+      "damage": "1d6",
+      "uses_per_round": 1,
+      "weapon_bound": "Flamethrower",
+      "effect": "Sets target ablaze, dealing 1 HP per round for 2 rounds"
+    },
+    {
+      "id": "m003",
+      "name": "Double Tap",
+      "type": "Firearm",
+      "damage": "1d6 x2",
+      "uses_per_round": 1,
+      "weapon_bound": "Pistol",
+      "effect": "Consumes 2 bullets"
+    },
+    {
+      "id": "m004",
+      "name": "Explosive Arrow",
+      "type": "Firearm",
+      "damage": "1d10",
+      "uses_per_round": 1,
+      "weapon_bound": "Bow",
+      "effect": "Deals splash damage (1d4) to nearby enemies"
+    },
+    {
+      "id": "m005",
+      "name": "Shrapnel Shot",
+      "type": "Firearm",
+      "damage": "1d8",
+      "uses_per_round": 1,
+      "weapon_bound": "Shotgun",
+      "effect": "Deals 1d4 additional damage to armored targets"
+    },
+    {
+      "id": "m006",
+      "name": "Revolver Slam",
+      "type": "Firearm",
+      "damage": "1d10",
+      "uses_per_round": 1,
+      "weapon_bound": "Revolver",
+      "effect": "Can break through light barriers"
+    },
+    {
+      "id": "m007",
+      "name": "Power Burst",
+      "type": "Firearm",
+      "damage": "1d10",
+      "uses_per_round": 1,
+      "weapon_bound": "Machine Gun",
+      "effect": "Deals additional 1d4 damage if the target has more than half HP remaining"
+    },
+    {
+      "id": "m008",
+      "name": "Quickdraw Strike",
+      "type": "Firearm",
+      "damage": "1d6",
+      "uses_per_round": 2,
+      "weapon_bound": "Revolver",
+      "effect": "Gain +5 movement for this round"
+    },
+    {
+      "id": "m009",
+      "name": "Silent Stalker",
+      "type": "Firearm",
+      "damage": "1d6",
+      "uses_per_round": 1,
+      "weapon_bound": "Crossbow",
+      "effect": "Attacks don’t reveal the shooter’s position to enemies"
+    }
+  ]
+}
+  

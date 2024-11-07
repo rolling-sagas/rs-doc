@@ -1,0 +1,96 @@
+{
+  "melee_moves": [
+    {
+      "id": "m001",
+      "name": "Heavy Strike",
+      "type": "Melee",
+      "damage": "1d8",
+      "uses_per_round": 1,
+      "weapon_bound": "Warhammer",
+      "effect": "Ignores 1 armor point"
+    },
+    {
+      "id": "m002",
+      "name": "Blade Flurry",
+      "type": "Melee",
+      "damage": "1d6 x2",
+      "uses_per_round": 1,
+      "weapon_bound": "Dagger",
+      "effect": "Can target two enemies if they are adjacent"
+    },
+    {
+      "id": "m003",
+      "name": "Sweep Attack",
+      "type": "Melee",
+      "damage": "1d6",
+      "uses_per_round": 1,
+      "weapon_bound": "Spear",
+      "effect": "Knocks target prone if successful"
+    },
+    {
+      "id": "m004",
+      "name": "Staggering Blow",
+      "type": "Melee",
+      "damage": "1d10",
+      "uses_per_round": 1,
+      "weapon_bound": "Mace",
+      "effect": "Reduces target's next move by 1 turn"
+    },
+    {
+      "id": "m005",
+      "name": "Throat Slash",
+      "type": "Melee",
+      "damage": "1d8",
+      "uses_per_round": 1,
+      "weapon_bound": "Knife",
+      "effect": "If target has less than half HP, deals +1d4 damage"
+    },
+    {
+      "id": "m006",
+      "name": "Defensive Stance",
+      "type": "Melee",
+      "damage": "1d4",
+      "uses_per_round": 1,
+      "weapon_bound": "Sword",
+      "effect": "Grants +2 armor points for this round"
+    },
+    {
+      "id": "m007",
+      "name": "Disarm Strike",
+      "type": "Melee",
+      "damage": "1d6",
+      "uses_per_round": 1,
+      "weapon_bound": "Staff",
+      "effect": "Forces target to drop their weapon"
+    },
+    {
+      "id": "m008",
+      "name": "Spinning Slash",
+      "type": "Melee",
+      "damage": "1d6",
+      "uses_per_round": 1,
+      "weapon_bound": "Axe",
+      "effect": "Deals 1d4 splash damage to nearby enemies"
+    },
+    {
+      "id": "m009",
+      "name": "Brutal Jab",
+      "type": "Melee",
+      "damage": "1d6",
+      "uses_per_round": 1,
+      "weapon_bound": "Brass Knuckles",
+      "effect": "Reduces target's dexterity by 5 for 1 round"
+    },
+    {
+      "id": "m010",
+      "name": "Shadow Strike",
+      "type": "Melee",
+      "damage": "1d8",
+      "uses_per_round": 1,
+      "weapon_bound": "Katana",
+      "effect": "Allows user to dodge the next melee attack"
+    }
+  ]
+}
+
+  
