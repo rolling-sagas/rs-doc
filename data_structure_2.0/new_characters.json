@@ -1,156 +1,86 @@
 {
-    "investigators": [
+  "investigators": [
       {
-        "id": "i001",
-        "name": "Jack Carson",
-        "occupation": "Private Investigator",
-        "stats": {
-          "strength": 70,
-          "dexterity": 80,
-          "intelligence": 70,
-          "constitution": 60,
-          "appearance": 50,
-          "power": 60,
-          "sanity": 60,
-          "luck": 55,
-          "hit_points": 13,
-          "magic_points": 12,
-          "armor_points": 0,
-          "movement": 9,
-          "attack/round": 1
-        },
-        "skills": {
-          "spot_hidden": 70,
-          "library_use": 65,
-          "persuade": 50,
-          "firearms_handgun": 65,
-          "psychology": 55,
-          "brawl": 50
-        },
-        "passive_trait": {
-          "id": "pt002",
-          "name": "Sharpshooter Instinct",
-          "description": "Jack’s combat experience allows him to deal extra damage on a hard success during attack rolls.",
-          "effect": {
-            "extra_damage_on_hard_success": "1d3"
+          "id": "i001",
+          "name": "Jack Carson",
+          "occupation": "Private Investigator",
+          "stats": {
+              "strength": 70,
+              "dexterity": 80,
+              "intelligence": 70,
+              "constitution": 60,
+              "appearance": 50,
+              "power": 60,
+              "sanity": 60,
+              "luck": 55,
+              "hit_points": 13,
+              "magic_points": 12,
+              "armor_points": 0,
+              "movement": 9,
+              "attack/round": 1
+          },
+          "skills": {
+              "spot_hidden": 70,
+              "library_use": 65,
+              "persuade": 50,
+              "firearms_handgun": 65,
+              "psychology": 55,
+              "brawl": 50
+          },
+          "traits": [
+              "it001"
+          ],
+          "combat_moves": [
+              "tm001",
+              "tm003",
+              "tm012"
+          ],
+          "backstory": {
+              "personal_description": "A well-dressed, middle-aged man with a sharp eye for details.",
+              "story": "Jack spent years solving cases that others abandoned, honing his skills in observation and intuition to an exceptional level."
           }
-        },
-        "combat_moves": [
-          {
-            "id": "cm001",
-            "name": "Interrogator’s Strike",
-            "type": "Melee",
-            "damage": "1d6+db",
-            "uses_per_round": 1,
-            "effect": "Deals extra psychological damage, causing the target to lose 1 Sanity point."
-          },
-          {
-            "id": "cm002",
-            "name": "Point Blank Shot",
-            "type": "Firearm",
-            "damage": "2d6",
-            "uses_per_round": 1,
-            "effect": "Close-range shot with a high chance of critical damage if within 5 feet."
-          },
-          {
-            "id": "cm003",
-            "name": "Calculated Dodge",
-            "type": "Defensive",
-            "damage": null,
-            "uses_per_round": 1,
-            "effect": "Grants Jack a 20% chance to completely evade one attack for the round."
-          }
-        ],
-        "exploration_move": {
-          "id": "em002",
-          "name": "Detective’s Intuition",
-          "type": "Exploration",
-          "effect": {
-            "bonus_die": "spot_hidden"
-          },
-          "description": "Grants a bonus die on Spot Hidden rolls, enhancing Jack’s ability to uncover hidden details and clues."
-        },
-        "backstory": {
-          "personal_description": "A well-dressed, middle-aged man with a sharp eye for details.",
-          "story": "Jack Carson is a seasoned investigator with a deep knowledge of criminal activity and human psychology. His sharp mind and instinctive combat prowess help him navigate the dangers of uncovering dark secrets."
-        }
       },
       {
-        "id": "i002",
-        "name": "Anna Hawke",
-        "occupation": "Journalist",
-        "stats": {
-          "strength": 50,
-          "dexterity": 75,
-          "intelligence": 80,
-          "constitution": 55,
-          "appearance": 70,
-          "power": 65,
-          "sanity": 65,
-          "luck": 60,
-          "hit_points": 11,
-          "magic_points": 13,
-          "armor_points": 0,
-          "movement": 9,
-          "attack/round": 1
-        },
-        "skills": {
-          "spot_hidden": 80,
-          "photography": 75,
-          "fast_talk": 65,
-          "firearms_bow": 50,
-          "psychology": 60,
-          "brawl": 40
-        },
-        "passive_trait": {
-          "id": "pt003",
-          "name": "Truth Seeker",
-          "description": "Anna’s investigative skills grant her heightened awareness, allowing her to uncover crucial details that others might miss.",
-          "effect": {
-            "bonus_to_spot_hidden": 10
+          "id": "i002",
+          "name": "Anna Hawke",
+          "occupation": "Journalist",
+          "stats": {
+              "strength": 50,
+              "dexterity": 75,
+              "intelligence": 80,
+              "constitution": 55,
+              "appearance": 70,
+              "power": 65,
+              "sanity": 65,
+              "luck": 60,
+              "hit_points": 11,
+              "magic_points": 13,
+              "armor_points": 0,
+              "movement": 9,
+              "attack/round": 1
+          },
+          "skills": {
+              "spot_hidden": 80,
+              "photography": 75,
+              "fast_talk": 65,
+              "firearms_bow": 50,
+              "psychology": 60,
+              "brawl": 40
+          },
+          "traits": [
+              "it008"
+          ],
+          "combat_moves": [
+              "tm006",
+              "tm013",
+              "tm018"
+          ],
+          "backstory": {
+              "personal_description": "A sharp-eyed and quick-witted reporter with a passion for uncovering the truth.",
+              "story": "Anna's investigative work has led her deep into the underbelly of the city, where whispers of dark forces are becoming more frequent. She is determined to expose these horrors to the world."
           }
-        },
-        "combat_moves": [
-          {
-            "id": "cm004",
-            "name": "Dagger Stab",
-            "type": "Melee",
-            "damage": "1d6+db",
-            "uses_per_round": 1,
-            "effect": "A quick and precise stab with a dagger, ideal for close combat and catching enemies off guard."
-          },
-          {
-            "id": "cm005",
-            "name": "Pressing the Issue",
-            "type": "Melee",
-            "damage": "1d4+db",
-            "uses_per_round": 1,
-            "effect": "Anna uses her quick reflexes to land a swift punch that temporarily lowers the target’s resistance to persuasion (reduce enemy defense by 1d4 for 2 turns)."
-          },
-          {
-            "id": "cm006",
-            "name": "Uncover Weakness",
-            "type": "Mental",
-            "damage": null,
-            "uses_per_round": 1,
-            "effect": "Uses psychological insight to exploit enemy vulnerabilities, lowering their chance to succeed in rolls by **15%** for the next round."
-          }
-        ],
-        "exploration_move": {
-          "id": "em003",
-          "name": "Curious Eye",
-          "type": "Exploration",
-          "effect": {
-            "bonus_to_intelligence_check": 10,
-            "reveal_additional_clue": true
-          },
-          "description": "Anna’s investigative instincts allow her to find hidden details others miss. In addition to succeeding on an Intelligence check, she can reveal an extra clue or piece of information in the environment."
-        },
-        "backstory": {
-          "personal_description": "A sharp-eyed and quick-witted reporter with a passion for uncovering the truth.",
-          "story": "Anna's investigative work has led her deep into the underbelly of the city, where whispers of dark forces are becoming more frequent. She is determined to expose these horrors to the world."
-        }
       }
-    ]
-  }
+  ]
+}
+
   

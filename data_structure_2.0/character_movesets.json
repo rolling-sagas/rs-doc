@@ -1,0 +1,167 @@
+{
+    "moves": [
+      {
+        "id": "tm001",
+        "name": "Quick Jab",
+        "type": "Melee",
+        "damage": "1d4+db",
+        "uses_per_round": 1,
+        "required_skill": "brawl",
+        "effect": "A fast strike that has a chance to disarm the opponent."
+      },
+      {
+        "id": "tm002",
+        "name": "Heavy Strike",
+        "type": "Melee",
+        "damage": "2d6+db",
+        "uses_per_round": 1,
+        "required_skill": "brawl",
+        "effect": "Deals extra damage but lowers the user's defense for 1 turn."
+      },
+      {
+        "id": "tm003",
+        "name": "Point Blank Shot",
+        "type": "Firearm",
+        "damage": "2d6",
+        "uses_per_round": 1,
+        "required_skill": "firearms_handgun",
+        "effect": "A close-range shot that has a higher chance for a critical hit."
+      },
+      {
+        "id": "tm004",
+        "name": "Ranged Precision",
+        "type": "Firearm",
+        "damage": "1d8",
+        "uses_per_round": 1,
+        "required_skill": "firearms_rifle",
+        "effect": "A precise shot with increased accuracy, bonus damage against distant enemies."
+      },
+      {
+        "id": "tm005",
+        "name": "Rapid Fire",
+        "type": "Firearm",
+        "damage": "1d4",
+        "uses_per_round": 3,
+        "required_skill": "firearms_submachine_gun",
+        "effect": "Fires multiple shots at once, but each shot deals reduced damage."
+      },
+      {
+        "id": "tm006",
+        "name": "Dagger Sweep",
+        "type": "Melee",
+        "damage": "1d6+db",
+        "uses_per_round": 1,
+        "required_skill": "brawl",
+        "effect": "A sweeping attack that hits multiple enemies in close range."
+      },
+      {
+        "id": "tm007",
+        "name": "Panic Shot",
+        "type": "Mental",
+        "damage": null,
+        "uses_per_round": 1,
+        "required_skill": "psychology",
+        "effect": "A psychological attack that causes the target to panic, reducing their next attack's effectiveness by 30%."
+      },
+      {
+        "id": "tm008",
+        "name": "Overwatch",
+        "type": "Defensive",
+        "damage": null,
+        "uses_per_round": 1,
+        "required_skill": "firearms_rifle",
+        "effect": "The character prepares to intercept incoming attacks, increasing evasion by 50% for one turn."
+      },
+      {
+        "id": "tm009",
+        "name": "Smokescreen",
+        "type": "Tactical",
+        "damage": null,
+        "uses_per_round": 1,
+        "required_skill": "tactical",
+        "effect": "Creates a smokescreen that provides all allies with a 20% chance to evade attacks for 2 turns."
+      },
+      {
+        "id": "tm010",
+        "name": "Flurry of Blows",
+        "type": "Melee",
+        "damage": "1d4+db",
+        "uses_per_round": 3,
+        "required_skill": "brawl",
+        "effect": "A fast, multiple strike attack that lowers enemy defense by 1 for each successful hit."
+      },
+      {
+        "id": "tm011",
+        "name": "Throwing Knife",
+        "type": "Ranged",
+        "damage": "1d6",
+        "uses_per_round": 1,
+        "required_skill": "throwing_knives",
+        "effect": "A precise thrown knife attack with increased critical hit chance if the target is unarmed."
+      },
+      {
+        "id": "tm012",
+        "name": "Uncover Weakness",
+        "type": "Mental",
+        "damage": null,
+        "uses_per_round": 1,
+        "required_skill": "psychology",
+        "effect": "Analyzes the enemy's posture and movement to exploit their weaknesses, lowering their chance to succeed in rolls by 15% for the next 3 turn."
+      },
+      {
+        "id": "tm013",
+        "name": "Dazzling Flash",
+        "type": "Tactical",
+        "damage": null,
+        "uses_per_round": 1,
+        "required_skill": "photography",
+        "effect": "Uses a flash to temporarily blind enemies, reducing their next attack accuracy by 50%."
+      },
+      {
+        "id": "tm015",
+        "name": "Sneak Attack",
+        "type": "Melee",
+        "damage": "1d8+db",
+        "uses_per_round": 1,
+        "required_skill": "stealth",
+        "effect": "A surprise strike that deals extra damage if the target is unaware of the attacker."
+      },
+      {
+        "id": "tm017",
+        "name": "Adrenaline Surge",
+        "type": "Melee",
+        "damage": "1d4+db",
+        "uses_per_round": 1,
+        "required_skill": "brawl",
+        "effect": "Sacrifices 1 Hit Point to gain an additional 1d3 for the next 3 turns."
+      },
+      {
+        "id": "tm018",
+        "name": "Vocal Manipulation",
+        "type": "Mental",
+        "damage": null,
+        "uses_per_round": 1,
+        "required_skill": "fast_talk",
+        "effect": "Uses verbal persuasion to confuse the enemy, lowering their accuracy by 20% for the next 3 turns."
+      },
+      {
+        "id": "tm019",
+        "name": "Bloodthirsty Frenzy",
+        "type": "Melee",
+        "damage": "2d4+db",
+        "uses_per_round": 1,
+        "required_skill": "brawl",
+        "effect": "The user becomes more aggressive, dealing additional damage but taking 10% extra damage for the next turn."
+      },
+      {
+        "id": "tm020",
+        "name": "Berserk Charge",
+        "type": "Melee",
+        "damage": "1d6+db",
+        "uses_per_round": 1,
+        "required_skill": "brawl",
+        "effect": "A powerful charging attack that stuns the enemy, making them unable to act for 1 turn."
+      }
+    ]
+  }
+  
