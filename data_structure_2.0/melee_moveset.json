@@ -7,32 +7,28 @@
         "damage": "1d6+db",
         "uses_per_round": 1,
         "weapon_bound": "Sword",
+        "required_skill": "fighting_sword",
         "effect": null
       },
       {
-        "id": "m007",
-        "name": "Poison Sting",
+        "id": "m002",
+        "name": "Heavy Swing",
         "type": "Melee",
-        "damage": "1d4",
+        "damage": "1d8+db",
         "uses_per_round": 1,
-        "weapon_bound": "Dagger",
-        "effect": "Poisons the target, dealing 1 HP damage for 3 turns"
+        "weapon_bound": "Axe",
+        "required_skill": "fighting_axe",
+        "effect": "May lower the target's evasion for 1 turn"
       },
       {
-        "id": "m008",
-        "name": "Power Strike",
+        "id": "m003",
+        "name": "Piercing Thrust",
         "type": "Melee",
-        "damage": "1d10+db",
+        "damage": "1d6+db",
         "uses_per_round": 1,
-        "effect": "Lowers user’s dexterity by 10% for the next turn"
-      },
-      {
-        "id": "m012",
-        "name": "Adrenaline Surge",
-        "type": "Melee",
-        "damage": null,
-        "uses_per_round": 1,
-        "effect": "Increases user’s attack and dexterity by 10% for 3 turns"
+        "weapon_bound": "Spear",
+        "required_skill": "fighting_spear",
+        "effect": "Ignores 1 armor point of the target"
       }
     ]
   }

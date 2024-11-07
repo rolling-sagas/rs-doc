@@ -1,36 +1,33 @@
 {
-    "barehand_moves": [
+    "brawl_moves": [
       {
         "id": "m014",
-        "name": "Throat Punch",
-        "type": "Barehand",
+        "name": "Punch",
+        "type": "Brawl",
+        "damage": "1d3+db",
+        "uses_per_round": 1,
+        "required_skill": "brawl",
+        "effect": null
+      },
+      {
+        "id": "m021",
+        "name": "Poison Sting",
+        "type": "Brawl",
         "damage": "1d4+db",
         "uses_per_round": 1,
-        "effect": "Reduces target’s accuracy by 10% for 1 round"
+        "weapon_bound": "knives",
+        "required_skill": "brawl",
+        "effect": "Poisons the target, dealing 1 HP damage for 3 turns"
       },
       {
-        "id": "m016",
-        "name": "Snare Trap",
-        "type": "Barehand",
-        "damage": null,
+        "id": "m022",
+        "name": "Crushing Blow",
+        "type": "Brawl",
+        "damage": "1d10+db",
         "uses_per_round": 1,
-        "effect": "Immobilizes target for 2 rounds if they fail a DEX check"
-      },
-      {
-        "id": "m018",
-        "name": "Swift Dodge",
-        "type": "Barehand",
-        "damage": null,
-        "uses_per_round": 1,
-        "effect": "Increases user’s dodge chance by 30% for the next round"
-      },
-      {
-        "id": "m020",
-        "name": "Psychic Assault",
-        "type": "Barehand",
-        "damage": "1d6",
-        "uses_per_round": 1,
-        "effect": "Reduces target’s sanity by 2 on a successful hit"
+        "weapon_bound": "blunt weapons",
+        "required_skill": "brawl",
+        "effect": "20% chance to stun the target for 1 round"
       }
     ]
   }
