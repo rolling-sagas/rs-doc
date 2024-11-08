@@ -1,12 +1,12 @@
 {
-  "melee_moves": [
+  "melee_equipment": [
     {
       "id": "m001",
       "name": "Heavy Strike",
       "type": "Melee",
       "damage": "1d8",
       "uses_per_round": 1,
-      "weapon_bound": "Warhammer",
+      "model": "Giant Warhammer",
       "effect": "Ignores 1 armor point"
     },
     {
@@ -15,7 +15,7 @@
       "type": "Melee",
       "damage": "1d6 x2",
       "uses_per_round": 1,
-      "weapon_bound": "Dagger",
+      "model": "Venomfang Dagger",
       "effect": "Can target two enemies if they are adjacent"
     },
     {
@@ -24,7 +24,7 @@
       "type": "Melee",
       "damage": "1d6",
       "uses_per_round": 1,
-      "weapon_bound": "Spear",
+      "model": "Stormcaller Spear",
       "effect": "Knocks target prone if successful"
     },
     {
@@ -33,7 +33,7 @@
       "type": "Melee",
       "damage": "1d10",
       "uses_per_round": 1,
-      "weapon_bound": "Mace",
+      "model": "Cragbreaker Mace",
       "effect": "Reduces target's next move by 1 turn"
     },
     {
@@ -42,7 +42,7 @@
       "type": "Melee",
       "damage": "1d8",
       "uses_per_round": 1,
-      "weapon_bound": "Knife",
+      "model": "Nightshade Knife",
       "effect": "If target has less than half HP, deals +1d4 damage"
     },
     {
@@ -51,7 +51,7 @@
       "type": "Melee",
       "damage": "1d4",
       "uses_per_round": 1,
-      "weapon_bound": "Sword",
+      "model": "Lionheart Sword",
       "effect": "Grants +2 armor points for this round"
     },
     {
@@ -60,7 +60,7 @@
       "type": "Melee",
       "damage": "1d6",
       "uses_per_round": 1,
-      "weapon_bound": "Staff",
+      "model": "Elderwood Staff",
       "effect": "Forces target to drop their weapon"
     },
     {
@@ -69,7 +69,7 @@
       "type": "Melee",
       "damage": "1d6",
       "uses_per_round": 1,
-      "weapon_bound": "Axe",
+      "model": "Bloodmoon Axe",
       "effect": "Deals 1d4 splash damage to nearby enemies"
     },
     {
@@ -78,7 +78,7 @@
       "type": "Melee",
       "damage": "1d6",
       "uses_per_round": 1,
-      "weapon_bound": "Brass Knuckles",
+      "model": "Ironclad Brass Knuckles",
       "effect": "Reduces target's dexterity by 5 for 1 round"
     },
     {
@@ -87,7 +87,7 @@
       "type": "Melee",
       "damage": "1d8",
       "uses_per_round": 1,
-      "weapon_bound": "Katana",
+      "model": "Midnight Katana",
       "effect": "Allows user to dodge the next melee attack"
     }
   ]

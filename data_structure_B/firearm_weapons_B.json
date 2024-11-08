@@ -1,12 +1,12 @@
 {
-  "firearms_moves": [
+  "firearms_equipment": [
     {
       "id": "m001",
       "name": "Piercing Shot",
       "type": "Firearm",
       "damage": "1d8",
       "uses_per_round": 1,
-      "weapon_bound": "Rifle",
+      "model": "Winchester Model 1894",
       "effect": "Ignores 1 armor point"
     },
     {
@@ -15,7 +15,7 @@
       "type": "Firearm",
       "damage": "1d6",
       "uses_per_round": 1,
-      "weapon_bound": "Flamethrower",
+      "model": "M2 Flamethrower",
       "effect": "Sets target ablaze, dealing 1 HP per round for 2 rounds"
     },
     {
@@ -24,7 +24,7 @@
       "type": "Firearm",
       "damage": "1d6 x2",
       "uses_per_round": 1,
-      "weapon_bound": "Pistol",
+      "model": "M1911A1",
       "effect": "Consumes 2 bullets"
     },
     {
@@ -33,7 +33,7 @@
       "type": "Firearm",
       "damage": "1d10",
       "uses_per_round": 1,
-      "weapon_bound": "Bow",
+      "model": "MKII Crossbow",
       "effect": "Deals splash damage (1d4) to nearby enemies"
     },
     {
@@ -42,7 +42,7 @@
       "type": "Firearm",
       "damage": "1d8",
       "uses_per_round": 1,
-      "weapon_bound": "Shotgun",
+      "model": "Remington 870",
       "effect": "Deals 1d4 additional damage to armored targets"
     },
     {
@@ -51,7 +51,7 @@
       "type": "Firearm",
       "damage": "1d10",
       "uses_per_round": 1,
-      "weapon_bound": "Revolver",
+      "model": "Colt Single Action Army",
       "effect": "Can break through light barriers"
     },
     {
@@ -60,7 +60,7 @@
       "type": "Firearm",
       "damage": "1d10",
       "uses_per_round": 1,
-      "weapon_bound": "Machine Gun",
+      "model": "M1919 Browning",
       "effect": "Deals additional 1d4 damage if the target has more than half HP remaining"
     },
     {
@@ -69,7 +69,7 @@
       "type": "Firearm",
       "damage": "1d6",
       "uses_per_round": 2,
-      "weapon_bound": "Revolver",
+      "model": "Smith & Wesson Model 10",
       "effect": "Gain +5 movement for this round"
     },
     {
@@ -78,9 +78,10 @@
       "type": "Firearm",
       "damage": "1d6",
       "uses_per_round": 1,
-      "weapon_bound": "Crossbow",
+      "model": "Barnett Crossbow",
       "effect": "Attacks don’t reveal the shooter’s position to enemies"
     }
   ]
 }
+
   
