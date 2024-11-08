@@ -1,79 +1,187 @@
 {
   "investigators": [
     {
-      "id": "i001",
-      "name": "Jack Carson",
-      "occupation": "Private Investigator",
+      "id": "i003",
+      "name": "Evelyn Grant",
+      "occupation": "Historian",
       "stats": {
-        "strength": 70,
-        "dexterity": 80,
-        "intelligence": 70,
-        "constitution": 60,
-        "appearance": 50,
-        "power": 60,
-        "sanity": 60,
-        "luck": 55,
-        "hit_points": 13,
-        "magic_points": 12,
+        "strength": 40,
+        "dexterity": 60,
+        "intelligence": 85,
+        "constitution": 55,
+        "appearance": 60,
+        "power": 70,
+        "sanity": 70,
+        "luck": 60,
+        "hit_points": 10,
+        "magic_points": 14,
         "armor_points": 0,
-        "movement": 9,
+        "movement": 8,
         "attack/round": 1
       },
       "skills": {
-        "spot_hidden": 70,
-        "library_use": 65,
-        "persuade": 50,
-        "firearms_handgun": 65,
-        "psychology": 55,
-        "brawl": 50
+        "library_use": 85,
+        "history": 75,
+        "occult": 65,
+        "spot_hidden": 50,
+        "psychology": 40,
+        "brawl": 30
       },
       "equipment": {
-        "weapon_ids": ["fw001", "mw001", "mw010"]
+        "weapon_ids": ["m007"]
       },
-      "trait": ["it012"],
-      "abilities": ["ia012"],
-      "items": ["i001", "i002"],
+      "trait": ["it004"],
+      "items": ["i005", "i006"],
       "backstory": {
-        "personal_description": "A well-dressed, middle-aged man with a sharp eye for details.",
-        "story": "insert story here..."
+        "personal_description": "An academic with a deep fascination for ancient artifacts and occult lore.",
+        "story": "Evelyn's studies have often led her to the brink of forbidden knowledge, which she now believes holds keys to mysterious forces influencing the world."
       }
     },
     {
-      "id": "i002",
-      "name": "Anna Hawke",
-      "occupation": "Journalist",
+      "id": "i004",
+      "name": "Lucas Hayes",
+      "occupation": "Soldier",
       "stats": {
-        "strength": 50,
-        "dexterity": 75,
+        "strength": 75,
+        "dexterity": 70,
+        "intelligence": 60,
+        "constitution": 80,
+        "appearance": 55,
+        "power": 50,
+        "sanity": 50,
+        "luck": 50,
+        "hit_points": 14,
+        "magic_points": 10,
+        "armor_points": 1,
+        "movement": 9,
+        "attack/round": 1
+      },
+      "skills": {
+        "firearms_rifle": 70,
+        "brawl": 65,
+        "first_aid": 60,
+        "spot_hidden": 45,
+        "stealth": 40
+      },
+      "equipment": {
+        "weapon_ids": ["fa001", "m003"]
+      },
+      "trait": ["it005"],
+      "items": ["i007", "i008"],
+      "backstory": {
+        "personal_description": "A rugged, no-nonsense man with a military background.",
+        "story": "After years of service, Lucas is now hired as a private contractor to investigate unusual cases with a mix of courage and skepticism."
+      }
+    },
+    {
+      "id": "i005",
+      "name": "Isabella Flores",
+      "occupation": "Occultist",
+      "stats": {
+        "strength": 45,
+        "dexterity": 65,
         "intelligence": 80,
-        "constitution": 55,
-        "appearance": 70,
+        "constitution": 50,
+        "appearance": 55,
+        "power": 80,
+        "sanity": 45,
+        "luck": 65,
+        "hit_points": 9,
+        "magic_points": 15,
+        "armor_points": 0,
+        "movement": 8,
+        "attack/round": 1
+      },
+      "skills": {
+        "occult": 85,
+        "anthropology": 60,
+        "psychology": 50,
+        "persuade": 45,
+        "spot_hidden": 40,
+        "brawl": 30
+      },
+      "equipment": {
+        "weapon_ids": ["m006"]
+      },
+      "trait": ["it006"],
+      "items": ["i009", "i010"],
+      "backstory": {
+        "personal_description": "A mysterious figure shrouded in secrets, known for her knowledge of the occult.",
+        "story": "Driven by the lure of hidden truths, Isabella practices ancient rituals, seeking power over the forces lurking in the shadows."
+      }
+    },
+    {
+      "id": "i006",
+      "name": "David Turner",
+      "occupation": "Doctor",
+      "stats": {
+        "strength": 55,
+        "dexterity": 70,
+        "intelligence": 85,
+        "constitution": 60,
+        "appearance": 65,
+        "power": 60,
+        "sanity": 70,
+        "luck": 60,
+        "hit_points": 12,
+        "magic_points": 12,
+        "armor_points": 0,
+        "movement": 8,
+        "attack/round": 1
+      },
+      "skills": {
+        "first_aid": 80,
+        "medicine": 75,
+        "psychology": 55,
+        "persuade": 45,
+        "firearms_handgun": 50,
+        "brawl": 40
+      },
+      "equipment": {
+        "weapon_ids": ["fa003", "m008"]
+      },
+      "trait": ["it007"],
+      "items": ["i011", "i012"],
+      "backstory": {
+        "personal_description": "A calm and intelligent doctor who exudes compassion and confidence.",
+        "story": "David has treated some of the most disturbed individuals, which led him to encounters with unexplainable phenomena that he now seeks to understand."
+      }
+    },
+    {
+      "id": "i007",
+      "name": "Thomas Caldwell",
+      "occupation": "Detective",
+      "stats": {
+        "strength": 60,
+        "dexterity": 75,
+        "intelligence": 75,
+        "constitution": 65,
+        "appearance": 55,
         "power": 65,
         "sanity": 65,
-        "luck": 60,
-        "hit_points": 11,
-        "magic_points": 13,
+        "luck": 55,
+        "hit_points": 13,
+        "magic_points": 11,
         "armor_points": 0,
         "movement": 9,
         "attack/round": 1
       },
       "skills": {
-        "spot_hidden": 80,
-        "photography": 75,
-        "fast_talk": 65,
-        "firearms_bow": 50,
-        "psychology": 60,
-        "brawl": 40
+        "spot_hidden": 75,
+        "firearms_revolver": 65,
+        "stealth": 60,
+        "psychology": 50,
+        "intimidate": 55,
+        "brawl": 45
       },
       "equipment": {
-        "weapon_ids": ["mw010", "fw006"]
+        "weapon_ids": ["fa005", "m010"]
       },
-      "trait": ["it003"],
-      "abilities": ["ia003"],
-      "items": ["i003", "i004"],
+      "trait": ["it008"],
+      "items": ["i013", "i014"],
       "backstory": {
-        "personal_description": "A sharp-eyed and quick-witted reporter with a passion for uncovering the truth.",
-        "story": "Anna's investigative work has led her deep into the underbelly of the city, where whispers of dark forces are becoming more frequent. She is determined to expose these horrors to the world."
+        "personal_description": "An experienced detective with a hard edge, keen intuition, and relentless determination.",
+        "story": "Thomas has solved countless mysteries, but recent cases hint at something darker and more sinister, fueling his obsession to uncover the truth."
       }
     }
   ]
