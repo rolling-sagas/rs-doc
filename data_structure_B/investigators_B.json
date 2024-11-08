@@ -30,6 +30,7 @@
       "equipment": {
         "weapon_ids": ["m007"]
       },
+      "magic": {},
       "trait": ["it004"],
       "items": ["i005", "i006"],
       "backstory": {
@@ -66,6 +67,7 @@
       "equipment": {
         "weapon_ids": ["fa001", "m003"]
       },
+      "magic": {},
       "trait": ["it005"],
       "items": ["i007", "i008"],
       "backstory": {
@@ -102,6 +104,9 @@
       },
       "equipment": {
         "weapon_ids": ["m006"]
+      },
+      "magic": {
+        "spells": ["s003", "s004"]
       },
       "trait": ["it006"],
       "items": ["i009", "i010"],
@@ -140,6 +145,7 @@
       "equipment": {
         "weapon_ids": ["fa003", "m008"]
       },
+      "magic": {},
       "trait": ["it007"],
       "items": ["i011", "i012"],
       "backstory": {
@@ -177,12 +183,92 @@
       "equipment": {
         "weapon_ids": ["fa005", "m010"]
       },
+      "magic": {},
       "trait": ["it008"],
       "items": ["i013", "i014"],
       "backstory": {
         "personal_description": "An experienced detective with a hard edge, keen intuition, and relentless determination.",
         "story": "Thomas has solved countless mysteries, but recent cases hint at something darker and more sinister, fueling his obsession to uncover the truth."
       }
+    },
+    {
+      "id": "i008",
+      "name": "Margaret Halloway",
+      "occupation": "Sorceress",
+      "stats": {
+        "strength": 50,
+        "dexterity": 60,
+        "intelligence": 85,
+        "constitution": 55,
+        "appearance": 60,
+        "power": 90,
+        "sanity": 50,
+        "luck": 70,
+        "hit_points": 11,
+        "magic_points": 18,
+        "armor_points": 0,
+        "movement": 9,
+        "attack/round": 1
+      },
+      "skills": {
+        "occult": 90,
+        "arcane_knowledge": 80,
+        "spot_hidden": 70,
+        "psychology": 60,
+        "brawl": 40
+      },
+      "equipment": {
+        "weapon_ids": ["fa002"]
+      },
+      "magic": {
+        "spells": ["s003", "s005"]
+      },
+      "trait": ["it009"],
+      "items": ["i015", "i016"],
+      "backstory": {
+        "personal_description": "A powerful sorceress with vast knowledge of arcane rituals and magic.",
+        "story": "Margaret has spent her life learning forbidden magics, seeking to uncover the deepest secrets of reality. Her power is immense, but so is the danger that it brings."
+      }
+    },
+    {
+      "id": "i009",
+      "name": "Jasper Holloway",
+      "occupation": "Warlock",
+      "stats": {
+        "strength": 45,
+        "dexterity": 50,
+        "intelligence": 90,
+        "constitution": 60,
+        "appearance": 65,
+        "power": 85,
+        "sanity": 45,
+        "luck": 60,
+        "hit_points": 12,
+        "magic_points": 17,
+        "armor_points": 0,
+        "movement": 8,
+        "attack/round": 1
+      },
+      "skills": {
+        "occult": 95,
+        "arcane_knowledge": 85,
+        "spot_hidden": 65,
+        "psychology": 50,
+        "brawl": 30
+      },
+      "equipment": {
+        "weapon_ids": ["m010"]
+      },
+      "magic": {
+        "spells": ["s006", "s007"]
+      },
+      "trait": ["it010"],
+      "items": ["i017", "i018"],
+      "backstory": {
+        "personal_description": "A brooding warlock obsessed with uncovering the arcane mysteries of the universe.",
+        "story": "Jasper has long sought the darkest of magical secrets, pushing the boundaries of reality itself. His thirst for power has led him to dangerous practices, and he is willing to pay any price to learn the truth."
+      }
     }
   ]
 }
+

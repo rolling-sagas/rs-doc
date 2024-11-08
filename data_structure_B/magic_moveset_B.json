@@ -1,0 +1,85 @@
+{
+    "magic_moves": [
+      {
+        "id": "m003",
+        "name": "Shadow Step",
+        "type": "Magic",
+        "damage": null,
+        "uses_per_round": 1,
+        "mana_consumption": 5,
+        "effect": "Move to any position on the battlefield without triggering attacks"
+      },
+      {
+        "id": "m004",
+        "name": "Healing Touch",
+        "type": "Magic",
+        "damage": null,
+        "uses_per_round": 1,
+        "mana_consumption": 6,
+        "effect": "Restores 1d6 HP to an ally"
+      },
+      {
+        "id": "m005",
+        "name": "Arcane Bolt",
+        "type": "Magic",
+        "damage": "1d8",
+        "uses_per_round": 1,
+        "mana_consumption": 4,
+        "effect": "Has a 25% chance to reduce target’s magic points by 1"
+      },
+      {
+        "id": "m006",
+        "name": "Cold Blast",
+        "type": "Magic",
+        "damage": "1d6",
+        "uses_per_round": 1,
+        "mana_consumption": 5,
+        "effect": "Reduces target’s movement by 2 for 2 rounds"
+      },
+      {
+        "id": "m007",
+        "name": "Life Drain",
+        "type": "Magic",
+        "damage": "1d6",
+        "uses_per_round": 1,
+        "mana_consumption": 6,
+        "effect": "Restores HP to the user equal to half the damage dealt"
+      },
+      {
+        "id": "m008",
+        "name": "Earth Shatter",
+        "type": "Magic",
+        "damage": "1d8",
+        "uses_per_round": 1,
+        "mana_consumption": 7,
+        "effect": "Reduces target’s armor by 1 for 2 rounds"
+      },
+      {
+        "id": "m009",
+        "name": "Flame Wave",
+        "type": "Magic",
+        "damage": "1d8",
+        "uses_per_round": 1,
+        "mana_consumption": 8,
+        "effect": "Deals fire damage to all enemies in a straight line"
+      },
+      {
+        "id": "m010",
+        "name": "Mana Shield",
+        "type": "Magic",
+        "damage": null,
+        "uses_per_round": 1,
+        "mana_consumption": 6,
+        "effect": "Absorbs damage equal to the user's magic points for 1 round"
+      },
+      {
+        "id": "m011",
+        "name": "Summon Familiar",
+        "type": "Magic",
+        "damage": null,
+        "uses_per_round": 1,
+        "mana_consumption": 9,
+        "effect": "Summons a magical familiar to aid in combat for 3 rounds"
+      }
+    ]
+  }  
