@@ -1,0 +1,95 @@
+{
+    "weapons": [
+      {
+        "id": "w001",
+        "weapon_name": "Springfield Rifle",
+        "weapon_skill": "firearms_rifle"
+      },
+      {
+        "id": "w002",
+        "weapon_name": "Colt Double Action",
+        "weapon_skill": "firearms_handgun"
+      },
+      {
+        "id": "w003",
+        "weapon_name": "M1911A1",
+        "weapon_skill": "firearms_handgun"
+      },
+      {
+        "id": "w004",
+        "weapon_name": "Short Bow",
+        "weapon_skill": "firearms_bow"
+      },
+      {
+        "id": "w005",
+        "weapon_name": "Baseball Bat",
+        "weapon_skill": "brawl"
+      },
+      {
+        "id": "w006",
+        "weapon_name": "Double-Barrel Shotgun",
+        "weapon_skill": "firearms_shotgun"
+      },
+      {
+        "id": "w007",
+        "weapon_name": "Broad Sword",
+        "weapon_skill": "fighting_sword"
+      },
+      {
+        "id": "w008",
+        "weapon_name": "Hatchet",
+        "weapon_skill": "fighting_axe"
+      },
+      {
+        "id": "w009",
+        "weapon_name": "Derringer",
+        "weapon_skill": "firearms_handgun"
+      },
+      {
+        "id": "w010",
+        "weapon_name": "Crossbow",
+        "weapon_skill": "firearms_bow"
+      },
+      {
+        "id": "w011",
+        "weapon_name": "Sledgehammer",
+        "weapon_skill": "brawl"
+      },
+      {
+        "id": "w012",
+        "weapon_name": "Machete",
+        "weapon_skill": "brawl"
+      },
+      {
+        "id": "w013",
+        "weapon_name": "Whip",
+        "weapon_skill": "fighting_whip"
+      },
+      {
+        "id": "w014",
+        "weapon_name": "Flamethrower",
+        "weapon_skill": "firearms_flamethrower"
+      },
+      {
+        "id": "w015",
+        "weapon_name": "Crowbar",
+        "weapon_skill": "brawl"
+      },
+      {
+        "id": "w016",
+        "weapon_name": "Poisoned Dagger",
+        "weapon_skill": "brawl"
+      },
+      {
+        "id": "w017",
+        "weapon_name": "Great Axe",
+        "weapon_skill": "fighting_axe"
+      },
+      {
+        "id": "w018",
+        "weapon_name": "Long Bow",
+        "weapon_skill": "firearms_bow"
+      }
+    ]
+  }
+  

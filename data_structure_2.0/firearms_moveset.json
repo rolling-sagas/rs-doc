@@ -7,6 +7,7 @@
         "damage": "1d8",
         "uses_per_round": 1,
         "weapon_bound": "Rifle",
+        "required_skill": "firearms_rifle",
         "effect": "Ignores 1 armor point"
       },
       {
@@ -16,16 +17,38 @@
         "damage": "1d6",
         "uses_per_round": 1,
         "weapon_bound": "Flamethrower",
+        "required_skill": "firearms_flamethrower",
         "effect": "Sets target ablaze, dealing 1 HP per round for 2 rounds"
       },
       {
         "id": "m011",
         "name": "Double Tap",
         "type": "Firearm",
-        "damage": "1d6 x2",
+        "damage": "1d6 x 2",
         "uses_per_round": 1,
-        "weapon_bound": "Pistol",
+        "weapon_bound": "handgun",
+        "required_skill": "firearms_handgun",
         "effect": "Consumes 2 bullets"
+      },
+      {
+        "id": "m011",
+        "name": "Stead Shot I",
+        "type": "Firearm",
+        "damage": "1d6",
+        "uses_per_round": 1,
+        "weapon_bound": "handgun",
+        "required_skill": "firearms_handgun",
+        "effect": null
+      },
+      {
+        "id": "m011",
+        "name": "Stead Shot II",
+        "type": "Firearm",
+        "damage": "1d10",
+        "uses_per_round": 1,
+        "weapon_bound": "handgun",
+        "required_skill": "firearms_handgun",
+        "effect": null
       },
       {
         "id": "m017",
@@ -34,6 +57,7 @@
         "damage": "1d10",
         "uses_per_round": 1,
         "weapon_bound": "Bow",
+        "required_skill": "firearms_bow",
         "effect": "Deals splash damage (1d4) to nearby enemies"
       }
     ]

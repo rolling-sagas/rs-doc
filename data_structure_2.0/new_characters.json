@@ -1,0 +1,328 @@
+{
+  "investigators": [
+      {
+          "id": "i001",
+          "name": "Jack Carson",
+          "occupation": "Private Investigator",
+          "stats": {
+              "strength": 70,
+              "dexterity": 80,
+              "intelligence": 70,
+              "constitution": 60,
+              "appearance": 50,
+              "power": 60,
+              "sanity": 60,
+              "luck": 55,
+              "hit_points": 13,
+              "magic_points": 12,
+              "armor_points": 0,
+              "movement": 9,
+              "attack/round": 1
+          },
+          "skills": {
+              "spot_hidden": 70,
+              "library_use": 65,
+              "persuade": 50,
+              "firearms_handgun": 65,
+              "psychology": 55,
+              "brawl": 50
+          },
+          "traits": [
+              "it001"
+          ],
+          "combat_moves": [
+              "tm001",
+              "tm003",
+              "tm012"
+          ],
+          "magic_moveset": [
+          ],
+          "items": [
+              "i004",
+              "i010"
+          ],
+          "backstory": {
+              "personal_description": "A well-dressed, middle-aged man with a sharp eye for details.",
+              "story": "Jack spent years solving cases that others abandoned, honing his skills in observation and intuition to an exceptional level."
+          }
+      },
+      {
+          "id": "i002",
+          "name": "Anna Hawke",
+          "occupation": "Journalist",
+          "stats": {
+              "strength": 50,
+              "dexterity": 75,
+              "intelligence": 80,
+              "constitution": 55,
+              "appearance": 70,
+              "power": 65,
+              "sanity": 65,
+              "luck": 60,
+              "hit_points": 11,
+              "magic_points": 13,
+              "armor_points": 0,
+              "movement": 9,
+              "attack/round": 1
+          },
+          "skills": {
+              "spot_hidden": 80,
+              "photography": 75,
+              "fast_talk": 65,
+              "firearms_bow": 50,
+              "psychology": 60,
+              "brawl": 40
+          },
+          "traits": [
+              "it008"
+          ],
+          "combat_moves": [
+              "tm006",
+              "tm013",
+              "tm018"
+          ],
+          "magic_moveset": [
+          ],
+          "items": [
+              "i002",
+              "i013"
+          ],
+          "backstory": {
+              "personal_description": "A sharp-eyed and quick-witted reporter with a passion for uncovering the truth.",
+              "story": "Anna's investigative work has led her deep into the underbelly of the city, where whispers of dark forces are becoming more frequent. She is determined to expose these horrors to the world."
+          }
+      },
+      {
+          "id": "i003",
+          "name": "Dr. Emily Vance",
+          "occupation": "Forensic Scientist",
+          "stats": {
+              "strength": 50,
+              "dexterity": 60,
+              "intelligence": 85,
+              "constitution": 65,
+              "appearance": 60,
+              "power": 50,
+              "sanity": 60,
+              "luck": 50,
+              "hit_points": 12,
+              "magic_points": 10,
+              "armor_points": 0,
+              "movement": 8,
+              "attack/round": 1
+          },
+          "skills": {
+              "spot_hidden": 60,
+              "forensics": 85,
+              "biology": 70,
+              "firearms_handgun": 50,
+              "brawl": 40
+          },
+          "traits": [
+              "it012"
+          ],
+          "combat_moves": [
+              "tm007",
+              "tm009",
+              "tm020"
+          ],
+          "magic_moveset": [
+          ],
+          "items": [
+              "i001",
+              "i004"
+          ],
+          "backstory": {
+              "personal_description": "A methodical, detail-oriented scientist with a cold demeanor.",
+              "story": "Dr. Vance is a forensic scientist who specializes in uncovering hidden clues through physical evidence. She seeks the truth in the most gruesome of cases and is determined to unravel the mysteries others shy away from."
+          }
+      },
+      {
+          "id": "i004",
+          "name": "Victor Grey",
+          "occupation": "Occultist",
+          "stats": {
+              "strength": 50,
+              "dexterity": 70,
+              "intelligence": 75,
+              "constitution": 60,
+              "appearance": 65,
+              "power": 80,
+              "sanity": 50,
+              "luck": 60,
+              "hit_points": 10,
+              "magic_points": 15,
+              "armor_points": 0,
+              "movement": 7,
+              "attack/round": 1
+          },
+          "skills": {
+              "spot_hidden": 60,
+              "occult": 80,
+              "firearms_handgun": 50,
+              "psychology": 60,
+              "brawl": 45
+          },
+          "traits": [
+              "it011"
+          ],
+          "combat_moves": [
+              "tm010",
+              "tm007",
+              "tm019"
+          ],
+          "magic_moveset": [
+          ],
+          "items": [
+              "i016",
+              "i017"
+          ],
+          "backstory": {
+              "personal_description": "A brooding, mysterious figure who draws power from the occult.",
+              "story": "Victor Grey is a scholar of the occult who uses his knowledge of forbidden arts to investigate supernatural phenomena. Despite his understanding of the dangers, he is driven by a need to uncover deeper truths about the unknown."
+          }
+      },
+      {
+          "id": "i005",
+          "name": "Eleanor Briggs",
+          "occupation": "Survivalist",
+          "stats": {
+              "strength": 80,
+              "dexterity": 70,
+              "intelligence": 60,
+              "constitution": 85,
+              "appearance": 50,
+              "power": 70,
+              "sanity": 75,
+              "luck": 50,
+              "hit_points": 15,
+              "magic_points": 5,
+              "armor_points": 0,
+              "movement": 10,
+              "attack/round": 1
+          },
+          "skills": {
+              "spot_hidden": 50,
+              "survival": 80,
+              "firearms_rifle": 65,
+              "brawl": 60,
+              "psychology": 40
+          },
+          "traits": [
+              "it007"
+          ],
+          "combat_moves": [
+              "tm004",
+              "tm010",
+              "tm015"
+          ],
+          "magic_moveset": [
+          ],
+          "items": [
+              "i007",
+              "i009"
+          ],
+          "backstory": {
+              "personal_description": "A rugged, no-nonsense woman who thrives in the harshest environments.",
+              "story": "Eleanor Briggs is a seasoned survivalist who has spent years living off the land. With her unique skills, she has faced countless dangers and now seeks to uncover what lies hidden in the wilderness and beyond."
+          }
+      },
+      {
+          "id": "i006",
+          "name": "Matthew Hale",
+          "occupation": "Ex-Cop",
+          "stats": {
+              "strength": 75,
+              "dexterity": 70,
+              "intelligence": 65,
+              "constitution": 70,
+              "appearance": 60,
+              "power": 65,
+              "sanity": 55,
+              "luck": 60,
+              "hit_points": 14,
+              "magic_points": 8,
+              "armor_points": 0,
+              "movement": 8,
+              "attack/round": 1
+          },
+          "skills": {
+              "spot_hidden": 65,
+              "firearms_handgun": 75,
+              "persuade": 50,
+              "brawl": 60,
+              "psychology": 45
+          },
+          "traits": [
+              "it005"
+          ],
+          "combat_moves": [
+              "tm001",
+              "tm003",
+              "tm008"
+          ],
+          "magic_moveset": [
+          ],
+          "items": [
+              "i003",
+              "i006"
+          ],
+          "backstory": {
+              "personal_description": "A battle-worn former cop with a no-nonsense attitude.",
+              "story": "Matthew Hale used to patrol the streets as a tough cop, but after a scandal forced him to resign, he now works on the fringes of the law. He has a knack for getting to the bottom of any case, using his experience on the streets and in the interrogation room."
+          }
+      },
+      {
+          "id": "i007",
+          "name": "Soren Nightshade",
+          "occupation": "Occultist",
+          "stats": {
+              "strength": 60,
+              "dexterity": 75,
+              "intelligence": 85,
+              "constitution": 60,
+              "appearance": 50,
+              "power": 80,
+              "sanity": 50,
+              "luck": 45,
+              "hit_points": 12,
+              "magic_points": 20,
+              "armor_points": 0,
+              "movement": 9,
+              "attack/round": 2
+          },
+          "skills": {
+              "occult_knowledge": 85,
+              "brawl": 70,
+              "mythos_knowledge": 75,
+              "psychology": 60,
+              "firearms_handgun": 50,
+              "spot_hidden": 65
+          },
+          "traits": [
+              "it011"
+          ],
+          "combat_moves": [
+              "tm003",
+              "tm002",
+              "tm010"
+          ],
+          "magic_moveset": [
+              "m003",
+              "m008"
+          ],
+          "items": [
+              "i016",
+              "i014"
+          ],
+          "backstory": {
+              "personal_description": "A dark and enigmatic figure, Soren carries the weight of forbidden knowledge and hidden power.",
+              "story": "Once a promising scholar, Soren delved too deep into the arcane, becoming an occultist and summoner. His thirst for power led him to uncover ancient rites and dark secrets, forever altering his path and his sanity."
+          }
+      }
+  ]
+}
+
+
+
+  

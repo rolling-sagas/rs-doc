@@ -1,58 +1,54 @@
 {
-    "magic_moves": [
+    "magic_moveset": [
+      {
+        "id": "m001",
+        "name": "Whispers of the Void",
+        "mana_cost": 5,
+        "damage": "1d6",
+        "effect": "The target becomes distracted by distant whispers, decreasing their next action's effectiveness by 10%.",
+        "sanity_roll": "1d4"
+      },
       {
         "id": "m003",
-        "name": "Shadow Step",
-        "type": "Magic",
-        "damage": null,
-        "uses_per_round": 1,
-        "mana_consumption": 5,
-        "effect": "Move to any position on the battlefield without triggering attacks"
+        "name": "Rite of Binding",
+        "mana_cost": 4,
+        "damage": "None",
+        "effect": "Binds a target for 2 turns, but costs 1 HP to maintain the bond per round.",
+        "sanity_roll": "1d4",
+        "required_skill": "mythos_knowledge"
       },
       {
         "id": "m004",
-        "name": "Healing Touch",
-        "type": "Magic",
-        "damage": null,
-        "uses_per_round": 1,
-        "mana_consumption": 6,
-        "effect": "Restores 1d6 HP to an ally"
+        "name": "Eldritch Mark",
+        "mana_cost": 6,
+        "damage": "1d4",
+        "effect": "Marks the target with a visible sigil, making them more vulnerable to all attacks. Enemy recieves an additional 1d4 from all sources.",
+        "sanity_roll": "1d3"
       },
       {
-        "id": "m005",
-        "name": "Arcane Bolt",
-        "type": "Magic",
-        "damage": "1d8",
-        "uses_per_round": 1,
-        "mana_consumption": 4,
-        "effect": "Has a 25% chance to reduce target’s magic points by 1"
-      },
-      {
-        "id": "m013",
-        "name": "Cold Blast",
-        "type": "Magic",
+        "id": "m006",
+        "name": "Mind Fray",
+        "mana_cost": 6,
         "damage": "1d6",
-        "uses_per_round": 1,
-        "mana_consumption": 5,
-        "effect": "Reduces target’s movement by 2 for 2 rounds"
+        "effect": "Disrupts the target's mind, reducing their mental clarity.",
+        "sanity_roll": "1d4"
       },
       {
-        "id": "m015",
-        "name": "Life Drain",
-        "type": "Magic",
-        "damage": "1d6",
-        "uses_per_round": 1,
-        "mana_consumption": 6,
-        "effect": "Restores HP to the user equal to half the damage dealt"
-      },
-      {
-        "id": "m019",
-        "name": "Earth Shatter",
-        "type": "Magic",
+        "id": "m008",
+        "name": "Essence Drain",
+        "mana_cost": 7,
         "damage": "1d8",
-        "uses_per_round": 1,
-        "mana_consumption": 7,
-        "effect": "Reduces target’s armor by 1 for 2 rounds"
+        "effect": "Drains HP from the target, healing 1d3 for the user .",
+        "sanity_roll": "1d5"
+      },
+      {
+        "id": "m010",
+        "name": "Unleash the Unseen",
+        "mana_cost": 13,
+        "damage": "1d12",
+        "effect": "Summons a spectral entity that attacks all nearby enemies for 1 round.",
+        "sanity_roll": "1d8",
+        "required_skill": "summoning"
       }
     ]
   }
