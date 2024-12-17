@@ -76,6 +76,12 @@ Before we give the players free reign, we will develop a **complete template** f
 
 - Dice SFX: *Dice needs sound effects when rolling on the board*
 
+- Death: *We need a restart button (either from the chapter or  story)*
+
+- Public Edit: *Need a button to allow or disallow players to copy the story data and edit themselves*
+
+- 
+
 
 ### Combat
 
@@ -97,6 +103,11 @@ Before we give the players free reign, we will develop a **complete template** f
 
 - Dice roll occurs **during** combat. Results are then sent to AI afterwards (dice roll result must be able to affect the animation)
 
+### Sanity
+
+- Sprite for character going insane
+
+
 
 ## Player Character & Sessions
 
@@ -105,7 +116,6 @@ Before we give the players free reign, we will develop a **complete template** f
 ### Proposal A: 
 
 Players will create their own **investigator** which they would use to **populate** any scenario they would like to play.
-
 - If the player would like to play as an alternative investigator (alternate occupation, skills, appearance etc.), they will just need to create another pre-set in their profile.
 
 - **This will be more similar to ROBLOX**
@@ -119,9 +129,16 @@ After selecting a **scenario**, players may **change** their **investigator** th
 
 - **Players** can also choose to roleplay as a **story specific** investigator.
 
+- **This will be more similar to CoC TTRPG (And Rollingsagas)**
+
 ### Proposal C: 
 
-Players will only have **visual representation** of their characters (Only the face).
+Players will only have **visual representation** of their characters (Only the face). The investigator, occupation, and stats etc. are all determined by the **creator** for that **session**.
+- There can be multiple investigators available to select from.
+
+- Furthermore, the players can also **only** inherit the stats, of the **story specific character**, leaving the visuals exactly the way they like it.
+
+- **This will be more convenient for quick start**
 
 
 
