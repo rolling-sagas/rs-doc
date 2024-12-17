@@ -38,6 +38,8 @@ Before we give the players free reign, we will develop a **complete template** f
 
 - Image (Investigator Portrait)
 
+
+
 ## What we Need:
 
 ### Introduction:
@@ -60,16 +62,73 @@ Before we give the players free reign, we will develop a **complete template** f
 
 - Chapter Name:
 
-- BGM: *A melody that is looped during gameplay*
+- BGM: *A melody that is looped during gameplay (we need 2 layers for this, the other one is SFX that are repetitive)*
 
 - Audio Output: *AI outputs audio sounds (e.g. creepy screams)*
 
+- Audio Narrator: *AI narrator*
+
 - Video Output: *AI outputs generated video (e.g. Creepy monster approaching)*
+
+- Choices Audio Output: *Sound effects played every time the player makes a decision.*
+
+- Regeneration Button: *For instances when the generated content is broken*
+
+- Dice SFX: *Dice needs sound effects when rolling on the board*
+
+
+### Combat
+
+- Window: *We will need a window of some sort to display combat*
+
+- Character Sprites: *We need a sprite to represent player's investigator (with variability)*
+
+- Enemy Sprites: *Obviously enemy will also need sprites*
+
+- Animation: *Does not need to be complex, but required to enhanced the overall combat experience (Note that there will also be spells)*
+
+- Sprite Positions: *Essentially the position of the sprites*
+
+- Background: *There will need to be a background of some sort during combat*
+
+- Status Effects: *Both player and enemies can potentially inflict status effects (Bleed, poison, Burn, etc.)*
+
+- HP/MP/SAN: *Will need to be displayed to the player at all times*
+
+- Dice roll occurs **during** combat. Results are then sent to AI afterwards (dice roll result must be able to affect the animation)
+
+
+## Player Character & Sessions
+
+**Overview:** As our platform continues to transform, it is imperative to decide on how the session should begin. Given that there are no clear answers at the moment, I suggest we play test to see which experience is better.
+
+### Proposal A: 
+
+Players will create their own **investigator** which they would use to **populate** any scenario they would like to play.
+
+- If the player would like to play as an alternative investigator (alternate occupation, skills, appearance etc.), they will just need to create another pre-set in their profile.
+
+- **This will be more similar to ROBLOX**
+
+### Proposal B:
+
+After selecting a **scenario**, players may **change** their **investigator** that they would like to roleplay as for that specific scenario. 
+- Default will always be the **last played** investigator. 
+
+- There are multiple pre-sets in the profile.
+
+- **Players** can also choose to roleplay as a **story specific** investigator.
+
+### Proposal C: 
+
+Players will only have **visual representation** of their characters (Only the face).
+
+
+
+
 
 
 ### Investigator Components:
-
-- ~~Pre-set occupations: *I am thinking of 8 different pre-set with 2 genders each*~~
 
 - Age: *A Modifier which alters character stats*
 
@@ -77,14 +136,48 @@ Before we give the players free reign, we will develop a **complete template** f
 
 - Character Population: *This refers to the story/scenario allowing the players to populate their own **investigator***
 
-- Items: *"Consumables" and "key items"*
+- Items: *"Consumables" and "key items" (will need a list for both)*
 
-- Equipment: *Weapons*
+- Equipment: *Weapons (They will need variety and stats)*
 
 - Inventory: *A "space" for investigators to carry their items*
 
+- Investigator Data Sheet: *Player needs to be able to review their character data sheet at any time during gameplay*
 
-### Combat
+
+
+
+
+
+
+
+
+---
+
+## Additional Improvements
+
+### Story Select Experience
+
+
+- Pinned Image: *All published stories will have a cover that will be pinned on the home page*
+
+- Information: *An "information" section for players to learn what the game is about (Behind underneath a play button)
+
+- Play Transition Page: *The page where the player/user is redirect to once they picked a game. There is a play button and potentially a information section*
+
+- Add a play button on game that is posted by a creator for **ease of access** for players
+
+
+### Chapter
+
+- Censorship: *When generated contents are censored, we need a way to properly inform the creator or player about the issue (right now it just shows and error and requests the player to regenerate)*
+
+
+
+
+
+
+
 
 
 
