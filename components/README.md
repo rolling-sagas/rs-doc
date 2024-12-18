@@ -74,13 +74,22 @@ Before we give the players free reign, we will develop a **complete template** f
 
 - Regeneration Button: *For instances when the generated content is broken*
 
-- Dice SFX: *Dice needs sound effects when rolling on the board*
+
 
 - Death: *We need a restart button (either from the chapter or  story)*
 
 - Public Edit: *Need a button to allow or disallow players to copy the story data and edit themselves*
 
-- 
+
+### Dice
+
+- Dice Visuals: *Players should be able to alter the design of their die*
+
+- Dice SFX: *Dice needs sound effects when rolling on the board*
+
+- Spending Luck: *Player can spend as much luck as they want on failed rolls (does not apply to luck rolls, damage rolls, sanity, or rolls to determine the amount of sanity points loss.)* 
+
+    - Purpose is to make **luck** slightly more involved in gameplay.
 
 
 ### Combat
@@ -105,7 +114,13 @@ Before we give the players free reign, we will develop a **complete template** f
 
 ### Sanity
 
-- Sprite for character going insane
+- Sprites of investigator going insane
+
+
+### Journal
+
+- Auto Pin "information" into Journal: *Provide the creator the ability to auto pin certain images or texts they deemed important and **automatically** pin it in the journal.* The purpose is that make it easier for the player to track information.
+
 
 
 
@@ -133,15 +148,15 @@ After selecting a **scenario**, players may **change** their **investigator** th
 
 ### Proposal C: 
 
-Players will only have **visual representation** of their characters (Only the face). The investigator, occupation, and stats etc. are all determined by the **creator** for that **session**.
-- There can be multiple investigators available to select from.
+Players will have their own designated **character** which they create from scratch. This character take on different investigator roles, and whenever the player would like to switch a role, all they need to do is reallocate the skill points and characteristics.
 
-- Furthermore, the players can also **only** inherit the stats, of the **story specific character**, leaving the visuals exactly the way they like it.
+- When the **character** levels up, the **total** points to reallocate increases. So occupation level is consistent all across the board. **Players can grow their character**
 
-- **This will be more convenient for quick start**
+- Higher the character level, the more combat moves it can learn and use.
 
+- **When reallocating, the previous occupation state can be saved**
 
-
+- **This will be more similar to BG3, when changing classes, previous exp progression is carried over**
 
 
 
@@ -190,6 +205,9 @@ Players will only have **visual representation** of their characters (Only the f
 - Censorship: *When generated contents are censored, we need a way to properly inform the creator or player about the issue (right now it just shows and error and requests the player to regenerate)*
 
 
+### Stories
+
+- Tag: *When we continue to expand to D&D kind of stuff, we may need TAGS so things are easier for players to search*
 
 
 
