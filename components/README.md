@@ -114,7 +114,9 @@ Before we give the players free reign, we will develop a **complete template** f
 
 ### Sanity
 
-- Sprites of investigator going insane
+- When sanity check fails or falls to a certain amount, a sprite if the investigator going insane is needed.
+
+- Sprites of investigators going insane
 
 
 ### Journal
@@ -158,6 +160,8 @@ Players will have their own designated **character** which they create from scra
 
 - **This will be more similar to BG3, when changing classes, previous exp progression is carried over**
 
+* We will need a thorough playtest to determine which has a better experience*
+
 
 
 ### Investigator Components:
@@ -175,6 +179,8 @@ Players will have their own designated **character** which they create from scra
 - Inventory: *A "space" for investigators to carry their items*
 
 - Investigator Data Sheet: *Player needs to be able to review their character data sheet at any time during gameplay*
+
+- Voice: *Some basic sound effects: going insane, damage received, 
 
 
 
