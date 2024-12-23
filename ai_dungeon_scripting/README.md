@@ -36,35 +36,47 @@ There is a dice roll, but I can't seem to get it to define the roll (I guess the
 - Context ensures that the AI is always aware of the rules.
 
 
-### Possible Flow Process
+### Flow Process
 
 ```mermaid
     flowchart LR
 
     id1([Player])
     id2([Input Modifier])
-    id3([AI])
-    id4([Context Modifier])
+    id3([Context Modifier])
+    id4([AI])
     id5([Out Modifier])
     id6([Displayed Text])
 
 
     id1--inserts a text (e.g. Do action)-->id2
-    id2--modifies the text/ add important information to-->id3
-    id3--processes the information with the inscripted game rules-->id4
+    id2--modifies the text/ add important information to -->id3
+    id3--further changes the texts before sending it to the AI model-->id4
     id4--generated text is processed through-->id5
     id5--shown in-->id6
 ```
 
+*Context modifier is crucial as it is the final process of organizing the information before sending it to the AI Model for processing.*
 
 
+![Parameters](/ai_dungeon_scripting/images/Screenshot%202024-12-23%20104321.png)
 
 
+*Each "modifier" has params, which can be referenced directly* You will also noticed all of these params used in the "javascript" files in this doc.
 
 
+![Functions](/ai_dungeon_scripting/images/Screenshot%202024-12-23%20105911.png)
 
-*Through research, I noticed that it appears to be a **trial & error** process, as the designer needs to wrestle with the AI to determine what information to provide the AI will produce the best result.*
 
+*Users also have access to some **core** functions of AI Dungeon like **story cards**.
+
+Note: Parameters and functions are written as *notes* on the web when the player interacts with **scripting**.
+
+As for the memory, AI Dungeon uses **auto summarization** of the previous text to act as a memory bank, this summary will be added into context before it is processed by the AI Model.
+
+
+So essentially, the RPG mechanics work by providing the AI Model the appropriate **context**. The rules, the character status, what they can or cannot do at what level, or what happens when they reach certain level. And all of this is being updated after each input. The memory system keeps your progress in check so it doesn't forget what you have done, and all that goes in the **ContextModifier** each iteration. The Model then generates the output that is then processed before the user sees it.
+- Note that there are a lot of trial and error for this in order to acquire a stable result.
 
 
 
