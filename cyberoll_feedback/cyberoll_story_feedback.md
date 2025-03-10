@@ -75,5 +75,5 @@ General Issues:
 - Chapter 2 ending doesn't connect with chapter 3's ending.
 ![disconnect](/cyberoll_feedback/images/hamlet,%20chapter%20ending%20disconnect.png)
 - 
- ..
+ ...
 
