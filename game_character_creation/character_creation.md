@@ -75,11 +75,18 @@ Apply the similar features from DnD Beyond
 
 - Skill description and roll success/fail consequences (like the official rule book).
 
+- Provide character sheets for different ERAs (Alternative visual design)
+
+
 
 ### New Features
 
 - Auto generate character based on **occupation**
+    - So if the player has an occupation in mind, the AI can select and delegate the necessary skills to that character (*Can already be done on GPT*)
 
 - Auto fill character background with the help of **AI**
+    - Based on the occupation, it can either generate something completely new, OR, based on a short input and description from the player.
+
+- Character sheet changes or become weird due to injury or large drop in sanity (*Blood stains on character sheet or twisted/upside down text*)
 
 - 
