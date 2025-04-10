@@ -1,5 +1,5 @@
 # Terms of Services
-**Version Effective Date: September 11th, 2024**
+**Version Effective Date: April 10th, 2025**
 
 Thank you for using Rolling Sagas! These Terms of Service (“Terms”) govern the relationship between ROLLINGSAGAS PTE. LTD. (“Company”,”we”,”our”) and the entity or person (“Customer, “You”, “Your”) using or accessing our services, applications, or platform through our website available at rollingsagas.com (the “Site”). These terms govern your access to and use of the Services. Please read these Terms carefully, as they include important information about your legal rights. By accessing and/or using the Services, you are agreeing to these Terms. If you do not understand or agree to these Terms, please do not use the Services.
 
