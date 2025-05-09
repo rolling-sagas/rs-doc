@@ -36,8 +36,14 @@
 ### 6. [Test My Story](how-to-write/test-story.md#test-story)
 ### 7. [Public](how-to-write/public-story.md#public-story)
 
-## [VIP Services](vip/vip.md#vip)
+## [Subscriptions, Billing & Credits](vip/vip.md#vip)
+### Subscriptions plans
+### Billing
+
 ## [Manage My Account](manage-account/manage-account.md#manage-account)
 ## [FAQ](faq/faq.md#faq)
 ## [Dev Logs](dev-log/dev-log.md#dev-log)
 ## [Community](community/community.md#community)
+## Policies
+### [Terms of Service](terms-of-service.md)
+### [Privacy Policy](privacy-policy.md)
